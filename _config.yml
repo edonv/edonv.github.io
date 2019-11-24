@@ -11,6 +11,12 @@ description: Audio, Music, Development
 collections:
   works:
     output: true
+    
+defaults:
+  - scope:
+      type: works
+    values:
+      layout: work
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:

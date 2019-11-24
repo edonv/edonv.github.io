@@ -19,9 +19,13 @@ body {
     font-weight: 400;
     font-size: 4.25rem;
 }
-#head-logo {
+#head-logo > a {
     text-decoration: none;
     color: var(--color-black);
+}
+#head-logo > a:hover {
+    color: var(--color-white);
+    background-color: var(--color-black);
 }
 #head-sub {
     align-self: baseline;

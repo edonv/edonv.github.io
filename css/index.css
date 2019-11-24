@@ -1,6 +1,5 @@
-div#works {
+div#body-wrap {
     display: grid;
-    grid-area: body;
     grid-template-areas: ". audio slides .";
     grid-template-columns: auto 28% 28% auto;
     grid-column-gap: 4px;

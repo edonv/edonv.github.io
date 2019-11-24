@@ -9,9 +9,13 @@
     <div class="subnav nav-item works">
         <span><a class="styled nav-link">Works</a></span>
         <div class="subnav-content">
-            <span><a class="styled nav-link sd" href="sd.html">SwiftDex</a></span>
-            <span><a class="styled nav-link ra" href="ra.html">RA Box</a></span>
-            <span><a class="styled nav-link yaya" href="yaya.html">YaYa</a></span>
+            {% assign works = site.works | sort: 'project-name' %}
+            {% for work in works %}
+                <span><a class="styled nav-link {{ work.object-id }}" href="{{ work.url }}">{{ work.project-name }}</a></span>
+            {% endfor %}
+<!--             <span><a class="styled nav-link sd" href="sd.html">SwiftDex</a></span> -->
+<!--             <span><a class="styled nav-link ra" href="ra.html">RA Box</a></span> -->
+<!--             <span><a class="styled nav-link yaya" href="yaya.html">YaYa</a></span> -->
         </div>
     </div>
     <span class="nav-item res"><a class="styled nav-link res" href="resume.html">Resume</a></span>

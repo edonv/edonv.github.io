@@ -39,7 +39,7 @@
     
   </head>
 
-  <body id="{{ page.bodyid }}">
+  <body>
     <div id="head-wrap">
       <div id="title-wrap">
         <span id="head-logo"><a href="index.html">&lt;valdman-works /&gt;</a></span>
@@ -69,8 +69,10 @@
       </div>
     </div>
     
-    {{ content }}
-
+    <div id="{{ page.bodyid }}">
+      {{ content }}
+    </div>
+    
     <div id="foot-wrap">
       &copy; 2019 Valdman Works
     </div>

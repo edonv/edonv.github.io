@@ -8,11 +8,46 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Josefin+Sans|Montserrat:600i,700|Open+Sans" rel="stylesheet">
+
+    <script>
+        var btn,
+            btnS,
+            strokeW;
+        var minXY,
+            maxX,
+            maxY,
+            midY;
+
+        function setValues() {
+            btn = document.querySelector('#menu-btn'),
+                btnS = btn.getAttribute('height'),
+                strokeW = btn.getAttribute('stroke-width');
+            minXY = strokeW / 2, //3
+                maxX = btnS, //36
+                maxY = btnS - minXY, //33
+                midY = btnS / 2; //18
+        }
+
+        function menuBtn(x) {
+            x.classList.toggle("change");
+            if (x.classList.contains("change")) {
+                x.childNodes[1].setAttribute("d", "M" + minXY + "," + minXY + " L" + maxX + "," + maxY);
+                x.childNodes[5].setAttribute("d", "M" + minXY + "," + maxY + " L" + maxX + "," + minXY);
+            } else {
+                //minXY,minXY maxX,minXY
+                x.childNodes[1].setAttribute("d", "M" + minXY + "," + minXY + " L" + maxX + "," + minXY);
+                x.childNodes[5].setAttribute("d", "M" + minXY + "," + maxY + " L" + maxX + "," + maxY);
+            }
+        }
+
+    </script>
+    
   </head>
 
   <body>

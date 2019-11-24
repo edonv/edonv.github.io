@@ -22,11 +22,12 @@ body {
 #head-logo > a {
     text-decoration: none;
     color: var(--color-black);
+    opacity: 1;
 }
 #head-logo > a:hover {
 /*     color: var(--color-white); */
 /*     background-color: var(--color-black); */
-    color: rgba(var(--color-black), 0.85);
+    opacity: 0.85;
 }
 #head-sub {
     align-self: baseline;

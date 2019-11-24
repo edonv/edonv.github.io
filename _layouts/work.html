@@ -1,0 +1,32 @@
+---
+layout: default
+carousel: true
+---
+<h2 id="page-title">{{ page.project-name }}</h2>
+<h3 id="page-subtitle">{{ page.date-range }}</h3>
+
+<div id="desc-side" class="bordered">
+    {{ page.content }}
+</div>
+
+<div id="slide-side">
+    <my-carousel id="crsl" class="bordered">
+        {% assign imgs = page.imgs | split: ", " %}
+        {% assign descs = page.descs | split: ", " %}
+        
+        {% for img in imgs %}
+            <span src="{% img %}" desc="{% desc[forloop.index0] %}"></span>
+        {% endfor %}
+<!--
+        <span src="images/ra/raRemote.png"     desc="Remote Page"></span>
+        <span src="images/ra/raRemoteEdit.png" desc="Remote Edit Page"></span>
+        <span src="images/ra/raRemoteDrag.png" desc="Remote Setup Page"></span>
+        <span src="images/ra/raNewRemote1.png" desc="Remote Setup Page"></span>
+        <span src="images/ra/raNewRemote2.png" desc="Remote Setup Page"></span>
+        <span src="images/ra/raNewRemote3.png" desc="Remote Setup Page"></span>
+-->
+    </my-carousel>
+</div>
+
+<!--images/ra/raRemote.png, images/ra/raRemoteEdit.png, images/ra/raRemoteDrag.png, images/ra/raNewRemote1.png, images/ra/raNewRemote2.png, images/ra/raNewRemote3.png-->
+<!--Remote Page, Remote Edit Page, Remote Setup Page, Remote Setup Page, Remote Setup Page, Remote Setup Page-->

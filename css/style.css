@@ -1,8 +1,5 @@
 /* -----GLOBAL STUFF----- */
 
-@import url("icons.css");
-@import url("header.css");
-@import url("footer.css");
 :root {
     --timeline-stroke: 8px;
     --timedot-stroke: 1.5px;

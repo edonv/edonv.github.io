@@ -3,7 +3,9 @@
   <head>
 
     {% include head.html %}
-    
+    {% assign pagename = page.name | split: "." %}
+
+    <link rel="stylesheet" href="css/{{ pagename[0] }}.css" />    
     <script>
         var btn,
             btnS,

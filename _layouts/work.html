@@ -15,7 +15,7 @@ carousel: true
         {% assign descs = page.descs | split: ", " %}
         
         {% for img in imgs %}
-            <span src="{% img %}" desc="{% desc[forloop.index0] %}"></span>
+            <span src="{{ img }}" desc="{{ desc[forloop.index0] }}"></span>
         {% endfor %}
 <!--
         <span src="images/ra/raRemote.png"     desc="Remote Page"></span>

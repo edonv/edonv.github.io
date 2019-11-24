@@ -1,13 +1,4 @@
-body {
-    display: grid;
-    grid-template-areas: "head" "body" "foot";
-    grid-template-rows: auto auto auto;
-    grid-template-columns: 100%;
-    grid-row-gap: 12px;
-    align-items: start;
-    /*  1st row could be 139px  */
-}
-div#body {
+div#works {
     display: grid;
     grid-area: body;
     grid-template-areas: ". audio slides .";

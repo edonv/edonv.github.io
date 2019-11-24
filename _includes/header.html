@@ -1,5 +1,12 @@
 <div id="title-wrap">
-  <span id="head-logo"><a href="index.html">&lt;valdman-works /&gt;</a></span>
+    <span id="head-logo">
+      <a href="index.html"
+        {% if page.name == "index.html" %}
+          style="pointer-events:none; cursor:default;"
+        {% endif %}>
+        &lt;valdman-works /&gt;
+      </a>
+    </span>
     <span id="head-sub">audio, music, apps, design</span>
     <a href="http://soundcloud.com/edonv" target="_blank" id="sc-icon" class="styled social"><i class="icon evald-sc"></i></a>
     <a href="http://linkedin.com/in/evaldman" target="_blank" id="li-icon" class="styled social"><i class="icon evald-li"></i></a>

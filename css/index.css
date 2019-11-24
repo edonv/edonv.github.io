@@ -1,4 +1,3 @@
-@import url(style.css);
 body {
     display: grid;
     grid-template-areas: "head head head head" ". audio slides ." "foot foot foot foot";

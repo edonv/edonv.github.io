@@ -1,0 +1,184 @@
+@import url(style.css);
+body {
+    display: grid;
+    grid-template-areas: "head head head" ". resume ." "foot foot foot";
+    grid-template-columns: auto 56% auto;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 12px;
+    /*  1st row could be 139px  */
+}
+#res-wrap {
+    grid-area: resume;
+    display: grid;
+    grid-template-areas: "title" "edu" "proj" "work" "skills" "courses";
+    /*    grid-auto-rows: auto;*/
+    grid-row-gap: 8px;
+    /*    grid-template-columns: min-content;*/
+    /*    white-space: nowrap;*/
+    color: var(--color-black);
+    background: var(--color-yellow);
+}
+div.body {
+    text-align: left;
+}
+#title {
+    grid-area: title;
+}
+#title > h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+#title > h3 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* FONTS */
+
+h4.section-head {
+    font-family: Montserrat, sans-serif;
+    margin: 0px;
+}
+.item,
+.school,
+.degree,
+.date,
+.grad-date,
+.skill-head {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+.date {
+    text-align: right;
+}
+.item,
+.school {
+    /*    font-weight: 500;*/
+}
+.pos {
+    /*    font-weight: 300;*/
+}
+.desc {
+    font-family: 'Josephin Sans', sans-serif;
+    font-weight: 300;
+}
+
+/* EDU DIV */
+
+#edu {
+    display: grid;
+    grid-template-areas: "title title" "date school" ". deg";
+    grid-template-columns: 25% auto;
+    grid-row-gap: 2px;
+}
+.grad-date {
+    grid-area: date;
+}
+.school {
+    grid-area: school;
+}
+.degree {
+    grid-area: deg;
+}
+
+/* PROJ, WORK, COURSES DIVS */
+
+#proj,
+#work,
+#courses {
+    display: grid;
+    /*    grid-template-areas: "title title" "item date" "desc desc";*/
+    grid-template-columns: [first] 1fr [middle] auto [last];
+    grid-row-gap: 2px;
+}
+#proj > h4,
+#work > h4,
+#courses > h4 {
+    grid-column: first / last;
+}
+.item {
+    grid-column: first / middle;
+}
+.pos {
+    font-style: italic;
+}
+.pos::before {
+    content: "– ";
+}
+.date {
+    grid-column: middle / last;
+    /*    align-self: bottom;*/
+}
+.desc {
+    margin: 0px;
+    grid-column: first / last;
+}
+
+/* SKILLS */
+
+#skills {
+    display: grid;
+    grid-template-areas: "title title" "none none";
+    grid-template-columns: 50% 50%;
+    /*    justify-items: space-around;*/
+    grid-row-gap: 2px;
+    white-space: normal;
+}
+#skills > h4 {
+    grid-area: title;
+    justify-self: start;
+}
+.skill-div {
+    padding: 0px 10%;
+    /*    text-indent: */
+}
+.skill-div ul {
+    margin: 0px;
+    padding-left: 25px;
+}
+.skill-div li {
+    padding-left: 4px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+    body {
+        grid-template-areas: "head head head" ". resume ." "foot foot foot";
+        grid-template-columns: auto 1fr auto;
+        grid-template-rows: auto 1fr auto;
+        grid-row-gap: 8px;
+        justify-items: center;
+    }
+    #head-wrap,
+    #foot-wrap {
+        width: 100%;
+    }
+    #res-wrap {
+        width: 80%;
+    }
+    #title > h2 {
+        font-size: 1rem;
+    }
+    #title > h3 {
+        font-size: 0.785rem;
+    }
+    .item,
+    .school,
+    .degree,
+    .date,
+    .grad-date,
+    .skill-head,
+    .desc,
+    h4.section-head {
+        font-size: 0.875rem;
+    }
+    .pos {
+        margin-left: 15px;
+        display: block;
+    }
+    .pos::before {
+        content: "";
+    }
+}

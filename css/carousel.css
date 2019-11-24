@@ -1,0 +1,177 @@
+/* Carousel */
+
+
+/* -----STYLING/CUSTOMIZING----- */
+
+my-carousel {
+    /*  STYLING  */
+    background: var(--color-yellow);
+    border: 6px solid var(--color-gray);
+    /*  POSITIONAL  */
+    padding: 12px;
+}
+.allslides {}
+
+/* Hide the images by default */
+
+.slide {
+    /*  STYLING  */
+    /*    background: var(--color-yellow);*/
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    /*  STYLING  */
+    color: var(--color-black);
+    background: var(--color-tranwhite);
+    border-color: var(--color-black);
+}
+
+/* On hover, add a background color */
+
+.prev:hover,
+.next:hover {
+    /*  STYLING  */
+    background: var(--color-gray);
+    color: var(--color-white);
+    border-color: var(--color-gray);
+}
+
+/* Caption text */
+
+.slide-caption {
+    /*  STYLING  */
+    background: var(--color-gray);
+}
+.slide-caption > h2 {
+    color: var(--color-white);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+.picdot {
+    /*  STYLING  */
+    background-color: var(--color-white);
+}
+.active,
+.picdot:hover {
+    /*  STYLING  */
+    background-color: var(--color-gray);
+}
+
+/* -----Functional----- */
+
+.carousel-frame {
+    /*  POSITIONING  */
+    position: relative;
+    /*  GRID STUFF  */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto 20px;
+    grid-template-areas: "img" "cap" "dots";
+    grid-row-gap: 4px;
+}
+.allslides {
+    /*    max-height: 100%;*/
+    width: 100%;
+    position: relative;
+    grid-area: img;
+}
+
+/* Hide the images by default */
+
+.slide {
+    /*  FUNCTIONING  */
+    display: none;
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    /*  STYLING  */
+    font-weight: bold;
+    font-size: 1.125rem;
+    cursor: pointer;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    border: 2px solid black;
+    user-select: none;
+    /*  POSITIONING  */
+    position: absolute;
+    /*  50% from top - half height of text - top padding - top border  */
+    top: calc(50% - 22px / 2 - 16px - 2px);
+    width: auto;
+    padding: 16px;
+}
+
+/* Position the "next button" to the right */
+
+.prev {
+    /*  STYLING  */
+    border-left: none;
+}
+.next {
+    /*  POSITIONING  */
+    right: 0;
+    /*  STYLING  */
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a background color */
+
+.prev:hover,
+.next:hover {}
+
+/* Caption text */
+
+.slide-caption {
+    /*  STYLING  */
+    font-size: 0.9375rem;
+    /*  POSITIONING  */
+    padding: 8px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    grid-area: cap;
+    box-sizing: border-box;
+}
+
+/* The dots/indicators */
+
+.dot-div {
+    /*  POSITIONING  */
+    position: relative;
+    width: 100%;
+    height: 20px;
+    grid-area: dots;
+    padding: 0px;
+    /*  GRID  */
+    display: grid;
+    justify-content: stretch;
+    grid-template-rows: 100%;
+    grid-auto-flow: column;
+    grid-column-gap: 4px;
+}
+.picdot {
+    /*  STYLING  */
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.6s ease;
+    /*  POSITIONING  */
+    height: 100%;
+}
+.active,
+.picdot:hover {}
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+    .slide-caption > h2 {
+        font-size: 0.8125rem;
+    }
+}

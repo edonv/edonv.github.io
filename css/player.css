@@ -1,0 +1,169 @@
+/* Audio Player */
+
+
+/* -----STYLING/CUSTOMIZING----- */
+
+song-box {
+    /*  STYLING  */
+    border: 6px solid var(--color-gray);
+    background-color: var(--color-yellow);
+}
+h1.songheader {
+    /*  STYLING  */
+    font-size: 1.125rem;
+}
+h2.songheader {
+    /*  STYLING  */
+    font-style: italic;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+#playbtn {
+    border: none;
+    font-size: 2.125rem;
+    background-color: transparent;
+    color: var(--color-red);
+}
+#playbtn:hover {
+    /*  STYLING  */
+    color: var(--color-yellow);
+    background-color: var(--color-red);
+}
+
+/* Timebar */
+
+#timebar {}
+#timedot {
+    /*  STYLING  */
+    stroke: var(--color-gray);
+    stroke-width: var(--timedot-stroke);
+    fill: var(--color-orange);
+}
+#stime {
+    /*  STYLING  */
+    font-size: 0.8125rem;
+    font-family: Anonymous Pro, monospace;
+    color: var(--color-black);
+}
+#backline {
+    /*  STYLING  */
+    stroke: var(--color-black);
+    stroke-width: var(--timeline-stroke);
+    stroke-linecap: round;
+}
+#loadline {
+    /*  STYLING  */
+    stroke: var(--color-gray);
+    stroke-width: calc(var(--timeline-stroke) / 2);
+    stroke-linecap: round;
+    /*  So hovering doesn't interupt time bubble  */
+    pointer-events: none;
+}
+#timestamps {
+    /*  STYLING  */
+    font-size: 0.8125rem;
+    font-family: Anonymous Pro, monospace;
+    fill: var(--color-black);
+}
+
+/* -----Functional/Positioning----- */
+
+song-box {
+    /*  POSITIONING  */
+    padding: 10px;
+    margin: 10px;
+    /*  GRID STUFF  */
+    display: grid;
+    grid-template-areas: "title title title" "sub sub sub" "play bar .";
+    grid-template-columns: 34px auto 20px;
+    grid-template-rows: auto auto 34px;
+    grid-gap: 3px;
+}
+h1.songheader {
+    /*  GRID  */
+    grid-area: title;
+}
+h2.songheader {
+    /*  GRID  */
+    grid-area: sub;
+}
+#playbtn {
+    padding: 0px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    /*  GRID  */
+    grid-area: play;
+}
+#playbtn:hover {}
+
+/* Timebar */
+
+#timebar {
+    /*  POSITIONING  */
+    height: 100%;
+    width: 100%;
+    /*  GRID  */
+    grid-area: bar;
+}
+#timedot {}
+#stime {
+    /*  POSITIONING  */
+    background: url(../images/icons/bubble.svg) no-repeat;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    margin: 0px;
+    background-size: cover;
+    position: absolute;
+    display: block;
+    opacity: 0;
+    z-index: 99;
+    transition: opacity 0.2s ease;
+    /*  So it won't interfere with play/pause button when hidden  */
+    pointer-events: none;
+}
+#backline {}
+#loadline {}
+#timestamps {}
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+    song-box {
+        grid-template-columns: 24px auto 16px;
+        grid-template-rows: auto auto 24px;
+        grid-gap: 2px;
+    }
+    h1.songheader {
+        font-size: 1rem;
+    }
+    h2.songheader {
+        font-size: 0.6875rem;
+    }
+    #playbtn {
+        font-size: 1.5rem;
+    }
+    #timestamps {
+        font-size: 0.625rem;
+        transform: translateY(calc((24px / 2 + 9px + 2.5px) - 27.5px));
+    }
+    #backline,
+    #loadline {
+/*        x1: calc(4px + 1px);*/
+    }
+    #backline {
+        stroke-width: calc(var(--timeline-stroke) / 1.5);
+/*        x2: calc(100% - 4px - 1px);*/
+    }
+    #loadline {
+        stroke-width: calc(var(--timeline-stroke) / 1.5 / 2);
+    }
+    #timedot {
+        r: 4px;
+        stroke-width: 1px;
+        cx: calc(4px + 1px);
+    }
+}

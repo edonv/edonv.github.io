@@ -1,0 +1,84 @@
+/* -----GLOBAL STUFF----- */
+
+@import url("icons.css");
+@import url("header.css");
+@import url("footer.css");
+:root {
+    --timeline-stroke: 8px;
+    --timedot-stroke: 1.5px;
+    --color-black: #42463f;
+    --color-white: #e0e3e1;
+    --color-tranwhite: rgba(224, 227, 225, 0.6);
+    --color-red: #a93230;
+    --color-tranred: rgba(169, 50, 48, 0.9);
+    --color-darkred: #661e1e;
+    --color-orange: #d27a1f;
+    --color-yellow: #e3bc72;
+    --color-brown: #8a7b74;
+    --color-gray: #656b61;
+    --color-green: #9bbe86;
+}
+body {
+    font-size: 100%;
+    margin: 0px;
+    min-height: 100%;
+}
+html {
+    height: 100%;
+}
+#head-wrap {
+    grid-area: head;
+}
+#foot-wrap {
+    grid-area: foot;
+}
+h1,
+h2,
+h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: var(--color-black);
+    margin: 0px;
+}
+a.styled {
+    color: var(--color-red);
+    background: transparent;
+    /*    transition: background 1s color 1s;*/
+}
+a.styled:hover {
+    background: var(--color-red);
+    color: var(--color-yellow);
+}
+a.styled:visited:hover {
+    background: var(--color-darkred);
+    color: var(--color-yellow);
+}
+a.styled:visited {
+    background: transparent;
+    color: var(--color-darkred);
+}
+@media screen and (min-width: 600px) {
+    a.styled:focus {
+        background: var(--color-red);
+        color: var(--color-yellow);
+    }
+    a.styled:focus:hover {
+        background: var(--color-darkred);
+        color: var(--color-yellow);
+    }
+}
+.bordered {
+    padding: 8px;
+    border: var(--color-orange) 2px solid;
+    border-radius: 5px;
+    margin: auto;
+}
+.noselect {
+    /* Safari 3.1+ */
+    -webkit-user-select: none;
+    /* Firefox 2+ */
+    -moz-user-select: none;
+    /* IE 10+ */
+    -ms-user-select: none;
+    user-select: none;
+}

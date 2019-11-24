@@ -1,0 +1,80 @@
+@import url(style.css);
+body {
+    display: grid;
+    grid-template-areas: "head head head" ". contact ." "foot foot foot";
+    grid-template-columns: 22% auto 22%;
+    grid-template-rows: auto 1fr 30px;
+    grid-row-gap: 12px;
+    /*  1st row could be 139px  */
+}
+#cont-wrap {
+    background: var(--color-yellow);
+    /*  POSITIONING  */
+    grid-area: contact;
+    margin-top: 0px;
+    padding: 8px 12px;
+}
+#title {
+    margin-bottom: 8px;
+}
+#title > h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+#cont-form {
+    /*  GRID  */
+    display: grid;
+    grid-template-areas: "nameT nameF" "emailT emailF" "phoneT phoneF" "msgT msgF" "send send";
+    grid-template-columns: auto 1fr;
+    grid-gap: 8px;
+}
+#cont-form span {
+    justify-self: end;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125rem;
+    color: var(--color-black);
+}
+#cont-form input:not(#send),
+#cont-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    font-family: 'Josephin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: var(--color-black);
+    background: var(--color-white);
+}
+#cont-form input:not(#send):focus,
+#cont-form textarea:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px var(--color-orange);
+}
+#cont-form textarea {
+    resize: none;
+    /* add in padding */
+    min-height: calc(4 * (1.125em + 0.1875em + 4px));
+}
+#send {
+    grid-area: send;
+    height: 24px;
+    border-radius: 5px;
+    border: 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.125rem;
+    color: var(--color-black);
+    background: var(--color-white);
+}
+#send:hover {}
+#send:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px var(--color-orange);
+}
+input:required:invalid {
+    box-shadow: 0 0 0 3px var(--color-red);
+}
+input[type=email]:valid {
+    box-shadow: 0 0 0 2px var(--color-green);
+}

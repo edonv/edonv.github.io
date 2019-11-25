@@ -8,6 +8,7 @@ title: Valdman Works
 collections:
   works:
     output: true
+  images
     
 defaults:
   - scope:

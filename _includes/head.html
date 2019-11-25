@@ -1,32 +1,35 @@
-  <!-- Enable responsiveness on mobile devices
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  -->
-  
-  <meta charset="utf-8">
-  
-  <title>{{ page.title }} | {{ site.title }}</title>
+<!-- Enable responsiveness on mobile devices
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+-->
 
-  <!-- JS -->
-  <script src="js/embed.js"></script>
+<meta charset="utf-8">
+
+<title>{{ page.title }} | {{ site.title }}</title>
+
+<!-- JS -->
+<!-- <script src="js/embed.js"></script> -->
 <script src="js/modernizer.js"></script>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/header.css" />
-  <link rel="stylesheet" href="css/footer.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/icons.css" />
-  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Josefin+Sans|Montserrat:600i,700|Open+Sans" rel="stylesheet">
+<!-- CSS -->
+{% assign pagename = page.name | split: "." %}
+<link rel="stylesheet" href="css/{{ pagename[0] }}.css" />
 
-  <!-- Player/Carousel -->
-  {% if page.player == true %}
-      <script src="js/player.js"></script>
-      <link rel="stylesheet" href="css/player.css" />
-  {% endif %}
-  {% if page.carousel == true %}
-      <script src="js/carousel.js"></script>
-      <link rel="stylesheet" href="css/carousel.css" />
-  {% endif %}
+<link rel="stylesheet" href="css/header.css" />
+<link rel="stylesheet" href="css/footer.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/icons.css" />
+<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Josefin+Sans|Montserrat:600i,700|Open+Sans" rel="stylesheet">
 
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+<!-- Player/Carousel -->
+{% if page.player == true %}
+    <script src="js/player.js"></script>
+    <link rel="stylesheet" href="css/player.css" />
+{% endif %}
+{% if page.carousel == true %}
+    <script src="js/carousel.js"></script>
+    <link rel="stylesheet" href="css/carousel.css" />
+{% endif %}
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
+                               <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">

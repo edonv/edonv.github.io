@@ -6,8 +6,8 @@
 title: Valdman Works
 
 collections:
-  - images
-  - works:
+- images
+  works:
       output: true
     
 defaults:

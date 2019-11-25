@@ -6,9 +6,9 @@
 title: Valdman Works
 
 collections:
- works:
-    output: true
-- images
+  - images
+  - works:
+      output: true
     
 defaults:
   - scope:

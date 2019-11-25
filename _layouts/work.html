@@ -18,12 +18,11 @@ carousel: true
         
 <!--         {% assign imgs = site.images | where: "path", "/images/{{ page.img-dir }}/{{ page. }}" %} -->
         
-        {% for image in site.images %}
-             {% if image.path == '/_images/{{ image.img-dir }}/{{ image.name }}' %}
-                 <span src="{{ image }}" desc=""></span>
+        {% for file in site.static_files %}
+             {% if file.path == '/_images/{{ page.img-dir }}/{{ file.name }}' %}
+                 <span src="{{ file.path }}" desc=""></span>
              {% endif %}
-        {% endfor %}
-        
+        {% endfor }
 <!--         {% for img in imgs %}
             <span src="{{ img }}" desc="{{ desc[forloop.index0] }}"></span>
         {% endfor %} -->

@@ -6,12 +6,13 @@ div#body-wrap {
     grid-row-gap: 12px;
     grid-column-gap: 4px;
 }
-#page-title {
+#page-titles {
     grid-area: title;
+}
+#page-title {
     text-align: center;
 }
 #page-subtitle {
-    grid-area: title;
     text-align: center;
 }
 #desc-side {

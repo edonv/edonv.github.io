@@ -13,12 +13,20 @@ carousel: true
 
 <div id="slide-side">
     <my-carousel id="crsl" class="bordered">
-        {% assign imgs = page.imgs | split: ", " %}
-        {% assign descs = page.descs | split: ", " %}
+<!--         {% assign imgs = page.imgs | split: ", " %} -->
+<!--         {% assign descs = page.descs | split: ", " %} -->
         
-        {% for img in imgs %}
-            <span src="{{ img }}" desc="{{ desc[forloop.index0] }}"></span>
+<!--         {% assign imgs = site.images | where: "path", "/images/{{ page.img-dir }}/{{ page. }}" %} -->
+        
+        {% for image in site.images %}
+             {% if image.path == '/_images/{{ image.img-dir }}/{{ image.name }}' %}
+                 <span src="{{ image }}" desc=""></span>
+             {% endif %}
         {% endfor %}
+        
+<!--         {% for img in imgs %}
+            <span src="{{ img }}" desc="{{ desc[forloop.index0] }}"></span>
+        {% endfor %} -->
 <!--
         <span src="images/ra/raRemote.png"     desc="Remote Page"></span>
         <span src="images/ra/raRemoteEdit.png" desc="Remote Edit Page"></span>

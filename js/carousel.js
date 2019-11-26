@@ -55,18 +55,25 @@ class Carousel extends HTMLBaseElement {
 
         this._captions = [];
         this._slideIndex;
-        var style = document.createElement('style');
+        var cssLink1 = document.createElement('link');
+        cssLink1.setAttribute("rel", "stylesheet");
+        cssLink1.setAttribute("href", "/css/style.css");
+        
+        var cssLink2 = document.createElement('link');
+        cssLink2.setAttribute("rel", "stylesheet");
+        cssLink2.setAttribute("href", "/css/carousel.css");
+        
+//        style.textContent = `
+//            @import url("/css/style.css");
+//            @import url("/css/carousel.css");`;
 
-        style.textContent = `
-            @import url("/css/style.css");
-            @import url("/css/carousel.css");`;
-
-        shadow.appendChild(style);
+        shadow.appendChild(cssLink1);
+        shadow.appendChild(cssLink2);
         shadow.appendChild(crsl_template.content.cloneNode(true));
 
         //onclick="plusSlides(-1)
         //onclick="plusSlides(1)"
-        var prevnext = shadow.children[1].children[0].getElementsByTagName('a');
+        var prevnext = shadow.children[2].children[0].getElementsByTagName('a');
         prevnext[0].onclick = function () {
             shadow.host.plusSlides(-1);
         };
@@ -79,8 +86,8 @@ class Carousel extends HTMLBaseElement {
     }
     childrenAvailableCallback() {
         const shadow = this.shadowRoot;
-        const allSlidesDiv = shadow.children[1].children[0];
-        const dotsDiv = shadow.children[1].children[2];
+        const allSlidesDiv = shadow.children[2].children[0];
+        const dotsDiv = shadow.children[2].children[2];
         
 //        var imgs = document.getElementById("crslimgs").content.children;
         var imgs = this.children;
@@ -131,9 +138,9 @@ class Carousel extends HTMLBaseElement {
         this.showSlides(this._slideIndex = n);
     }
     showSlides(n) {
-        var slides = this.shadowRoot.children[1].children[0].getElementsByTagName('div');
+        var slides = this.shadowRoot.children[2].children[0].getElementsByTagName('div');
         //            document.getElementsByClassName("slide");
-        var dots = this.shadowRoot.children[1].children[2].children;
+        var dots = this.shadowRoot.children[2].children[2].children;
         //            document.getElementsByClassName("picdot");
         if (n == slides.length) {
             this._slideIndex = 0;
@@ -147,7 +154,7 @@ class Carousel extends HTMLBaseElement {
         }
         slides[this._slideIndex].style.display = "grid";
         dots[this._slideIndex].className += " active";
-        this.shadowRoot.children[1].children[1].innerHTML = "<h2>" + this._captions[this._slideIndex] + "</h2>";
+        this.shadowRoot.children[2].children[2].innerHTML = "<h2>" + this._captions[this._slideIndex] + "</h2>";
     }
 }
 
@@ -178,7 +185,7 @@ class Carousel extends HTMLBaseElement {
 //    }
 //    slides[slideIndex].style.display = "grid";
 //    dots[slideIndex].className += " active";
-//    //    this.shadowRoot.children[1].children[1].textContent = this._captions[n];
+//    //    this.shadowRoot.children[2].children[1].textContent = this._captions[n];
 //}
 //
 //function setup() {

@@ -154,7 +154,7 @@ class Carousel extends HTMLBaseElement {
         }
         slides[this._slideIndex].style.display = "grid";
         dots[this._slideIndex].className += " active";
-        this.shadowRoot.children[2].children[2].innerHTML = "<h2>" + this._captions[this._slideIndex] + "</h2>";
+        this.shadowRoot.children[2].children[1].innerHTML = "<h2>" + this._captions[this._slideIndex] + "</h2>";
     }
 }
 

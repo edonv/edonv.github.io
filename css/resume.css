@@ -1,17 +1,21 @@
-@import url(style.css);
+/*
 body {
     display: grid;
-    grid-template-areas: "head head head" ". resume ." "foot foot foot";
+    grid-template-areas: "head head head" ". body ." "foot foot foot";
     grid-template-columns: auto 56% auto;
     grid-template-rows: auto auto auto;
-    grid-row-gap: 12px;
-    /*  1st row could be 139px  */
+    grid-row-gap: 12px; 
 }
-#res-wrap {
-    grid-area: resume;
+*/
+div#body-wrap {
+    width: 50%;
     display: grid;
     grid-template-areas: "title" "edu" "proj" "work" "skills" "courses";
     /*    grid-auto-rows: auto;*/
+/*
+    grid-template-areas: ". title ." ". edu ." ". proj ." ". work ." ". skills ." ". courses .";
+    grid-template-columns: auto 56% auto;
+*/
     grid-row-gap: 8px;
     /*    grid-template-columns: min-content;*/
     /*    white-space: nowrap;*/
@@ -151,11 +155,13 @@ h4.section-head {
         grid-row-gap: 8px;
         justify-items: center;
     }
+/*
     #head-wrap,
     #foot-wrap {
         width: 100%;
     }
-    #res-wrap {
+*/
+    #body-wrap {
         width: 80%;
     }
     #title > h2 {

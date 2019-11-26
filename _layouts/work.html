@@ -1,9 +1,8 @@
 ---
 layout: default
-<!--carousel: true-->
 ---
 <div id="page-titles">
-    <h2 id="page-title">{{ page.project-name }}</h2>
+    <h2 id="page-title">{{ page.title }}</h2>
     <h3 id="page-subtitle">{{ page.date-range }}</h3>
 </div>
 <div id="desc-side" class="bordered">
@@ -11,29 +10,15 @@ layout: default
 </div>
 <div id="slide-side">
     <my-carousel id="crsl" class="bordered" img-dir="{{ page.img-dir }}">
-        {% assign pics = site.data.images[page.page-id] | sort: "order" %}
-<!--        {{ pics | inspect }}-->
+        {% assign pics = site.data.images[page.slug] | sort: "order" %}
         {% for pic in pics %}
-            {% capture fullpath %}/images/{{ page.page-id }}/{{ pic.fileName }}{% endcapture %}
-<!--            {{ fullpath | inspect }}-->
+            {% capture fullpath %}/images/{{ page.slug }}/{{ pic.fileName }}{% endcapture %}
             <span src="{{ fullpath }}" 
             {% if pic.desc != "" and pic.desc != nil %}
                   desc="{{ pic.desc }}"
             {% endif %}
             ></span>
         {% endfor %}
-        
-<!--         {% for img in imgs %}
-            <span src="{{ img }}" desc="{{ desc[forloop.index0] }}"></span>
-        {% endfor %} -->
-<!--
-        <span src="images/ra/raRemote.png"     desc="Remote Page"></span>
-        <span src="images/ra/raRemoteEdit.png" desc="Remote Edit Page"></span>
-        <span src="images/ra/raRemoteDrag.png" desc="Remote Setup Page"></span>
-        <span src="images/ra/raNewRemote1.png" desc="Remote Setup Page"></span>
-        <span src="images/ra/raNewRemote2.png" desc="Remote Setup Page"></span>
-        <span src="images/ra/raNewRemote3.png" desc="Remote Setup Page"></span>
--->
     </my-carousel>
     
 </div>

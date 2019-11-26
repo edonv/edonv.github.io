@@ -1,7 +1,7 @@
 <div id="title-wrap">
     <span id="head-logo">
       <a href="/index.html"
-        {% if page.page-id == "index" %}
+        {% if page.name == "index.html" %}
           style="pointer-events:none; cursor:default;"
         {% endif %}>
         &lt;valdman-works /&gt;
@@ -18,7 +18,7 @@
         <div class="subnav-content">
             {% assign works = site.works | sort: 'project-name' %}
             {% for work in works %}
-                <span><a class="styled nav-link {{ work.object-id }}" href="{{ work.url }}">{{ work.project-name }}</a></span>
+                <span><a class="styled nav-link {{ work.object-id }}" href="{{ work.url }}">{{ work.title }}</a></span>
             {% endfor %}
 <!--             <span><a class="styled nav-link sd" href="sd.html">SwiftDex</a></span> -->
 <!--             <span><a class="styled nav-link ra" href="ra.html">RA Box</a></span> -->

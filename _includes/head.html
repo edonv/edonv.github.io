@@ -11,7 +11,12 @@
 <script src="/js/modernizer.js"></script>
 
 <!-- CSS -->
-<link rel="stylesheet" href="/css/{{ page.type }}.css" />
+{% if page.collection == "" %}
+    {% assign cssname = page.name | split: "." %}
+    <link rel="stylesheet" href="/css/{{ cssname[0] }}.css" />
+{% else %}
+    <link rel="stylesheet" href="/css/{{ page.layout }}.css" />
+{% endif %}
 
 <link rel="stylesheet" href="/css/header.css" />
 <link rel="stylesheet" href="/css/footer.css" />

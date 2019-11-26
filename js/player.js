@@ -55,14 +55,21 @@ class Songbox extends HTMLElement {
             mode: 'open'
         });
 
-        var style = document.createElement('style');
+        var cssLink1 = document.createElement('link');
+        cssLink1.setAttribute("rel", "stylesheet");
+        cssLink1.setAttribute("href", "/css/style.css");
+        
+        var cssLink2 = document.createElement('link');
+        cssLink2.setAttribute("rel", "stylesheet");
+        cssLink2.setAttribute("href", "/css/player.css");
 
-        style.textContent = `
-            @import url("css/style.css");
-            @import url("css/player.css");
-        `;
+//        style.textContent = `
+//            @import url("css/style.css");
+//            @import url("css/player.css");
+//        `;
 
-        shadow.appendChild(style);
+        shadow.appendChild(cssLink1);
+        shadow.appendChild(cssLink2);
         shadow.appendChild(sb_template.content.cloneNode(true));
     }
     connectedCallback() {

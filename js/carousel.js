@@ -58,8 +58,8 @@ class Carousel extends HTMLBaseElement {
         var style = document.createElement('style');
 
         style.textContent = `
-            @import url("css/style.css");
-            @import url("css/carousel.css");`;
+            @import url("/css/style.css");
+            @import url("/css/carousel.css");`;
 
         shadow.appendChild(style);
         shadow.appendChild(crsl_template.content.cloneNode(true));

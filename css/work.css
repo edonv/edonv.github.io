@@ -36,6 +36,7 @@ div#body-wrap {
     width: 75%;
     box-sizing: border-box;
     margin: auto;
+    background-color: var(--color-yellow);
 }
 
 /* MOBILE */

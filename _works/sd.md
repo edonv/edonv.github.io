@@ -1,10 +1,7 @@
 ---
-page-id: sd
-project-name: SwiftDex
 title: SwiftDex
 date-range: April 2016 &ndash; May 2017
 carousel: true
-type: work
 ---
 **SwiftDex** is an iOS app that functions as an encyclopedia of useful information about Pokémon to be used when playing the games. It contains information such as stats, moves, abilities, evolutions, types, and natures.
 <br> <br>

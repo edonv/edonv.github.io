@@ -1,10 +1,7 @@
 ---
-page-id: ra
-project-name: RA Box
 title: RA Box
 date-range: February &ndash; May 2018
 carousel: true
-type: work
 ---
 The **RA Box** and its companion app, RA Hub, is a project designed to function as a universal remote controlled by your phone. By using a Raspberry Pi computer and a companion iOS app, you can control any device via IR.
 <br><br>

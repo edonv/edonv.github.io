@@ -38,16 +38,16 @@ ra:
   order: 1
 - fileName: raRemoteEdit.png
   desc: Remote Edit Page
-  order: 1
+  order: 2
 - fileName: raRemoteDrag.png
   desc: Remote Setup Page, Example 1
-  order: 1
+  order: 3
 - fileName: raNewRemote1.png
   desc: Remote Setup Page, Example 2
-  order: 1
+  order: 4
 - fileName: raNewRemote2.png
   desc: Remote Setup Page, Example 3
-  order: 1
+  order: 5
 - fileName: raNewRemote3.png
   desc: Remote Setup Page, Example 4
-  order: 1
+  order: 6

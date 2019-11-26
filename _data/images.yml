@@ -1,53 +1,71 @@
-sd:
-- fileName: sdSplash.png
-  desc: Launch Page
-  order: 1
-- fileName: sdList.png
-  desc: List Page
-  order: 2
-- fileName: sdInfo1.png
-  desc: Info Page
-  order: 3
-- fileName: sdInfo2.png
-  desc: Info Page
-  order: 4
-- fileName: sdMove.png
-  desc: Move Page
-  order: 5
-- fileName: sdEvoChar.png
-  desc: Evolution Page, Example 1
-  order: 6
-- fileName: sdEvoEevee1.png
-  desc: Evolution Page, Example 2
-  order: 7
-- fileName: sdEvoEevee2.png
-  desc: Evolution Page, Example 3
-  order: 8
-- fileName: sdTypeList.png
-  desc: Type List Page
-  order: 9
-- fileName: sdType.png
-  desc: Type Info Popup
-  order: 10
-- fileName: sdNatureList.png
-  desc: Nature List Page
-  order: 11
-ra:
-- fileName: raRemote.png
-  desc: Remote Page
-  order: 1
-- fileName: raRemoteEdit.png
-  desc: Remote Edit Page
-  order: 2
-- fileName: raRemoteDrag.png
-  desc: Remote Setup Page, Example 1
-  order: 3
-- fileName: raNewRemote1.png
-  desc: Remote Setup Page, Example 2
-  order: 4
-- fileName: raNewRemote2.png
-  desc: Remote Setup Page, Example 3
-  order: 5
-- fileName: raNewRemote3.png
-  desc: Remote Setup Page, Example 4
-  order: 6
+--- 
+ra: 
+  - 
+    desc: "Remote Page"
+    fileName: raRemote.png
+    order: 1
+  - 
+    desc: "Remote Edit Page"
+    fileName: raRemoteEdit.png
+    order: 2
+  - 
+    desc: "Remote Setup Page, Example 1"
+    fileName: raRemoteDrag.png
+    order: 3
+  - 
+    desc: "Remote Setup Page, Example 2"
+    fileName: raNewRemote1.png
+    order: 4
+  - 
+    desc: "Remote Setup Page, Example 3"
+    fileName: raNewRemote2.png
+    order: 5
+  - 
+    desc: "Remote Setup Page, Example 4"
+    fileName: raNewRemote3.png
+    order: 6
+sd: 
+  - 
+    desc: "Launch Page"
+    fileName: sdSplash.png
+    order: 1
+  - 
+    desc: "List Page"
+    fileName: sdList.png
+    order: 2
+  - 
+    desc: "Info Page"
+    fileName: sdInfo1.png
+    order: 3
+  - 
+    desc: "Info Page"
+    fileName: sdInfo2.png
+    order: 4
+  - 
+    desc: "Move Page"
+    fileName: sdMove.png
+    order: 5
+  - 
+    desc: "Evolution Page, Example 1"
+    fileName: sdEvoChar.png
+    order: 6
+  - 
+    desc: "Evolution Page, Example 2"
+    fileName: sdEvoEevee1.png
+    order: 7
+  - 
+    desc: "Evolution Page, Example 3"
+    fileName: sdEvoEevee2.png
+    order: 8
+  - 
+    desc: "Type List Page"
+    fileName: sdTypeList.png
+    order: 9
+  - 
+    desc: "Type Info Popup"
+    fileName: sdType.png
+    order: 10
+  - 
+    desc: "Nature List Page"
+    fileName: sdNatureList.png
+    order: 11

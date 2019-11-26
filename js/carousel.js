@@ -81,8 +81,8 @@ class Carousel extends HTMLBaseElement {
         const shadow = this.shadowRoot;
         const allSlidesDiv = shadow.children[1].children[0];
         const dotsDiv = shadow.children[1].children[2];
-
-        //        var imgs = document.getElementById("crslimgs").content.children;
+        
+//        var imgs = document.getElementById("crslimgs").content.children;
         var imgs = this.children;
         var gridCols = "";
         var dotW = (dotsDiv.offsetWidth - (imgs.length - 1) * 4) / imgs.length;

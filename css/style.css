@@ -16,6 +16,7 @@
     --color-green: #9bbe86;
 }
 body {
+    background: var(--color-white);
     font-size: 100%;
     margin: 0px;
     min-height: 100%;

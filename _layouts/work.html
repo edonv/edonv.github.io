@@ -12,17 +12,19 @@ carousel: true
 </div>
 
 <div id="slide-side">
-    <my-carousel id="crsl" class="bordered">
-<!--         {% assign imgs = page.imgs | split: ", " %} -->
-<!--         {% assign descs = page.descs | split: ", " %} -->
-        
-<!--         {% assign imgs = site.images | where: "path", "/images/{{ page.img-dir }}/{{ page. }}" %} -->
-        
-        {% for file in site.static_files %}
-             {% if file.path == '/_images/{{ page.img-dir }}/{{ file.name }}' %}
-                 <span src="{{ file.path }}" desc=""></span>
-             {% endif %}
+    <my-carousel id="crsl" class="bordered" img-dir="{{ page.img-dir }}">
+        {% assign pics = site.data.image[page.object-id] | sort: "order" %}
+        {% for pin in pics %}
+            {% capture fullpath %}
+                /images/{{ page.object-id }}/{{ pic.fileName }}
+            {% endcapture %}
+            <span src="{{ fullpath }}" 
+            {% if pic.desc != "" and pic.desc != nil %}
+                  desc="{{ pic.desc }}"
+            {% endif %}
+            ></span>
         {% endfor %}
+        
 <!--         {% for img in imgs %}
             <span src="{{ img }}" desc="{{ desc[forloop.index0] }}"></span>
         {% endfor %} -->

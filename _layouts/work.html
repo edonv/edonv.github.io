@@ -13,8 +13,8 @@ carousel: true
 
 <div id="slide-side">
     <my-carousel id="crsl" class="bordered" img-dir="{{ page.img-dir }}">
-        {{ page.object-id }}
-        {% assign pics = site.data.image[page.object-id] | sort: "order" %}
+<!--        {{ page.page-id }}-->
+        {% assign pics = site.data.image[page.page-id] | sort: "order" %}
         {% for pin in pics %}
             {% capture fullpath %}
                 /images/{{ page.object-id }}/{{ pic.fileName }}

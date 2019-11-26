@@ -1,0 +1,69 @@
+sd:
+- fileName: sdSplash.png
+  desc: Launch Page
+  order: 1
+  
+- fileName: sdList.png
+  desc: List Page
+  order: 2
+  
+- fileName: sdInfo1.png
+  desc: Info Page
+  order: 3
+
+- fileName: sdInfo2.png
+  desc: Info Page
+  order: 4
+
+- fileName: sdMove.png
+  desc: Move Page
+  order: 5
+
+- fileName: sdEvoChar.png
+  desc: Evolution Page, Example 1
+  order: 6
+
+- fileName: sdEvoEevee1.png
+  desc: Evolution Page, Example 2
+  order: 7
+
+- fileName: sdEvoEevee2.png
+  desc: Evolution Page, Example 3
+  order: 8
+
+- fileName: sdTypeList.png
+  desc: Type List Page
+  order: 9
+
+- fileName: sdType.png
+  desc: Type Info Popup
+  order: 10
+
+- fileName: sdNatureList.png
+  desc: Nature List Page
+  order: 11
+
+ra:
+- fileName: raRemote.png
+  desc: Remote Page
+  order: 1
+
+- fileName: raRemoteEdit.png
+  desc: Remote Edit Page
+  order: 2
+
+- fileName: raRemoteDrag.png
+  desc: Remote Setup Page, Example 1
+  order: 3
+
+- fileName: raNewRemote1.png
+  desc: Remote Setup Page, Example 2
+  order: 4
+
+- fileName: raNewRemote2.png
+  desc: Remote Setup Page, Example 3
+  order: 5
+
+- fileName: raNewRemote3.png
+  desc: Remote Setup Page, Example 4
+  order: 6

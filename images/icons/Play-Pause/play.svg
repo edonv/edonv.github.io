@@ -8,9 +8,10 @@
     </defs>
     <g id="Page-1" stroke-width="1">
         <g id="play">
-          <rect x="0" y="0" height="50" width="50" clip-path="url(#shape)" />
+<!--           <rect x="0" y="0" height="50" width="50"  fill="none" /> -->
+<!--           clip-path="url(#shape)" -->
 <!--           <use href="#shape" x="0" y="0" /> -->
-<!--             <circle stroke-alignment="inner" -->
+            <circle cx="25" cy="25" r="4" stroke-width="3px" stroke="red" />
         </g>
     </g>
 </svg>

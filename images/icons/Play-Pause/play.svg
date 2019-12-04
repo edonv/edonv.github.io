@@ -2,10 +2,10 @@
 <svg width="50px" height="50px" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
     <title>Play</title>
     <defs>
-      <g id="shape" fill="red" stroke="red">
+      <clipPath id="shape" fill="red" stroke="red">
         <circle cx="25" cy="25" r="25" />
         <circle cx="25" cy="25" r="22" />
-      </g>
+      </clipPath>
     </defs>
     <g id="Page-1" stroke-width="1">
         <g id="play">

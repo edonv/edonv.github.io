@@ -2,16 +2,17 @@
 <svg width="50px" height="50px" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
     <title>Play</title>
     <defs>
-<!--       <clipPath id="shape">
+      <clipPath id="shape">
         <circle cx="25" cy="25" r="25" />
-      </clipPath> -->
+        <circle cx="25" cy="25" r="22" />
+      </clipPath>
     </defs>
     <g id="Page-1" stroke-width="1">
         <g id="play">
-<!--           <rect x="0" y="0" height="50" width="50"  fill="none" /> -->
+          <rect x="0" y="0" height="50" width="50"  fill="black" clip-path="url(#shape)" />
 <!--           clip-path="url(#shape)" -->
 <!--           <use href="#shape" x="0" y="0" /> -->
-            <circle cx="25" cy="25" r="24" stroke-width="3px" stroke="red" fill="none"/>
+<!--             <circle cx="25" cy="25" r="24" stroke-width="3px" stroke="red" fill="none"/> -->
         </g>
     </g>
 </svg>

@@ -7,6 +7,11 @@
     <style>
         body {
             background-color: #033260;
+            display: grid;
+            grid-template-areas: ". . ." ". header ." ". . .";
+            grid-row-gap: 0.125em;
+            grid-template-rows: 3em 1fr auto;
+            grid-template-columns: auto 75% auto;
         }
         h1, h2 {
             margin: 0;
@@ -24,9 +29,8 @@
             font-size: 3.5em;
         }
         #header {
-            width: 75%;
-            top: 3.125em;
-            margin: auto;
+            grid-area: header;
+            margin: 0 auto;
             text-align: right;
             position: absolute;
         }

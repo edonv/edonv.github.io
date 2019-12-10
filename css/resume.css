@@ -51,11 +51,11 @@ h4.section-head {
 .grad-date,
 .skill-head {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     font-size: 1rem;
 }
 .date {
     text-align: right;
-    font-weight: 700;
 }
 .item,
 .school {

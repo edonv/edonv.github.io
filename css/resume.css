@@ -55,6 +55,7 @@ h4.section-head {
 }
 .date {
     text-align: right;
+    font-weight: 700;
 }
 .item,
 .school {

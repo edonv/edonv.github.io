@@ -12,10 +12,21 @@
     padding-top: 4px;
     margin-bottom: -10px;
     grid-area: title;
+/*
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
+*/
     font-size: 4.25rem;
     color: var(--color-black);
+}
+.titletext {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+}
+
+.titlebracket {
+    font-family: 'Catanaran', sans-serif;
+    font-weight: 100;
 }
 /*
 #head-logo > a {

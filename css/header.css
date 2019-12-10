@@ -12,7 +12,7 @@
     padding-top: 4px;
     margin-bottom: -10px;
     grid-area: title;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
     font-size: 4.25rem;
     color: var(--color-black);
@@ -32,7 +32,7 @@
 #head-sub {
     align-self: baseline;
     grid-area: sub;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.25rem;
     color: var(--color-brown);
     margin-bottom: 4px;

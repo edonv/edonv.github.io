@@ -101,9 +101,15 @@ class Songbox extends HTMLElement {
         }
 
         //Button Image
-        var playIcon = document.createElement('i');
-        playIcon.setAttribute('class', "icon evald-play");
-        playbtn.appendChild(playIcon);
+        var playIconSVG = document.createElement('svg');
+        playIconSVG.setAttribute('height', "34");
+        playIconSVG.setAttribute('width', "34");
+        playIconSVG.setAttribute('viewBox', "0 0 50 50");
+        var playIconUse = document.createElement('use');
+        playIconUse.setAttribute('xlink:href', "#play");
+        playIconSVG.appendChild(playIconUse);
+        //playIcon.setAttribute('class', "icon evald-play");
+        playbtn.appendChild(playIconSVG);
         shadow.appendChild(playbtn);
 
         //Time Line + Stamps

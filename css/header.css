@@ -9,8 +9,8 @@
     border-bottom: 4px double #d27a1f;
 }
 #head-logo {
-    padding-top: 4px;
-    margin-bottom: -35px;
+    /*padding-top: 4px;*/
+    margin: -30px 0px -35px;
     grid-area: title;
 /*
     font-family: 'Montserrat Alternates', sans-serif;

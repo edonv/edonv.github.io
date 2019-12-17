@@ -58,9 +58,9 @@
 #mail-icon {
     grid-area: link3;
 }
-.social {
-    font-size: 2.625rem;
-    /*fill: var(--color-red);
+.social-icon {
+    /*font-size: 2.625rem;
+    fill: var(--color-red);
     background-color: transparent;
     height: 100%;
     width: 100%;*/

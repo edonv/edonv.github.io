@@ -51,29 +51,35 @@ h3 {
 }
 a.styled {
     color: var(--color-red);
+    fill: var(--color-red);
     background: transparent;
     /*    transition: background 1s color 1s;*/
 }
 a.styled:hover {
     background: var(--color-red);
     color: var(--color-yellow);
+    fill: var(--color-yellow);
 }
 a.styled:visited:hover {
     background: var(--color-darkred);
     color: var(--color-yellow);
+    fill: var(--color-yellow);
 }
 a.styled:visited {
     background: transparent;
     color: var(--color-darkred);
+    fill: var(--color-darkred);
 }
 @media screen and (min-width: 600px) {
     a.styled:focus {
         background: var(--color-red);
         color: var(--color-yellow);
+        fill: var(--color-yellow);
     }
     a.styled:focus:hover {
         background: var(--color-darkred);
         color: var(--color-yellow);
+        fill: var(--color-yellow);
     }
 }
 .bordered {

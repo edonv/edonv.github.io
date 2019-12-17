@@ -60,10 +60,10 @@
 }
 .social {
     font-size: 2.625rem;
-    fill: var(--color-red);
+    /*fill: var(--color-red);
     background-color: transparent;
     height: 100%;
-    width: 100%;
+    width: 100%;*/
 }
 
 /*  NAV BAR  */

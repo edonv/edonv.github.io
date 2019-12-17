@@ -46,7 +46,7 @@ const sb_template = document.createElement('template');
 sb_template.innerHTML = `
     <svg viewBox="0 0 50 50" height="50" width="50" xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="pause">
-            <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd"></path>
+            <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd" />
             <path d="M16.34,37l0,-24l5,0l0,24zM33.66,37l0,-24l-5,0l0,24z" stroke-linejoin="round" />
         </symbol>
         <symbol id="play">
@@ -118,7 +118,6 @@ class Songbox extends HTMLElement {
         var playIconUse = document.createElement('use');
         playIconUse.setAttribute('xlink:href', "#play");
         playIconSVG.appendChild(playIconUse);
-        //playIcon.setAttribute('class', "icon evald-play");
         playbtn.appendChild(playIconSVG);
         shadow.appendChild(playbtn);
 

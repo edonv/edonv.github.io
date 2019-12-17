@@ -60,7 +60,6 @@
 }
 .social {
     font-size: 2.625rem;
-    color: var(--color-red);
     fill: var(--color-red);
     background-color: transparent;
     height: 100%;

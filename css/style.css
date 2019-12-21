@@ -39,7 +39,7 @@ html {
     grid-area: body;
 }
 #body-wrap.standard {
-    text-alignment: center;
+    text-align: center;
 }
 #body-wrap.standard > p {
     font-family: 'Open Sans', sans-serif;

@@ -58,18 +58,16 @@ sb_template.innerHTML = `
     <h2 class="songheader"><slot name="subtitle">A<br>A</slot></h2>
 `;
 
-const defs_template = document.createElement('template');
+const defs_template = document.createElement('defs');
 defs_template.innerHtml = `
-    <defs>
-        <g id="pause1">
-            <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd" />
-            <path d="M16.34,37l0,-24l5,0l0,24zM33.66,37l0,-24l-5,0l0,24z" stroke-linejoin="round" />
-        </g>
-        <g id="play1">
-            <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd" />
-            <path d="M16.34,37l0,-24l5,0l0,24zM33.66,37l0,-24l-5,0l0,24z" stroke-linejoin="round" />
-        </g>
-    </defs>
+    <g id="pause1">
+        <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd" />
+        <path d="M16.34,37l0,-24l5,0l0,24zM33.66,37l0,-24l-5,0l0,24z" stroke-linejoin="round" />
+    </g>
+    <g id="play1">
+        <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd" />
+        <path d="M16.34,37l0,-24l5,0l0,24zM33.66,37l0,-24l-5,0l0,24z" stroke-linejoin="round" />
+    </g>
 `;
 
 class Songbox extends HTMLElement {
@@ -131,7 +129,7 @@ class Songbox extends HTMLElement {
         playIconSVG.setAttribute('viewBox', "0 0 50 50");
         var playIconUse = document.createElement('use');
         playIconUse.setAttribute('xlink:href', "#play1");
-        playIconSVG.appendChild(defs_template.content.cloneNode(true));
+        playIconSVG.appendChild(defs_template.cloneNode(true));
         playIconSVG.appendChild(playIconUse);
         playbtn.appendChild(playIconSVG);
         shadow.appendChild(playbtn);

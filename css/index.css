@@ -35,7 +35,7 @@ song-box {
     margin: auto;
 }
 .slide-caption > h2 {}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
     body {
         grid-template-areas: "head head head" ". audio ." ". slides ." "foot foot foot";
         grid-template-columns: auto 1fr auto;

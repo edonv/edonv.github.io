@@ -44,30 +44,20 @@ function fadeOut(el, time) {
 
 const sb_template = document.createElement('template');
 sb_template.innerHTML = `
-    <svg viewBox="0 0 50 50" height="50" width="50" xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol id="pause">
-            <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd" />
-            <path d="M16.34,37l0,-24l5,0l0,24zM33.66,37l0,-24l-5,0l0,24z" stroke-linejoin="round" />
-        </symbol>
-        <symbol id="play">
-            <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd" />
-            <path d="M37,25L16.34,37L16.34,13z" stroke-linejoin="round"/>
-        </symbol>
-    </svg>
     <h1 class="songheader"><slot name="title">A</slot></h1>
     <h2 class="songheader"><slot name="subtitle">A<br>A</slot></h2>
 `;
 
-const defs_template = document.createElement('defs');
-defs_template.innerHtml = `
-    <g id="pause1">
-        <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd" />
-        <path d="M16.34,37l0,-24l5,0l0,24zM33.66,37l0,-24l-5,0l0,24z" stroke-linejoin="round" />
-    </g>
-    <g id="play1">
-        <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd" />
-        <path d="M16.34,37l0,-24l5,0l0,24zM33.66,37l0,-24l-5,0l0,24z" stroke-linejoin="round" />
-    </g>
+const symbols_template = document.createElement('template');
+symbols_template.innerHtml = `
+    <symbol id="pause" viewBox="0 0 50 50" height="50" width="50">
+        <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd"></path>
+        <path d="M16.34,37l0,-24l5,0l0,24zM33.66,37l0,-24l-5,0l0,24z" stroke-linejoin="round"></path>
+    </symbol>
+    <symbol id="play" viewBox="0 0 50 50" height="50" width="50">
+        <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd"></path>
+        <path d="M37,25L16.34,37L16.34,13z" stroke-linejoin="round"></path>
+    </symbol>
 `;
 
 class Songbox extends HTMLElement {
@@ -126,10 +116,14 @@ class Songbox extends HTMLElement {
         var playIconSVG = document.createElement('svg');
         playIconSVG.setAttribute('height', "34");
         playIconSVG.setAttribute('width', "34");
-        playIconSVG.setAttribute('viewBox', "0 0 50 50");
+//         playIconSVG.setAttribute('viewBox', "0 0 50 50");
         var playIconUse = document.createElement('use');
-        playIconUse.setAttribute('xlink:href', "#play1");
-        playIconSVG.appendChild(defs_template.cloneNode(true));
+        playIconUse.setAttribute('xlink:href', "#play");
+        playIconUse.setAttribute('x', "0");
+        playIconUse.setAttribute('y', "0");
+        playIconUse.setAttribute('height', "34");
+        playIconUse.setAttribute('width', "34");
+        playIconSVG.appendChild(symbols_template.content.cloneNode(true));
         playIconSVG.appendChild(playIconUse);
         playbtn.appendChild(playIconSVG);
         shadow.appendChild(playbtn);

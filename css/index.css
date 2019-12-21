@@ -1,7 +1,7 @@
 div#body-wrap {
     display: grid;
     grid-template-areas: ". audio slides .";
-    grid-template-columns: auto 28% 28% auto;
+    grid-template-columns: auto minmax(28%, 1fr) minmax(28%, 1fr) auto;
     grid-column-gap: 4px;
 }
 .side-head {

@@ -104,11 +104,13 @@ class Songbox extends HTMLElement {
             if (ispaused) {
                 //                fadeIn(audioPlayer, 800);
                 audioPlayer.play();
-                this.firstChild.setAttribute('class', "icon evald-pause");
+//                 this.firstChild.setAttribute('class', "icon evald-pause");
+                this.firstChild.children[2].setAttribute('href', "#pause");
             } else {
                 //                fadeOut(audioPlayer, 1000);
                 audioPlayer.pause();
-                this.firstChild.setAttribute('class', "icon evald-play");
+//                 this.firstChild.setAttribute('class', "icon evald-play");
+                this.firstChild.children[2].setAttribute('href', "#play");
             }
         }
 

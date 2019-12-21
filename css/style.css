@@ -38,6 +38,9 @@ html {
 #body-wrap {
     grid-area: body;
 }
+#body-wrap.standard {
+    text-alignment: center;
+}
 #body-wrap.standard > p {
     font-family: 'Open Sans', sans-serif;
 }

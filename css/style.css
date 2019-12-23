@@ -38,6 +38,12 @@ html {
 #body-wrap {
     grid-area: body;
 }
+#body-wrap.standard {
+    text-align: center;
+}
+#body-wrap.standard > p {
+    font-family: 'Open Sans', sans-serif;
+}
 #foot-wrap {
     grid-area: foot;
 }

@@ -131,8 +131,8 @@ class Songbox extends HTMLElement {
 
         //Button Image
         var playIconSVG = document.createElement('svg');
-        playIconSVG.setAttribute('height', "34");
-        playIconSVG.setAttribute('width', "34");
+//        playIconSVG.setAttribute('height', "34");
+//        playIconSVG.setAttribute('width', "34");
         playIconSVG.setAttribute('viewBox', "0 0 50 50");
         var playIconUse = document.createElement('use');
         playIconUse.setAttribute('xlink:href', "#play");

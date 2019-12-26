@@ -51,12 +51,14 @@ sb_template.innerHTML = `
 const svg_template = document.createElement('template');
 svg_template.innerHTML = `
     <svg viewBox="0 0 50 50" height="34" width="34">
-        <defs>
-            <g id="pause">
-                <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd"></path>
-                <path d="M16.34,37l0,-24l5,0l0,24zM33.66,37l0,-24l-5,0l0,24z" stroke-linejoin="round" />
-            </g>
-        </defs>
+            <symbol id="pause">
+                <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd" stroke-width="0"></path>
+                <path d="M16.34,37l0,-24l5,0l0,24zM33.66,37l0,-24l-5,0l0,24z" stroke-linejoin="round"></path>
+            </symbol>
+            <symbol id="play">
+                <path d="M25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 Z M25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 Z" fill-rule="evenodd" stroke-width="0"></path>
+                <path d="M37,25L16.34,37L16.34,13z" stroke-linejoin="round"></path>
+            </symbol>
     </svg>
 `;
 
@@ -94,6 +96,7 @@ class Songbox extends HTMLElement {
 
         shadow.appendChild(cssLink1);
         shadow.appendChild(cssLink2);
+        shadow.appendChild(svg_template.content.cloneNode(true));
         shadow.appendChild(sb_template.content.cloneNode(true));
     }
     connectedCallback() {
@@ -130,14 +133,14 @@ class Songbox extends HTMLElement {
         var playIconSVG = document.createElement('svg');
         playIconSVG.setAttribute('height', "34");
         playIconSVG.setAttribute('width', "34");
-         playIconSVG.setAttribute('viewBox', "0 0 50 50");
+        playIconSVG.setAttribute('viewBox', "0 0 50 50");
         var playIconUse = document.createElement('use');
         playIconUse.setAttribute('xlink:href', "#play");
 //        playIconUse.setAttribute('x', "0");
 //        playIconUse.setAttribute('y', "0");
 //        playIconUse.setAttribute('height', "34");
 //        playIconUse.setAttribute('width', "34");
-        playIconSVG.appendChild(symbols_template.content.cloneNode(true));
+//        playIconSVG.appendChild(symbols_template.content.cloneNode(true));
         playIconSVG.appendChild(playIconUse);
         playbtn.appendChild(playIconSVG);
         shadow.appendChild(playbtn);

@@ -23,10 +23,12 @@ h2.songheader {
     font-size: 2.125rem;
     background-color: transparent;
     fill: var(--color-red);
+    stroke: var(--color-red);
 }
 #playbtn:hover {
     /*  STYLING  */
     fill: var(--color-yellow);
+    stroke: var(--color-yellow);
     background-color: var(--color-red);
 }
 

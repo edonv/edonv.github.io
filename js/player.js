@@ -145,7 +145,7 @@ class Songbox extends HTMLElement {
         playbtn.appendChild(playIconSVG);
         shadow.appendChild(playbtn);
         var l = shadow.children.length;
-        shadow.children[l-1].children[0].appendChild(playIconUse;)
+        shadow.children[l-1].children[0].appendChild(playIconUse);
 //        playIconSVG.appendChild(playIconUse);
         
         

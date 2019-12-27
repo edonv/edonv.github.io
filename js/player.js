@@ -135,19 +135,15 @@ class Songbox extends HTMLElement {
 //        playIconSVG.setAttribute('width', "34");
         playIconSVG.setAttribute('viewBox', "0 0 50 50");
         var playIconUse = document.createElement('use');
-        playIconUse.setAttribute('xlink:href', "#play");
+        playIconUse.setAttribute('xlink:href', "../images/icons.svg#play");
 //        playIconUse.setAttribute('x', "0");
 //        playIconUse.setAttribute('y', "0");
 //        playIconUse.setAttribute('height', "34");
 //        playIconUse.setAttribute('width', "34");
-        playIconSVG.appendChild(svg_template.content.cloneNode(true));
-        
+//        playIconSVG.appendChild(svg_template.content.cloneNode(true));
+        playIconSVG.appendChild(playIconUse);
         playbtn.appendChild(playIconSVG);
         shadow.appendChild(playbtn);
-        var l = shadow.children.length;
-        shadow.children[l-1].children[0].appendChild(playIconUse);
-//        playIconSVG.appendChild(playIconUse);
-        
         
         //Time Line + Stamps
         var timebar = document.createElementNS("http://www.w3.org/2000/svg", "svg");

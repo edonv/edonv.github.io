@@ -5,6 +5,8 @@ backend:
   name: github
   repo: edonv/edonv.github.io
   branch: master
+  base_url: https://decap-oauth-kd5yo2t2rq-uc.a.run.app # The base URL for your Firebase Function
+  auth_endpoint: /auth # The path to the OAuth endpoint of the function
   # use_graphql: true
   # preview_context: my-provider/deployment
 

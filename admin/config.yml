@@ -11,7 +11,7 @@ backend:
   # preview_context: my-provider/deployment
 
 # This line should *not* be indented
-media_folder: "images/uploads"
+media_folder: "images"
 # public_folder defaults to media_folder with a leading "/"
 # public_folder: "/images"
 

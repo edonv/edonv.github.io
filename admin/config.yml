@@ -48,6 +48,7 @@ collections:
         fields:
           - label: "Image Groups"
             name: "groups"
+            label_singular: "Image Group"
             widget: "list"
             fields:
               - label: "Associated Work"

@@ -46,7 +46,7 @@ html {
 }
 #foot-wrap {
     grid-area: foot;
-    margin-bottom: -12px;
+    /* margin-bottom: -12px; */
 }
 h1,
 h2,

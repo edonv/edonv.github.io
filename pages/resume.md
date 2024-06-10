@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Resume
-bodyid: resume
 permalink: /resume.html
 body-classes: bordered
 ---

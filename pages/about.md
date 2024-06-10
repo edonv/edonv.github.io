@@ -1,7 +1,6 @@
 ---
 layout: default
 title: About
-bodyid: about
 permalink: /about.html
 <!--body-classes: bordered-->
 ---

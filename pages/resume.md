@@ -6,7 +6,7 @@ permalink: /resume.html
 body-classes: bordered
 ---
 <div id="title">
-    <h2>Edon Valdman &ndash; <a class="email styled" href="mailto:contact@evaldman.com">contact@evaldman.com</a></h2>
+    <h2>Edon Valdman &ndash; <a class="email styled" href="mailto:edon@valdman.works">edon@valdman.works</a></h2>
     <h3>Freelance Musician, Audio Engineer,&nbsp;&&nbsp;iOS&nbsp;Developer</h3>
 </div>
 <div id="edu">

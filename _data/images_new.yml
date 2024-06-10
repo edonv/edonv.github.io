@@ -1,0 +1,6 @@
+groups:
+  - work: sd
+    images:
+      - fileName: /images/map-groups-list-map-work-sd-images-list-map-public_folder-images-dirname-_data-filename-images_new-extension-yml/sdevochar.png
+        desc: Test
+        order: 1

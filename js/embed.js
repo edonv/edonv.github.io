@@ -78,7 +78,7 @@ var header = `
             <span id="head-sub" class="noselect">audio, music, apps, design</span>
             <a href="http://soundcloud.com/edonv" target="_blank" id="sc-icon" class="styled social"><i class="icon evald-sc"></i></a>
             <a href="http://linkedin.com/in/evaldman" target="_blank" id="li-icon" class="styled social"><i class="icon evald-li"></i></a>
-            <a href="mailto:contact@evaldman.com" id="mail-icon" class="styled social"><i class="icon evald-mail"></i></a>
+            <a href="mailto:edon@valdman.works" id="mail-icon" class="styled social"><i class="icon evald-mail"></i></a>
         </div>
         <div id="nav-wrap">
             <div class="subnav nav-item works">

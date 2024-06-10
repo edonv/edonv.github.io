@@ -1,6 +1,6 @@
 ---
 title: Rentful
-date-range: April 2016 – May 2017
+date-range: June 2023 – Ongoing
 carousel: false
 ---
-Rentful!
+An app for MPILC.

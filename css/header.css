@@ -112,8 +112,7 @@
     grid-auto-flow: column;
 */
     /*  Vertical  */
-    left: calc(20% + 6%);
-    width: 12%;
+    width: 100%;
     grid-auto-rows: calc(1.5em);
     grid-auto-flow: row;
     align-items: center;
@@ -122,6 +121,10 @@ span:hover + .subnav-content,
 span + .subnav-content.clicked,
 .subnav-content:hover {
     display: grid;
+}
+.subnav {
+    /* This is so .subnav-content can have a width relative to its parent */
+    position: relative;
 }
 .subnav > span > a:hover {
     border-bottom: 2px solid var(--color-red);

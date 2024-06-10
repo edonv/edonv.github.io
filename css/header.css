@@ -94,12 +94,7 @@
 .subnav-content {
     display: none;
     position: absolute;
-    /* calc to account for body margin (16px) */
-    /*    left: calc((100% - 8px * 2) * 0.2);*/
-    /*    width: calc((100% - 8px * 2) * 0.6);*/
     z-index: 1;
-    /* 24px + 8px (height plus 8px for padding) */
-    /*    height: calc(1.5em + 0.5em);*/
     border: 2px solid var(--color-orange);
     text-align: center;
     background-color: var(--color-red);

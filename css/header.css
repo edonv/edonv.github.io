@@ -1,7 +1,7 @@
 #title-wrap {
     display: grid;
-    grid-template-areas: "title title title title title" "sub sub sub sub sub" ". . . . ."". link1 link2 link3 .";
-    grid-template-columns: auto 42px 42px 42px auto;
+    grid-template-areas: "title title title title title title" "sub sub sub sub sub sub" ". . . . . ."". link1 link2 link3 link4 .";
+    grid-template-columns: auto 42px 42px 42px 42px auto;
     grid-template-rows: auto auto auto 42px;
     grid-column-gap: 3px;
     justify-items: center;
@@ -51,11 +51,14 @@
 #bento-icon {
     grid-area: link1;
 }
-#li-icon {
+#github-icon {
     grid-area: link2;
 }
-#mail-icon {
+#li-icon {
     grid-area: link3;
+}
+#mail-icon {
+    grid-area: link4;
 }
 .social-icon {
     /*font-size: 2.625rem;

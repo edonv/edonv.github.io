@@ -48,7 +48,7 @@
     color: var(--color-brown);
     margin-bottom: 4px;
 }
-#sc-icon {
+#bento-icon {
     grid-area: link1;
 }
 #li-icon {

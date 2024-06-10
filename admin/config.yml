@@ -60,7 +60,7 @@ collections:
                 name: "images"
                 widget: "list"
                 allow_add: true
-                label_singular: "Add New Image"
+                label_singular: "Image"
                 fields:
                   - label: "File"
                     name: "fileName"

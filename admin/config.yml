@@ -38,6 +38,3 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body ID", name: "bodyid", widget: "hidden", default: "about" }
           - { label: "Permalink", name: "permalink", widget: "string", default: "/about.html" }
-
-# Client ID: Ov23liR6Wu7zX9KgmcMH
-# Client Secret: c12c9bd035bd804a2615504ad9318d8bbb3a2a94

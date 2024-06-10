@@ -25,7 +25,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       # - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date Range", name: "date-range", widget: "string", default: "April 2016 &ndash; May 2017" }
+      - { label: "Date Range", name: "date-range", widget: "string", default: "April 2016 – May 2017" }
       - { label: "Show Carousel", name: "carousel", widget: "boolean" }
       - { label: "Details", name: "body", widget: "markdown", modes: ["raw", "rich_text"] }
   - name: "pages"

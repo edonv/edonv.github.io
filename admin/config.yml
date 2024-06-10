@@ -18,6 +18,7 @@ media_folder: "images/uploads"
 collections:
   - name: "works" # Used in routes, e.g., /admin/collections/works
     label: "Works" # Used in the UI
+    label_singular: "Work"
     folder: "_works" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., title.md

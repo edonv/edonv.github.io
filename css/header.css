@@ -98,11 +98,9 @@
     /*    left: calc((100% - 8px * 2) * 0.2);*/
     /*    width: calc((100% - 8px * 2) * 0.6);*/
     z-index: 1;
-    margin: 2px 0px;
     /* 24px + 8px (height plus 8px for padding) */
     /*    height: calc(1.5em + 0.5em);*/
     border: 2px solid var(--color-orange);
-    border-top: none;
     text-align: center;
     background-color: var(--color-red);
     border-radius: 0px 0px 5px 5px;

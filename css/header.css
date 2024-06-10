@@ -126,9 +126,6 @@ span + .subnav-content.clicked,
     /* This is so .subnav-content can have a width relative to its parent */
     position: relative;
 }
-.subnav > span > a:hover {
-    border-bottom: 2px solid var(--color-red);
-}
 .subnav-content > span > a {
     color: var(--color-yellow);
 }

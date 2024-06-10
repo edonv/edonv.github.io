@@ -10,8 +10,9 @@ layout: default
 </div>
 <div id="slide-side">
     <my-carousel id="crsl" class="bordered" img-dir="{{ page.img-dir }}">
-        {% assign pics = site.data.images[page.slug] | sort: "order" %}
-        {% for pic in pics %}
+        {% assign pics = site.data.images[page.slug] %}
+        {% if pics %}
+        {% for pic in pics | sort: "order" %}
             {% capture fullpath %}/images/{{ page.slug }}/{{ pic.fileName }}{% endcapture %}
             <span src="{{ fullpath }}" 
             {% if pic.desc != "" and pic.desc != nil %}
@@ -19,6 +20,7 @@ layout: default
             {% endif %}
             ></span>
         {% endfor %}
+        {% endif %}
     </my-carousel>
     
 </div>

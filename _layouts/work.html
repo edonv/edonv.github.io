@@ -8,6 +8,7 @@ layout: default
 <div id="desc-side" class="bordered">
     {{ page.content }}
 </div>
+{% if page.carousel %}
 <div id="slide-side">
     <my-carousel id="crsl" class="bordered" img-dir="{{ page.img-dir }}">
         {% assign pics = site.data.images[page.slug] %}
@@ -23,6 +24,7 @@ layout: default
         {% endif %}
     </my-carousel>
 </div>
+{% endif %}
 
 <!--images/ra/raRemote.png, images/ra/raRemoteEdit.png, images/ra/raRemoteDrag.png, images/ra/raNewRemote1.png, images/ra/raNewRemote2.png, images/ra/raNewRemote3.png-->
 <!--Remote Page, Remote Edit Page, Remote Setup Page, Remote Setup Page, Remote Setup Page, Remote Setup Page-->

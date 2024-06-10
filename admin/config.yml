@@ -27,7 +27,7 @@ collections:
       - { label: "Date Range", name: "date-range", widget: "string", default: "April 2016 &ndash; May 2017" }
       - { label: "Show Carousel", name: "carousel", widget: "boolean" }
       - { label: "Details", name: "body", widget: "markdown", modes: ["raw", "rich_text"] }
-  - name: "pages" # Used in routes, e.g., /admin/collections/works
+  - name: "pages"
     label: "Pages" # Used in the UI
     files:
       - label: "About"

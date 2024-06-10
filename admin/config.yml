@@ -38,3 +38,41 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body ID", name: "bodyid", widget: "hidden", default: "about" }
           - { label: "Permalink", name: "permalink", widget: "string", default: "/about.html" }
+  - name: "data"
+    label: "Site Data"
+    files:
+      - label: "Carousel Images"
+        name: "images"
+        file: "_data/images_new.yml"
+        fields:
+          - label: "Image Groups"
+            name: "groups"
+            widget: "list"
+            fields:
+              - label: "Associated Work"
+                name: "work"
+                widget: "relation"
+                collection: "works"
+                value_field: "{{slug}}"
+                search_fields: ["title"]
+                display_fields: ["title"]
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                allow_add: true
+                label_singular: "Add New Image"
+                fields:
+                  - label: "File"
+                    name: "fileName"
+                    widget: "image"
+                    allow_multiple: false
+                    media_folder: "/images/{{slug}}"
+                    choose_url: false
+                  - label: "Caption"
+                    name: "desc"
+                    widget: "string"
+                  - label: "Sort Order"
+                    name: "order"
+                    widget: "number"
+                    value_type: "int"
+                    min: 1

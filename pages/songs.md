@@ -1,0 +1,3 @@
+---
+permalink: /music/songs.html
+---

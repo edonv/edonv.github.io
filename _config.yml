@@ -8,6 +8,12 @@ title: Valdman Works
 collections:
   works:
     output: true
+  songs:
+    output: true
+    permalink: /music/songs/:name
+  students:
+    output: true
+    permalink: /music/students/:name
     
 defaults:
   - scope:
@@ -15,6 +21,20 @@ defaults:
       type: works
     values:
       layout: work
+  - scope:
+      path: ""
+      type: songs
+    values:
+      layout: song
+  - scope:
+      path: ""
+      type: students
+    values:
+      layout: student
+  - scope:
+      path: "music/**/*"
+    values:
+      sitemap: false
   - scope:
       path: "admin/**/*"
     values:

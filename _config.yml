@@ -14,6 +14,10 @@ collections:
   students:
     output: true
     permalink: /music/students/:name
+  chords:
+    # This is for inputting this content in student pages
+    # Can be used by saying { site.chords['C'] }
+    output: false
     
 defaults:
   - scope:

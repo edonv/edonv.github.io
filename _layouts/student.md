@@ -4,7 +4,7 @@ layout: default
 ## {{ page.name }}
 
 Data Look Up:
-{{ site.data.[page.slug] | json }}
+{{ site.data.students[page.slug] | json }}
 
 ### Songs
 

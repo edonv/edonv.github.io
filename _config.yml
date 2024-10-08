@@ -5,6 +5,7 @@
 # Name of your site (displayed in the header)
 title: Valdman Works
 
+collections_dir: collections
 collections:
   works:
     output: true

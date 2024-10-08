@@ -1,5 +1,8 @@
 ---
 name: Cayenne
 songs:
-    - perfect
+  - perfect
+chords:
+  - C
+  - Am
 ---

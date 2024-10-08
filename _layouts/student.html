@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<h2>{{ page.name }}</h2>
+
+<h3>Songs</h3>
+
+<div>
+    <ul>
+    {% for song in page.songs %}
+        <li>{{ song }}</li>
+    {% endfor %}
+    </ul>
+</div>
+
+<h3>Chords</h3>
+
+<div>
+    <ul>
+    {% for ch in page.chords %}
+        <li>{{ ch }}</li>
+    {% endfor %}
+    </ul>
+</div>

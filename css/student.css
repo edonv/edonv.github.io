@@ -15,3 +15,7 @@ div#body-wrap {
 #songs {
     grid-area: songs;
 }
+#chords,
+#songs {
+    justify-self: start;
+}

@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<h2>{{ page.name }}</h2>
+<h2 id="student-name">{{ page.name }}</h2>
 
-<h3>Chords</h3>
+<h3 style="grid-area: chords-head;">Chords</h3>
 
-<div>
+<div id="chords">
     <ul>
         {% for ch in page.chords %}
         <li>{{ ch }}</li>
@@ -13,9 +13,9 @@ layout: default
     </ul>
 </div>
 
-<h3>Songs</h3>
+<h3 style="grid-area: songs-head;">Songs</h3>
 
-<div>
+<div id="songs">
     <ul>
     {% for song in page.songs %}
         <li>{{ song }}</li>

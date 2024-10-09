@@ -1,0 +1,13 @@
+div#body-wrap {
+    display: grid;
+    grid-template-areas: "name name" "chords-head songs-head" "chords songs";
+}
+#student-name {
+    grid-area: name;
+}
+#chords {
+    grid-area: chords;
+}
+#songs {
+    grid-area: songs;
+}

@@ -16,6 +16,7 @@ layout: default
 <h3 style="grid-area: songs-head;">Songs</h3>
 
 <div id="songs">
+    {% page.songs | join: ", " %}
     <ul>
     {% for song-slug in page.songs %}
         {% assign song = site.songs[song-slug] %}

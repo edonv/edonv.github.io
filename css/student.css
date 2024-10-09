@@ -2,6 +2,9 @@ div#body-wrap {
     display: grid;
     grid-template-areas: ". name name ." ". chords-head songs-head ." ". chords songs .";
     grid-template-columns: auto repeat(2, 28%) auto;
+
+    grid-column-gap: 4px;
+    justify-items: center;
 }
 #student-name {
     grid-area: name;

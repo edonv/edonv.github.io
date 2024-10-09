@@ -18,8 +18,8 @@ layout: default
 <div id="songs">
     {{ page.songs | join: ", " }}
     <ul>
-    {% for song-slug in page.songs %}
-        {% assign song = site.songs[song-slug] %}
+    {% for songname in page.songs %}
+        {% assign song = site.songs[songname] %}
         <li><a href="{{ song.url }}">{{ song.name }} ({{ song.artist }})</a></li>
     {% endfor %}
     </ul>

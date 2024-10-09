@@ -16,7 +16,7 @@ layout: default
 <h3 style="grid-area: songs-head;">Songs</h3>
 
 <div id="songs">
-    {{ site.collections.songs }}
+    {{ site.collections.songs | map: "name" }}
     <ul>
     {% for songname in page.songs %}
         {% assign song = site.songs | where: "name", songname | first %}

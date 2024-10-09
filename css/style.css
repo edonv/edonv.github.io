@@ -37,6 +37,7 @@ html {
 }
 #body-wrap {
     grid-area: body;
+    margin: auto;
 }
 #body-wrap.standard {
     text-align: center;

@@ -11,7 +11,7 @@ body {
 div#body-wrap {
     display: grid;
     grid-template-areas: ". pic abt .";
-    grid-template-columns: 22% 2fr 1fr 22%;
+    grid-template-columns: 22% 1fr 2fr 22%;
     grid-column-gap: 4px;
 }
 #abt-wrap {

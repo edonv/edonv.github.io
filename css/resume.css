@@ -9,6 +9,7 @@ body {
 */
 div#body-wrap {
     width: 50%;
+    margin: 0 auto;
     display: grid;
     grid-template-areas: "title" "edu" "proj" "work" "skills" "courses";
     /*    grid-auto-rows: auto;*/

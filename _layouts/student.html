@@ -17,8 +17,9 @@ layout: default
 
 <div id="songs">
     <ul>
-    {% for song in page.songs %}
-        <li>{{ song }}</li>
+    {% for song-slug in page.songs %}
+        {% assign song = site.songs[song-slug] %}
+        <li><a href="{{ song.url }}">{{ song.title }} ({{ song.artist }})</a></li>
     {% endfor %}
     </ul>
 </div>

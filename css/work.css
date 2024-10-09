@@ -21,6 +21,7 @@ div#body-wrap {
     /*    margin-right: 0px;*/
     /*    width: 75%;*/
     width: 100%;
+    height: fit-content;
 }
 #desc-side p {
     margin: 0px;
@@ -31,7 +32,8 @@ div#body-wrap {
 }
 #slide-side {
     grid-area: slides;
-    display: grid;
+    display: flex;
+    justify-content: center;
 }
 #crsl {
     width: 75%;

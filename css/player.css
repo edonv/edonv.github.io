@@ -73,7 +73,6 @@ h2.songheader {
 song-box {
     /*  POSITIONING  */
     padding: 10px;
-    margin: 10px;
     /*  GRID STUFF  */
     display: grid;
     grid-template-areas: "title title title" "sub sub sub" "play bar .";

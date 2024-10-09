@@ -29,6 +29,7 @@ song-box {
     grid-template-areas: "title" ".";
     grid-auto-flow: row;
     grid-row-gap: 6px;
+    justify-items: center;
 }
 #crsl {
     width: 75%;

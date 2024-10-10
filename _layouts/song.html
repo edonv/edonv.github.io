@@ -8,7 +8,7 @@ layout: default
     const parser = new ChordSheetJS.UltimateGuitarParser();
     const chordSheet =
 `
-{{ page.content }}
+{{ content }}
 `
     .substring(1); // removes empty line at start
     const song = parser.parse(chordSheet);

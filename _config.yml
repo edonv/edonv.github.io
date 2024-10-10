@@ -12,6 +12,7 @@ collections:
   songs:
     output: true
     permalink: /music/songs/:name
+    sort_by: name
   students:
     output: true
     permalink: /music/students/:name

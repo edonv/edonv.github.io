@@ -18,11 +18,10 @@ layout: default
     songBodyDiv.innerHTML = disp;
 </script>
 
-<h2>{{ page.name }}</h2>
-<h3>{{ page.artist }}</h3>
 
+<h2>{{ page.name }} - {{ page.artist }}</h2>
 {%- if page.capo %}
-Capo {{ page.capo }}
+<h3>Capo {{ page.capo }}</h3>
 {%- endif %}
 
 <div id="song-body"></div>

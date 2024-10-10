@@ -12,6 +12,10 @@ div#body-wrap {
     font-family: 'Anonymous Pro', monospace;
 }
 
+#song-body .chord {
+    font-weight: 700;
+}
+
 #song-body .chord:not(:last-child) {
     padding-right: 10px;
 }

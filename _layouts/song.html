@@ -19,7 +19,7 @@ layout: default
     `
     {{ page.content | strip_html }}
     `
-    .substring(1); // removes empty line at start
+    .trim();
     const song = parser.parse(chordSheet);
     const formatter = new ChordSheetJS.HtmlDivFormatter();
     const disp = formatter.format(song);

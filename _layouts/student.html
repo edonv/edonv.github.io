@@ -20,7 +20,9 @@ layout: default
     <ul>
     {% for songname in page.songs %}
         {% assign song = site.songs | where: "slug", songname | first %}
+        {%- if song %}
         <li><a href="{{ song.url }}">{{ song.name }} ({{ song.artist }})</a></li>
+        {%- endif %}
     {% endfor %}
     </ul>
 </div>

@@ -1,19 +1,19 @@
-.chord:not(:last-child) {
+#song-body .chord:not(:last-child) {
     padding-right: 10px;
 }
 
-.paragraph {
+#song-body .paragraph {
     margin-bottom: 1em;
 }
 
-.row {
+#song-body .row {
     display: flex;
 }
 
-.chord:after {
+#song-body .chord:after {
     content: '\200b';
 }
 
-.lyrics:after {
+#song-body .lyrics:after {
     content: '\200b';
 }

@@ -9,11 +9,12 @@ div#body-wrap {
 
 /* Chord Sheet Styling */
 #song-body {
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
 }
 
 #song-body .chord {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #song-body .chord:not(:last-child) {

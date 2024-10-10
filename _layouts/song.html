@@ -16,9 +16,9 @@ layout: default
     // ChordSheetJS is available in global namespace now
     const parser = new ChordSheetJS.UltimateGuitarParser();
     const chordSheet =
-    `
-    {{ page.content | strip_html }}
-    `
+`
+{{ page.content | strip_html }}
+`
     .trim();
     const song = parser.parse(chordSheet);
     const formatter = new ChordSheetJS.HtmlDivFormatter();

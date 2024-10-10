@@ -3,6 +3,10 @@ div#body-wrap {
     margin: 0 auto;
 }
 
+#song-metadata {
+    text-align: center;
+}
+
 #song-body .chord:not(:last-child) {
     padding-right: 10px;
 }

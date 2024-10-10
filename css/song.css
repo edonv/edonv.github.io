@@ -1,0 +1,19 @@
+.chord:not(:last-child) {
+    padding-right: 10px;
+}
+
+.paragraph {
+    margin-bottom: 1em;
+}
+
+.row {
+    display: flex;
+}
+
+.chord:after {
+    content: '\200b';
+}
+
+.lyrics:after {
+    content: '\200b';
+}

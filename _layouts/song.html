@@ -2,6 +2,22 @@
 layout: default
 ---
 
+<script src="/js/chordSheetJS.js"></script>
+<script>
+    // ChordSheetJS is available in global namespace now
+    const parser = new ChordSheetJS.UltimateGuitarParser();
+    const chordSheet =
+`
+{{ page.content }}
+`
+    .substring(1); // removes empty line at start
+    const song = parser.parse(chordSheet);
+    const formatter = new ChordSheetJS.HtmlDivFormatter();
+    const disp = formatter.format(song);
+    const songBodyDiv = document.getElementById('song-body');
+    songBodyDiv.innerHTML = disp;
+</script>
+
 <h2>{{ page.name }}</h2>
 <h3>{{ page.artist }}</h3>
 
@@ -9,4 +25,4 @@ layout: default
 Capo {{ page.capo }}
 {%- endif %}
 
-{{ page.content }}
+<div id="song-body"></div>

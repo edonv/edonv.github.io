@@ -19,7 +19,7 @@ layout: default
     {{ site.collections.songs | map: "name" }}
     <ul>
     {% for songname in page.songs %}
-        {% assign song = site.collections.songs | where: "slug", songname | first %}
+        {% assign song = site.songs | where: "slug", songname | first %}
         <li><a href="{{ song.url }}">{{ song.name }} ({{ song.artist }})</a></li>
     {% endfor %}
     </ul>

@@ -1,3 +1,8 @@
+div#body-wrap {
+    width: 55%;
+    margin: 0 auto;
+}
+
 #song-body .chord:not(:last-child) {
     padding-right: 10px;
 }

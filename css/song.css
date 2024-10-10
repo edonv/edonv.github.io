@@ -7,6 +7,11 @@ div#body-wrap {
     text-align: center;
 }
 
+/* Chord Sheet Styling */
+#song-body {
+    font-family: 'Anonymous Pro', monospace;
+}
+
 #song-body .chord:not(:last-child) {
     padding-right: 10px;
 }

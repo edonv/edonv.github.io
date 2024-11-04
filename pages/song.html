@@ -3,27 +3,19 @@ layout: default
 permalink: /music/song.html
 ---
 
-<script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="31j9fkmv2doyno9"></script>
-
-<div id="pdf-embed"></div>
+<div>
+    <object id="pdf-embed" width="1000" height="1000" type="application/pdf"></object>
+</div>
 
 <script defer>
     const songQuery = new URL(document.URL).searchParams;
     const songFileName = encodeURIComponent(
         songQuery.get("filename")
-    ).replace(/%20/g, '+');
+    ) + '.pdf';
 
     const pdfEmbedElement = document.getElementById("pdf-embed");
     if (songFileName && pdfEmbedElement) {
-        const options = {
-            // Shared link to Dropbox file
-            link: `https://www.dropbox.com/scl/fo/nzuosc1po9nud58j5ibja/ALAi2F8zfO4zDfoimuEG3Bw?e=1&preview=${songFileName}.pdf`,
-            file: {
-                // Sets the zoom mode for embedded files. Defaults to 'best'.
-                zoom: "best" // or "fit"
-            },
-        };
-        Dropbox.embed(options, pdfEmbedElement);
+        pdfEmbedElement.setAttribute('data', `files/song_pdfs/${songFileName}`)
     }
 </script>
 

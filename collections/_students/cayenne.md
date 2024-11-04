@@ -1,8 +1,7 @@
 ---
 name: Cayenne
 songs:
-  - perfect
-  - test
+  - people watching.capo2
 chords:
   - C
   - Am

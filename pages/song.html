@@ -5,7 +5,9 @@ permalink: /music/song.html
 
 <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="31j9fkmv2doyno9"></script>
 
-<script>
+<div id="pdf-embed"></div>
+
+<script defer>
     const songQuery = new URL(document.URL).searchParams;
     const songFileName = encodeURIComponent(
         songQuery.get("filename")
@@ -25,4 +27,3 @@ permalink: /music/song.html
     }
 </script>
 
-<div id="pdf-embed"></div>

@@ -9,8 +9,7 @@ permalink: /music/song.html
     const songQuery = new URL(document.URL).searchParams;
     const songFileName = encodeURIComponent(
         songQuery.get("filename")
-            .replace(/%20/g, '+')
-    );
+    ).replace(/%20/g, '+');
 
     const pdfEmbedElement = document.getElementById("pdf-embed");
     if (songFileName && pdfEmbedElement) {

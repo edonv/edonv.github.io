@@ -1,4 +1,5 @@
 ---
+title: Songbook
 permalink: /music/songs.html
 ---
 {% for song in site.data.songs %}

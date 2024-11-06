@@ -20,7 +20,7 @@ permalink: /music/song.html
     const pdfEmbedElement = document.getElementById("pdf-embed");
     const pdfNotFoundElement = document.getElementById("pdf-not-found-msg");
     if (songFileName) {
-        pdfEmbedElement.setAttribute('data', `/files/song_pdfs/${songFileName}`)
+        pdfEmbedElement.setAttribute('data', `/files/song_pdfs/${songFileName}`);
     } else {
         pdfEmbedElement.style.display = 'none';
         pdfNotFoundElement.style.display = 'unset';

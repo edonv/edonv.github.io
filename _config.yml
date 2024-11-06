@@ -9,10 +9,10 @@ collections_dir: collections
 collections:
   works:
     output: true
-  songs:
-    output: true
-    permalink: /music/songs/:name
-    sort_by: name
+  # songs:
+  #   output: true
+  #   permalink: /music/songs/:name
+  #   sort_by: name
   students:
     output: true
     permalink: /music/students/:name

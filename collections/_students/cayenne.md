@@ -1,7 +1,7 @@
 ---
 name: Cayenne
 songs:
-  - people watching.capo2
+  - people watching
 chords:
   - C
   - Am

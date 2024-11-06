@@ -33,10 +33,22 @@ permalink: /music/song.html
     function shouldIncludeTypeAttr() {
         return browser != "Safari";
     }
+
+    /**
+     * @param {string|null} fileName
+     * @returns {string|null}
+     */
+    function encodeSongFileName(fileName) {
+        if (fileName) {
+            return encodeURIComponent(fileName);
+        } else {
+            return null;
+        }
+    }
 </script>
 <script defer>
     const songQuery = new URL(document.URL).searchParams;
-    const songFileName = encodeURIComponent(
+    const songFileName = encodeSongFileName(
         songQuery.get("filename")
     );
 

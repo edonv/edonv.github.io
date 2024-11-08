@@ -1,5 +1,20 @@
 [
   {
+    "name": "American Pie",
+    "artist": "Don Mclean",
+    "fileName": "american pie"
+  },
+  {
+    "name": "Every Time I Look At You",
+    "artist": "Cory Wong",
+    "fileName": "every time i look at you"
+  },
+  {
+    "name": "I Don't Want To Be A Billionaire",
+    "artist": "Theo Katzman",
+    "fileName": "i dont want to be a billionaire"
+  },
+  {
     "name": "Mitachat Lashamayim",
     "artist": "David Broza",
     "fileName": "mitachat lashamayim"
@@ -8,5 +23,15 @@
     "name": "People Watching",
     "artist": "Jack Johnson",
     "fileName": "people watching"
+  },
+  {
+    "name": "Perfect",
+    "artist": "Ed Sheeran",
+    "fileName": "perfect"
+  },
+  {
+    "name": "Treehouse",
+    "artist": "Cory Wong",
+    "fileName": "treehouse"
   }
 ]

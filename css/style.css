@@ -56,34 +56,34 @@ h3 {
     color: var(--color-black);
     margin: 0px;
 }
-a.styled {
+a {
     color: var(--color-red);
     fill: var(--color-red);
     background: transparent;
     /*    transition: background 1s color 1s;*/
 }
-a.styled:hover {
+a:hover {
     background: var(--color-red);
     color: var(--color-yellow);
     fill: var(--color-yellow);
 }
-a.styled:visited:hover {
+a:visited:hover {
     background: var(--color-darkred);
     color: var(--color-yellow);
     fill: var(--color-yellow);
 }
-a.styled:visited {
+a:visited {
     background: transparent;
     color: var(--color-darkred);
     fill: var(--color-darkred);
 }
 @media screen and (min-width: 600px) {
-    a.styled:focus {
+    a:focus {
         background: var(--color-red);
         color: var(--color-yellow);
         fill: var(--color-yellow);
     }
-    a.styled:focus:hover {
+    a:focus:hover {
         background: var(--color-darkred);
         color: var(--color-yellow);
         fill: var(--color-yellow);

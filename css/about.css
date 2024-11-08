@@ -21,7 +21,6 @@ div#body-wrap {
 #abt-wrap p {
     margin: 0px;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
     font-size: 1.125rem;
     color: var(--color-black);
 }

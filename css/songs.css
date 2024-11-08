@@ -10,3 +10,13 @@
 #body-wrap h2 {
     text-align: center;
 }
+
+#body-wrap ul {
+    /* Less left padding */
+    padding-inline-start: 20px;
+    list-style-type: "\2192";
+}
+
+#body-wrap ul li {
+    padding-left: 8px;
+}

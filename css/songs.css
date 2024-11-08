@@ -1,0 +1,10 @@
+/* Styling for page listing all songs in songbook */
+
+#body-wrap {
+    width: max(50%, 500px);
+    margin: 0 auto;
+}
+
+#body-wrap h2 {
+    text-align: center;
+}

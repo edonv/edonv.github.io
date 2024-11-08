@@ -3,6 +3,8 @@
 #body-wrap {
     width: max(50%, 500px);
     margin: 0 auto;
+
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #body-wrap h2 {

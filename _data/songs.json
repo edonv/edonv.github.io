@@ -1,7 +1,7 @@
 [
   {
     "name": "American Pie",
-    "artist": "Don Mclean",
+    "artist": "Don McLean",
     "fileName": "american pie"
   },
   {
@@ -28,6 +28,11 @@
     "name": "Perfect",
     "artist": "Ed Sheeran",
     "fileName": "perfect"
+  },
+  {
+    "name": "Stargazing",
+    "artist": "Myles Smith",
+    "fileName": "stargazing"
   },
   {
     "name": "Treehouse",

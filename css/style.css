@@ -104,3 +104,14 @@ a:visited {
     -ms-user-select: none;
     user-select: none;
 }
+
+/* styling for `songlist.html` include */
+ul.songlist {
+    font-family: 'Josefin Sans', sans-serif;
+
+    padding-inline-start: 20px;
+    list-style-type: '\2192';
+}
+ul.songlist li {
+    padding-left: 8px;
+}

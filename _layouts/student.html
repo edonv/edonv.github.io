@@ -21,8 +21,7 @@ layout: default
     {%- for songname in page.songs %}
         {%- assign song = site.data.songs | where: "fileName", songname | first %}
         {%- if song %}
-            {%- assign song_single_array = song | sort %}
-            {%- assign songs = songs | concat: song_single_array %}
+            {%- assign songs = songs | push: song %}
         {%- endif %}
     {%- endfor %}
     {% include songlist.html songs=songs %}

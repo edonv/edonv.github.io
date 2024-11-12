@@ -1,0 +1,7 @@
+<!-- Input parameter `songs` is array in the format of `_data/songs.json` -->
+{%- assign songs = include.songs | sort: "name" %}
+<ul>
+{%-for song in songs %}
+<li><a href="{{ site.url }}/music/song?filename={{ song.fileName | url_encode }}">{{ song.name }} &ndash; {{ song.artist }}</a></li>
+{%- endfor %}
+</ul>

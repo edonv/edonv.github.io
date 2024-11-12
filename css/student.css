@@ -19,4 +19,5 @@ div#body-wrap {
 #songs {
     justify-self: start;
     width: 100%;
+    margin: 1em 0px;
 }

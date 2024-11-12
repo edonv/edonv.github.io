@@ -18,4 +18,5 @@ div#body-wrap {
 #chords,
 #songs {
     justify-self: start;
+    width: 100%;
 }

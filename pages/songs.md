@@ -2,7 +2,6 @@
 layout: default
 title: Songbook
 permalink: /music/songs.html
-body-classes: bordered
 ---
 ## Songbook
 

@@ -16,13 +16,14 @@ layout: default
 <h3 style="grid-area: songs-head;">Songs</h3>
 
 <div id="songs">
-    {{ site.collections.songs | map: "name" }}
-    <ul>
-    {% for songname in page.songs %}
-        {% assign song = site.data.songs | where: "fileName", songname | first %}
+    {%- assign songs = null | sort %}
+    
+    {%- for songname in page.songs %}
+        {%- assign song = site.data.songs | where: "fileName", songname | first %}
         {%- if song %}
-        <li><a href="{{ site.url }}/music/song?filename={{ song.fileName | url_encode }}">{{ song.name }} ({{ song.artist }})</a></li>
+            {%- assign song_single_array = song | sort %}
+            {%- assign songs = songs | concat: song_single_array %}
         {%- endif %}
-    {% endfor %}
-    </ul>
+    {%- endfor %}
+    {% include songlist.html songs=songs %}
 </div>

@@ -68,8 +68,16 @@ function formatGrids() {
         grid.classList.add('grid-wrap');
         const gridLines = gridContent.split("<br>");
 
+        /**
+         * This is to track which lines have leading text.
+         * 
+         * If this isn't empty, any lines that don't have leading text need to have an empty cell added so the table lines up.
+         * @type {Set<number>} 
+         */
+        let gridLinesWithLeadingText = new Set();
+
         // Map each line to a `tr` element
-        const gridLineRows = gridLines.map(line => {
+        const gridLineRows = gridLines.map((line, lineNumber) => {
             let trimmedLine = line;
 
             const lineWrapper = document.createElement('tr');
@@ -80,6 +88,8 @@ function formatGrids() {
                 .exec(trimmedLine)
                 .at(1)?.trim();
             if (leadingText) {
+                gridLinesWithLeadingText.add(lineNumber);
+
                 trimmedLine = trimmedLine
                     .replace(leadingText, '')
                     .trim();
@@ -148,6 +158,16 @@ function formatGrids() {
 
             return lineWrapper;
         });
+
+        // If any lines have leading text, add empty leading cells to other rows
+        if (gridLinesWithLeadingText.size > 0) {
+            for (let i = 0; i < gridLineRows.length; i++) {
+                if (!gridLinesWithLeadingText.has(i)) {
+                    // gridLineRows[i].insertCell(0);
+                    gridLineRows[i].insertBefore(createGridMarginElement(''), gridLineRows[i].cells.item(0));
+                }
+            }
+        }
 
         const tableBody = document.createElement('tbody');
         tableBody.append(...gridLineRows);

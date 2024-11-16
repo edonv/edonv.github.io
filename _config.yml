@@ -32,6 +32,7 @@ defaults:
       type: songs
     values:
       layout: song
+      # render_with_liquid: false
   - scope:
       path: ""
       type: students

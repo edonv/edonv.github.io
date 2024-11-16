@@ -56,6 +56,8 @@ function formatGrids() {
      * | E/B Cº7 . C#m7 . B | A A#º7 . B7 . . | B7 . |
      */
     const gridElements = document.querySelectorAll('#song-body .grid div.literal');
+
+    // Process each grid separately
     gridElements.forEach(grid => {
         const gridContent = grid.innerHTML;
         if (!gridContent) {
@@ -66,7 +68,8 @@ function formatGrids() {
         grid.classList.add('grid-wrap');
         const gridLines = gridContent.split("<br>");
 
-        const gridLinesDivs = gridLines.map(line => {
+        // Map each line to a `tr` element
+        const gridLineRows = gridLines.map(line => {
             let trimmedLine = line;
 
             const lineWrapper = document.createElement('tr');
@@ -107,8 +110,11 @@ function formatGrids() {
                 .split(barlineRegex)
                 .filter(bar => bar && !bar.includes("|"));
 
+            // Map each measure to an array of `td` elements
             const allRowCellsByMeasure = measures.map(bar => {
                 const cells = bar.trim().split(' ');
+
+                // Map each cell to a `td` element
                 const cellElements = cells.map(c => {
                     const gridCell = document.createElement('td');
                     gridCell.classList.add('grid-cell');
@@ -150,7 +156,7 @@ function formatGrids() {
         });
 
         const tableBody = document.createElement('tbody');
-        tableBody.append(...gridLinesDivs);
+        tableBody.append(...gridLineRows);
 
         grid.innerHTML = '';
         grid.append(tableBody);

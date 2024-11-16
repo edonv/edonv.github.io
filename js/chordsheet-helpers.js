@@ -84,10 +84,10 @@ function formatGrids() {
                     .replace(leadingText, '')
                     .trim();
 
-                const leadingTextSpan = document.createElement('td');
-                leadingTextSpan.classList.add('grid-margin-text');
-                leadingTextSpan.innerText = leadingText;
-                lineWrapper.append(leadingTextSpan);
+                const leadingTextCell = document.createElement('td');
+                leadingTextCell.classList.add('grid-margin-text');
+                leadingTextCell.innerText = leadingText;
+                lineWrapper.append(leadingTextCell);
             }
 
             const trailingText = /(?:.+)\|(.*?)$/g
@@ -146,10 +146,10 @@ function formatGrids() {
             }
 
             if (trailingText) {
-                const trailingTextSpan = document.createElement('td');
-                trailingTextSpan.classList.add('grid-margin-text');
-                trailingTextSpan.innerText = trailingText;
-                lineWrapper.append(trailingTextSpan);
+                const trailingTextCell = document.createElement('td');
+                trailingTextCell.classList.add('grid-margin-text');
+                trailingTextCell.innerText = trailingText;
+                lineWrapper.append(trailingTextCell);
             }
 
             return lineWrapper;

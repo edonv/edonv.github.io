@@ -163,7 +163,6 @@ function formatGrids() {
         if (gridLinesWithLeadingText.size > 0) {
             for (let i = 0; i < gridLineRows.length; i++) {
                 if (!gridLinesWithLeadingText.has(i)) {
-                    // gridLineRows[i].insertCell(0);
                     gridLineRows[i].insertBefore(createGridMarginElement(''), gridLineRows[i].cells.item(0));
                 }
             }

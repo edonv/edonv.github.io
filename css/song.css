@@ -3,36 +3,121 @@ div#body-wrap {
     margin: 0 auto;
 }
 
+/* MARK: Chord Sheet Styling */
+
+#song-body {
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 300; */
+}
+
+.chord,
+.column:has(.chord) ~ .column .annotation {
+    /* font-weight: 600; */
+    font-weight: bold;
+    font-style: italic;
+}
+
 #song-metadata {
     text-align: center;
 }
 
-/* Chord Sheet Styling */
-#song-body {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
+/* Songline <table> (content in sections that aren't grids or tabs) */
+/* #song-body .paragraph table {
+    border-collapse: collapse;
+} */
+
+/* Removes default padding from all cells (around blocks of lyrics and chords) */
+/* #song-body .paragraph table tr > td {
+    padding: 0;
+} */
+
+/* MARK: Chord Sheet Layout */
+
+#song-body .row {
+    display: flex;
 }
 
-#song-body .chord {
-    font-weight: 600;
-}
-
-#song-body .chord:not(:last-child) {
-    padding-right: 10px;
+#song-body .label {
+    margin: 0;
 }
 
 #song-body .paragraph {
     margin-bottom: 1em;
 }
 
-#song-body .row {
-    display: flex;
-}
-
-#song-body .chord:after {
-    content: '\200b';
-}
-
+/* Adds a zero-width space after all empty .chord elements and all .lyrics elements. */
+/* Ensures that empty .chords elements still take up space, and that all .lyrics elements show any whitespace at the end of its content (regular space). */
+#song-body .chord:empty:after,
 #song-body .lyrics:after {
     content: '\200b';
+}
+
+#song-body .grid .row {
+    flex-direction: column;
+}
+
+/* MARK: Specific Elements */
+
+/* Ensures space after chords followed immediately by another chord that aren't the last in the line */
+#song-body .paragraph:has(.column .chord) .column:not(:last-child):has(+ .column :is(.chord, .annotation):not(:empty)) :is(.chord, .annotation):not(:empty) {
+    padding-right: 0.5ch;
+}
+
+/* For all chunks with a chord that is followed by a no-chord chunk, ensure that the chord itself is allowed to hang over the end of its chunk if it's longer than the lyrics below it. */
+#song-body .paragraph .column:is(:has(.chord):has(.lyrics):has(+ .column .chord:first-child:empty)) {
+    /* Flexbox */
+    display: flex;
+    /* Reverse the order so the lyrics is the prioritized child element */
+    flex-direction: column-reverse;
+    /* This allows the children to use `absolute` and stay inside this element */
+    position: relative;
+    /* Ensures it takes up some space if the `lyrics` element is actually empty */
+    /* min-width: 0.5ch; */
+
+    /* Forcefully shorten the width of a column when it has a chord that is placed above whitespace (empty lyrics) */
+    &:has(.lyrics:empty) {
+        width: 1.5ch;
+    }
+
+    .chord {
+        /* Force the position of the element to be absolutely the top edge of its parent */
+        position: absolute;
+        /* Same as `top` but supports right-to-left */
+        inset-block-start: 0;
+    }
+}
+
+/* MARK: Grids */
+
+.grid-margin-text {
+    font-style: italic;
+}
+
+.grid-barline {
+    font-weight: bold;
+    display: none;
+}
+
+.grid-wrap {
+    display: table;
+    border-collapse: collapse;
+    border: 1px solid blue;
+}
+
+.grid-line {
+    display: table-row;
+    /* display: flex; */
+    /* gap: 0.5em; */
+}
+
+/* .grid-barline, */
+.grid-cell {
+    display: table-cell;
+}
+
+.grid-measure {
+    /* display: grid;
+    gap: 0.5em;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr; */
 }

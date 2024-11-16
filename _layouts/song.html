@@ -2,27 +2,25 @@
 layout: default
 ---
 
-<div id="song-metadata">
+<!-- should have front-matter saying if one or 2 columns -->
+<script src="../js/chordsheet.js"></script>
+<script src="../js/chordsheet-helpers.js"></script>
+
+<div id="song-body">
+
+</div>
+
+<script>
+    // const fileName = {{ page.slug }};
+    const chordPro = {{ content }};
+    insertSong(chordSheet);
+</script>
+
+
+<!-- <div id="song-metadata">
 <h2>{{ page.name }} - {{ page.artist }}</h2>
 {%- if page.capo %}
 <h3>Capo {{ page.capo }}</h3>
 {%- endif %}
 </div>
 
-<div id="song-body"></div>
-
-<script src="/js/chordSheetJS.js"></script>
-<script defer>
-    // ChordSheetJS is available in global namespace now
-    const parser = new ChordSheetJS.UltimateGuitarParser();
-    const chordSheet =
-`
-{{ page.content | strip_html }}
-`
-    .trim();
-    const song = parser.parse(chordSheet);
-    const formatter = new ChordSheetJS.HtmlDivFormatter();
-    const disp = formatter.format(song);
-    const songBodyDiv = document.getElementById('song-body');
-    songBodyDiv.innerHTML = disp;
-</script>

@@ -14,7 +14,7 @@
 {start_of_verse: label="Verse 1"}
 [E]Something about you, and [A]something about [F#m7]me
 [E]Living in a treetop town, [A]out of the [F#m7]city
-[E]Never mind the preachers, who [A]get up in that [F#7]game
+[E]Never mind the preachers, who [A]get up in that [F#7]game
 [E]I've been thinking lately that it's [A]only in the [F#m7]name of
 {end_of_verse}
 

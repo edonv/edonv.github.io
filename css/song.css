@@ -89,35 +89,50 @@ div#body-wrap {
 
 /* MARK: Grids */
 
-.grid-margin-text {
-    font-style: italic;
-}
-
-.grid-barline {
-    font-weight: bold;
-    display: none;
-}
-
 .grid-wrap {
+    /* Layout */
     display: table;
     border-collapse: collapse;
-    border: 1px solid blue;
-}
 
-.grid-line {
-    display: table-row;
-    /* display: flex; */
-    /* gap: 0.5em; */
-}
+    /* Keep the table from stretching to fill the horizontal space. Instead, shrink to exact content size */
+    width: fit-content;
 
-/* .grid-barline, */
-.grid-cell {
-    display: table-cell;
-}
+    /* Fonts */
+    .grid-margin-text {
+        /* Italicize all grid margin text */
+        font-style: italic;
+    }
 
-.grid-measure {
-    /* display: grid;
-    gap: 0.5em;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr; */
+    .grid-barline {
+        /* Bold all barlines */
+        font-weight: bold;
+    }
+
+    td {
+        /* Override default cell padding for all cells to `0` */
+        /* This will be overridden further for chord/empty cells */
+        padding: 0;
+
+        /* All empty cells (ChordPro `.`) */
+        &.grid-cell:empty {
+            /* Should take up at least *this* much space */
+            min-width: 1em;
+        }
+
+        &.grid-cell {
+            /* Add horizontal padding to all grid cells (both chord and empty spacing cells) */
+            padding: 0 0.5em;
+        }
+
+        /* Add space between grid and any leading/trailing grid margin text */
+        &.grid-margin-text {
+            &:first-of-type {
+                padding-inline-end: 0.5em;
+            }
+
+            &:last-of-type {
+                padding-inline-start: 0.5em;
+            }
+        }
+    }
 }

@@ -62,13 +62,14 @@ function formatGrids() {
             return;
         }
 
+        // this will have `display: table` styling to act as a `table`
         grid.classList.add('grid-wrap');
         const gridLines = gridContent.split("<br>");
 
         const gridLinesDivs = gridLines.map(line => {
             let trimmedLine = line;
 
-            const lineWrapper = document.createElement('div');
+            const lineWrapper = document.createElement('tr');
             lineWrapper.classList.add('grid-line');
 
             // Extract any lead or trailing text
@@ -80,7 +81,7 @@ function formatGrids() {
                     .replace(leadingText, '')
                     .trim();
 
-                const leadingTextSpan = document.createElement('span');
+                const leadingTextSpan = document.createElement('td');
                 leadingTextSpan.classList.add('grid-margin-text');
                 leadingTextSpan.innerText = leadingText;
                 lineWrapper.append(leadingTextSpan);
@@ -106,10 +107,10 @@ function formatGrids() {
                 .split(barlineRegex)
                 .filter(bar => bar && !bar.includes("|"));
 
-            const measureSpans = measures.map(bar => {
+            const allRowCellsByMeasure = measures.map(bar => {
                 const cells = bar.trim().split(' ');
                 const cellElements = cells.map(c => {
-                    const gridCell = document.createElement('span');
+                    const gridCell = document.createElement('td');
                     gridCell.classList.add('grid-cell');
                     if (c == '.') {
                         // empty spacer cell
@@ -122,26 +123,23 @@ function formatGrids() {
                     return gridCell;
                 });
 
-                const barSpan = document.createElement('span');
-                barSpan.classList.add('grid-measure');
-                barSpan.append(...cellElements);
-                return barSpan;
+                return cellElements;
             });
             
             // Interleave barlines with measures
             for (let i = 0; i < barlines.length; i++) {
-                const barlineSpan = document.createElement('span');
+                const barlineSpan = document.createElement('td');
                 barlineSpan.classList.add('grid-barline');
                 barlineSpan.innerText = barlines[i];
 
                 lineWrapper.append(barlineSpan);
-                if (i < measureSpans.length) {
-                    lineWrapper.append(measureSpans[i]);
+                if (i < allRowCellsByMeasure.length) {
+                    lineWrapper.append(...allRowCellsByMeasure[i]);
                 }
             }
 
             if (trailingText) {
-                const trailingTextSpan = document.createElement('span');
+                const trailingTextSpan = document.createElement('td');
                 trailingTextSpan.classList.add('grid-margin-text');
                 trailingTextSpan.innerText = trailingText;
                 lineWrapper.append(trailingTextSpan);
@@ -150,7 +148,10 @@ function formatGrids() {
             return lineWrapper;
         });
 
+        const tableBody = document.createElement('tbody');
+        tableBody.append(...gridLinesDivs);
+
         grid.innerHTML = '';
-        grid.append(...gridLinesDivs);
+        grid.append(tableBody);
     });
 }

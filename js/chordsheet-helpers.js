@@ -134,6 +134,7 @@ function formatGrids() {
 
                 lineWrapper.append(barlineSpan);
                 if (i < allRowCellsByMeasure.length) {
+                    // Add all cells between barlines as inline elements, not wrapped themselves
                     lineWrapper.append(...allRowCellsByMeasure[i]);
                 }
             }

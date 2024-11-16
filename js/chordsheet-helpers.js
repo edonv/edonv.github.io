@@ -84,10 +84,7 @@ function formatGrids() {
                     .replace(leadingText, '')
                     .trim();
 
-                const leadingTextCell = document.createElement('td');
-                leadingTextCell.classList.add('grid-margin-text');
-                leadingTextCell.innerText = leadingText;
-                lineWrapper.append(leadingTextCell);
+                lineWrapper.append(createGridMarginElement(leadingText));
             }
 
             const trailingText = /(?:.+)\|(.*?)$/g
@@ -146,10 +143,7 @@ function formatGrids() {
             }
 
             if (trailingText) {
-                const trailingTextCell = document.createElement('td');
-                trailingTextCell.classList.add('grid-margin-text');
-                trailingTextCell.innerText = trailingText;
-                lineWrapper.append(trailingTextCell);
+                lineWrapper.append(createGridMarginElement(trailingText));
             }
 
             return lineWrapper;
@@ -161,4 +155,15 @@ function formatGrids() {
         grid.innerHTML = '';
         grid.append(tableBody);
     });
+}
+
+/**
+ * @param {string} text 
+ * @returns {HTMLTableCellElement}
+ */
+function createGridMarginElement(text) {
+    const cell = document.createElement('td');
+    cell.classList.add('grid-margin-text');
+    cell.innerText = text;
+    return cell;
 }

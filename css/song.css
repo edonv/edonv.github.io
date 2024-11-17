@@ -12,6 +12,8 @@ div#body-wrap {
 }
 
 #song-body .song-metadata {
+    padding-block-end: 0.5em;
+
     * {
         font-family: 'Roboto Serif', sans-serif;
         text-align: center;

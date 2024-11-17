@@ -208,12 +208,14 @@ function addSongMetadataHeader(song) {
 
     /** @type {Element} */
     const songTitleCopy = songTitleH1.cloneNode(true);
+    songTitleCopy.classList.add('song-title');
     const capo = song.getMetadata('capo');
     if (capo && capo > 0) {
         songTitleCopy.textContent = `${songTitleCopy.textContent} (Capo: ${capo})`;
     }
 
     const artistsSubtitle = document.createElement('h2');
+    artistsSubtitle.classList.add('song-subtitle');
     const artists = song.getMetadata('artist');
     if (artists) {
         artistsSubtitle.textContent = `${[...artists].join(', ')}`;

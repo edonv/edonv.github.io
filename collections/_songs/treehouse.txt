@@ -1,6 +1,6 @@
 ---
 ---
-{%- raw %}
+{% raw %}
 {title: Treehouse}
 {artist: Cory Wong}
 {artist: Phoebe Katis}
@@ -87,4 +87,4 @@ Come [A]true [A/B]up in my [*(E)]treehouse
 {start_of_grid: label="Outro"}
 |: E . | A F#m7 . :|
 {end_of_grid}
-{%- endraw %}
+{% endraw %}

@@ -18,7 +18,12 @@ div#body-wrap {
         text-align: center;
     }
 
-    h2 {
+    .song-title {
+        font-size: 1.75em;
+    }
+
+    .song-subtitle {
+        font-size: 1.25em;
         font-weight: normal;
     }
 }

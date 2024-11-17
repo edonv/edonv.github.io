@@ -222,7 +222,11 @@ function addSongMetadataHeader(song) {
     artistsSubtitle.classList.add('song-subtitle');
     const artists = song.getMetadata('artist');
     if (artists) {
-        artistsSubtitle.textContent = `${[...artists].join(', ')}`;
+        if (typeof artists == 'string') {
+            artistsSubtitle.textContent = artists;
+        } else {
+            artistsSubtitle.textContent = `${[...artists].join(', ')}`;
+        }
     }
 
     metadataHeaderDiv.append(songTitleCopy, artistsSubtitle);

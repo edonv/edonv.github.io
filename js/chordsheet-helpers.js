@@ -14,6 +14,10 @@ function insertSong(songContent) {
     });
     const disp = formatter.format(song);
     const songBody = document.getElementById('song-body');
+    if (!songBody) {
+        return;
+    }
+
     songBody.insertAdjacentHTML('beforeend', disp);
 
     // Remove extra trailing commas from ends of some lines

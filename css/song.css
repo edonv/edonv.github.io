@@ -47,6 +47,16 @@ div#body-wrap {
 
 /* MARK: Chord Sheet Layout */
 
+#song-body {
+    position: relative;
+
+    .download {
+        position: absolute;
+        inset-block-start: 4px;
+        inset-inline-end: 4px;
+    }
+}
+
 #song-body .row {
     display: flex;
 }

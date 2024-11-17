@@ -22,6 +22,9 @@ function insertSong(songContent) {
     // Traverse all `grids` after adding HTML to adjust layouts to add styling
     formatGrids();
 
+    // Add other metadata like capo and artist(s)
+    addSongMetadataHeader(song);
+
     // Add additional styling to misc sections
     addMiscStyling();
 }
@@ -188,6 +191,37 @@ function createGridMarginElement(text) {
     cell.classList.add('grid-margin-text');
     cell.innerText = text;
     return cell;
+}
+
+/**
+ * Add other metadata like capo and artist(s).
+ */
+function addSongMetadataHeader(song) {
+    const songBody = document.getElementById('song-body');
+    const songTitleH1 = document.querySelector('#song-body h1');
+    if (!songBody || !songTitleH1) {
+        return;
+    }
+
+    const metadataHeaderDiv = document.createElement('div');
+    metadataHeaderDiv.classList.add('song-metadata');
+
+    /** @type {Element} */
+    const songTitleCopy = songTitleH1.cloneNode(true);
+    const capo = song.getMetadata('capo');
+    if (capo && capo > 0) {
+        songTitleCopy.textContent = `${songTitleCopy.textContent} (Capo: ${capo})`;
+    }
+
+    const artistsSubtitle = document.createElement('h2');
+    const artists = song.getMetadata('artist');
+    if (artists) {
+        artistsSubtitle.textContent = `${[...artists].join(', ')}`;
+    }
+
+    metadataHeaderDiv.append(songTitleCopy, artistsSubtitle);
+    songBody.insertBefore(metadataHeaderDiv, songTitleH1);
+    songBody.removeChild(songTitleH1);
 }
 
 function addMiscStyling() {

@@ -59,6 +59,11 @@ div#body-wrap {
         inset-block-start: 4px;
         inset-inline-end: 4px;
     }
+    
+    .chord-sheet {
+        width: fit-content;
+        padding: 0 auto;
+    }
 }
 
 #song-body .row {

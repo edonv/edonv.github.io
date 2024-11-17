@@ -71,7 +71,8 @@ div#body-wrap {
     margin-block-end: 0.125em;
 }
 
-#song-body .paragraph {
+/* Spacing after all sections (except for the last one) */
+#song-body .paragraph:not(:last-of-type) {
     margin-block-end: 0.5em;
 }
 

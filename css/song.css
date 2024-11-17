@@ -39,10 +39,11 @@ div#body-wrap {
 
 #song-body .label {
     margin: 0;
+    margin-block-end: 0.25em;
 }
 
 #song-body .paragraph {
-    margin-bottom: 1em;
+    margin-block-end: 0.5em;
 }
 
 /* Adds a zero-width space after all empty .chord elements and all .lyrics elements. */

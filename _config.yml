@@ -47,6 +47,9 @@ defaults:
     values:
       sitemap: false
 
+# This should stop Jekyll from trying to generate excerpts from the first paragraph of each page.
+excerpt_separator: ""
+
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 

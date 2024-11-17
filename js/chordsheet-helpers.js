@@ -214,7 +214,7 @@ function addSongMetadataHeader(song) {
     const songTitleCopy = songTitleH1.cloneNode(true);
     songTitleCopy.classList.add('song-title');
     const capo = song.getMetadata('capo');
-    if (capo && capo > 0) {
+    if (parseInt(capo) && parseInt(capo) > 0) {
         songTitleCopy.textContent = `${songTitleCopy.textContent} (Capo: ${capo})`;
     }
 

@@ -21,6 +21,9 @@ function insertSong(songContent) {
 
     // Traverse all `grids` after adding HTML to adjust layouts to add styling
     formatGrids();
+
+    // Add additional styling to misc sections
+    addMiscStyling();
 }
 
 /**
@@ -185,4 +188,12 @@ function createGridMarginElement(text) {
     cell.classList.add('grid-margin-text');
     cell.innerText = text;
     return cell;
+}
+
+function addMiscStyling() {
+    // Added `bordered` class to `.chord-sheet`
+    const chordSheet = document.querySelector('#song-body .chord-sheet');
+    if (chordSheet) {
+        chordSheet.classList.add('bordered');
+    }
 }

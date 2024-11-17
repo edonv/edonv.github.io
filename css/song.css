@@ -84,8 +84,7 @@ div#body-wrap {
 
 /* Adds a zero-width space after all empty .chord elements and all .lyrics elements. */
 /* Ensures that empty .chords elements still take up space, and that all .lyrics elements show any whitespace at the end of its content (regular space). */
-#song-body .chord:empty:after,
-#song-body .lyrics:after {
+#song-body :is(:is(.chord, .annotation):empty, .lyrics):after {
     content: '\200b';
 }
 

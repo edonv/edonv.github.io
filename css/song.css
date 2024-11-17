@@ -11,6 +11,17 @@ div#body-wrap {
     /* font-weight: 300; */
 }
 
+#song-body .song-metadata {
+    * {
+        font-family: 'Roboto Serif', sans-serif;
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: normal;
+    }
+}
+
 .chord,
 .column:has(.chord) ~ .column .annotation {
     /* font-weight: 600; */

@@ -11,17 +11,17 @@
 <script src="/js/modernizer.js"></script>
 
 <!-- CSS -->
-{% if page.collection == nil %}
-    {% assign cssname = page.name | split: "." %}
-    <link rel="stylesheet" href="/css/{{ cssname[0] }}.css" />
-{% else %}
-    <link rel="stylesheet" href="/css/{{ page.layout }}.css" />
-{% endif %}
-
 <link rel="stylesheet" href="/css/style.css" />
 <link rel="stylesheet" href="/css/header.css" />
 <link rel="stylesheet" href="/css/footer.css" />
 <link rel="stylesheet" href="/css/icons.css" />
+{%- if page.collection == nil %}
+{%- assign cssname = page.name | split: "." %}
+<link rel="stylesheet" href="/css/{{ cssname[0] }}.css" />
+{%- else %}
+<link rel="stylesheet" href="/css/{{ page.layout }}.css" />
+{%- endif %}
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&Roboto+Mono:wght@300;600&family=Catamaran:wght@500&family=Josefin+Sans:wght@300;400&family=Montserrat+Alternates:ital,wght@0,400;0,500;0,700;1,600&family=Open+Sans&display=swap" rel="stylesheet">

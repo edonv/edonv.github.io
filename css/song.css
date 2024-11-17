@@ -62,7 +62,7 @@ div#body-wrap {
     
     .chord-sheet {
         width: fit-content;
-        padding: 0 auto;
+        margin: 0 auto;
     }
 }
 

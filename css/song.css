@@ -8,7 +8,6 @@ div#body-wrap {
 #song-body * {
     font-family: 'Roboto', sans-serif;
     color: black;
-    /* font-weight: 300; */
 }
 
 #song-body .song-metadata {

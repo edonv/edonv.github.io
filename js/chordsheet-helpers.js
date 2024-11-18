@@ -1,3 +1,6 @@
+/** @typedef {'tab'|'abc'|'ly'|'grid'} ContentType */
+/** @typedef {(_string: string) => string} Delegate */
+
 /**
  * Adds song to page, specifically to `div#song-body` element.
  * @param {string} songContent 

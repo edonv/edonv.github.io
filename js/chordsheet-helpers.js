@@ -21,6 +21,7 @@ function insertSong(songContent) {
             },
         }
     });
+    /** @type {string} */
     let disp = formatter.format(song);
     const songBody = document.getElementById('song-body');
     if (!songBody) {

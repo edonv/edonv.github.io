@@ -209,7 +209,6 @@ function formatGrids() {
     // Process each grid separately
     gridElements.forEach(grid => {
         grid.classList.add('grid-wrap');
-
     });
 }
 

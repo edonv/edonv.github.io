@@ -204,7 +204,7 @@ function changeGridDivsToTables(htmlString) {
  */
 function formatGrids() {
     // this will have `display: table` styling to act as a `table`
-    const gridElements = document.querySelectorAll('#song-body .grid div.literal');
+    const gridElements = document.querySelectorAll('#song-body .grid .literal');
 
     // Process each grid separately
     gridElements.forEach(grid => {

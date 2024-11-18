@@ -53,17 +53,14 @@ div#body-wrap {
 
 #song-body {
     position: relative;
+    width: fit-content;
+    min-width: 75%;
+    margin: 0 auto;
 
     .download {
         position: absolute;
         inset-block-start: 4px;
         inset-inline-end: 4px;
-    }
-    
-    .chord-sheet {
-        width: fit-content;
-        min-width: 75%;
-        margin: 0 auto;
     }
 }
 

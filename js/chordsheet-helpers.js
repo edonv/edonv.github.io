@@ -28,6 +28,11 @@ function insertSong(songContent) {
         return;
     }
 
+    // Due to weird rendering issue, must manually change grid wrapper from <div> to <table> before inserting HTML
+    // Otherwise, grid sections in HTML string will not be added correctly
+    // Find all grid `div`s after generating HTML string but before adding HTML to change from `div` to `table`
+    disp = changeGridDivsToTables(disp);
+
     songBody.insertAdjacentHTML('beforeend', disp);
 
     // Remove extra trailing commas from ends of some lines
@@ -181,6 +186,17 @@ function gridHTMLFromGridContent(gridContent) {
     tableBody.append(...gridLineRows);
 
     return tableBody;
+}
+
+/**
+ * Uses to RegEx to change all `<div>`s wrapping grid sections to `<table>`s.
+ * @param {string} htmlString 
+ * @returns {string}
+ */
+function changeGridDivsToTables(htmlString) {
+    return htmlString
+        .replace(/<div class="literal"><tbody>/g, '<table class="literal"><tbody>')
+        .replace(/<\/tbody><\/div>/g, '</tbody></table>');
 }
 
 /**

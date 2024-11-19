@@ -62,11 +62,11 @@ function insertSong(songContent) {
 function cleanUpChordSheetString(song) {
     return song
         .trim()
-        .replace(/: label="(.+)"/g, ": $1")
         .replace(/^ +/gm, "")
         .replace(/\bcomment_italic|ci\b/g, "c")
         // Replace section directive that aren't officially recognized be changed to `verse`
-        .replace(/\{(start|end)_of_(?!bridge|chorus|grid|indeterminate|none|tab|verse|ly|abc)(?:[a-z_]+)(.*\})/g, "{$1_of_verse$2");
+        .replace(/\{(start|end)_of_(?!bridge|chorus|grid|indeterminate|none|tab|verse|ly|abc)(?:[a-z_]+)(.*\})/g, "{$1_of_verse$2")
+        .replace(/: label="(.+)"/g, ": $1")
 }
 
 function removeTrailingCommas() {

@@ -89,6 +89,8 @@ function removeTrailingCommas() {
     });
 }
 
+// MARK: Grids
+
 /**
  * Converts grid section content to an HTML `<tbody>` element to layout the section.
  * @param {string} gridContent 
@@ -238,6 +240,8 @@ function createGridMarginElement(text) {
     cell.innerText = text;
     return cell;
 }
+
+// MARK: Misc Content/Styling
 
 /**
  * Add other metadata like capo and artist(s).

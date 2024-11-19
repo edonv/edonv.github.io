@@ -1,0 +1,8 @@
+@import url(./vars.css);
+
+.tab-note {
+    /* Change whiteout background of tab notes */
+    g:first-child[color="rgb(100.0000%, 100.0000%, 100.0000%)"] {
+        color: var(--color-white);
+    }
+}

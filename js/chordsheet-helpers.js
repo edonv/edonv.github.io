@@ -70,8 +70,16 @@ function cleanUpChordSheetString(song) {
         .replace(/\bcomment_italic|ci\b/g, "c")
         // Replace section directive that aren't officially recognized be changed to `verse`
         .replace(/\{(start|end)_of_(?!bridge|chorus|grid|indeterminate|none|tab|verse|ly|abc)(?:[a-z_]+)(.*\})/g, "{$1_of_verse$2")
-        // Catch {chorus: label=""} recalls, add "Chorus" into label
-        .replaceAll('{chorus: label=""}', '{chorus: label="Chorus"}')
+        // Catch `{chorus: label=""}` recalls, add "Chorus" into label
+        .replaceAll(/\{chorus: label="(.*)"\}/g, (match, labelContent) => {
+            // '{chorus: label="Chorus ($1)"}'
+            if (labelContent.length > 0) {
+                return `{chorus: label="Chorus (${labelContent})"}`;
+            } else {
+                // Don't include the colon if there is no label.
+                return `{chorus: label="[Chorus]"}`;
+            }
+        })
         // Reformat section labels
         .replace(/: label="(.*)"/g, (match, labelContent) => {
             if (labelContent.length > 0) {

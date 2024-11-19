@@ -26,6 +26,7 @@ function insertSong(songContent) {
             grid(input) {
                 return gridHTMLFromGridContent(input).outerHTML;
             },
+            ly: lilypondDelegate,
         }
     });
     /** @type {string} */
@@ -239,6 +240,17 @@ function createGridMarginElement(text) {
     cell.classList.add('grid-margin-text');
     cell.innerText = text;
     return cell;
+}
+
+// MARK: Lilypond
+
+/**
+ * Converts incoming Lilypond section content to HTML embedding an SVG file.
+ * @param {string} input The Lilypond section content. It *should* be a partial relative path to the intended SVG file.
+ * @returns {string}
+ */
+function lilypondDelegate(input) {
+    return `<object data="/files/song_ly/${input}" type="image/svg+xml"></object>`
 }
 
 // MARK: Misc Content/Styling

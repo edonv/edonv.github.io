@@ -85,7 +85,8 @@ div#body-wrap {
     content: '\200b';
 }
 
-#song-body .grid .row {
+#song-body .grid .row,
+#song-body .paragraph.ly .row {
     flex-direction: column;
 }
 
@@ -168,4 +169,11 @@ div#body-wrap {
             }
         }
     }
+}
+
+/* MARK: Lilypond */
+
+.ly-svg {
+    /* 70px, this should cause chord names to be same size as chord sheet */
+    height: 4.375em;
 }

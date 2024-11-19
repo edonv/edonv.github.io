@@ -27,6 +27,7 @@ function insertSong(songContent) {
 
     // If there is a capo, all non-delegate sections will be transposed down (which it shouldn't do)
     // If this is the case, transpose back up.
+    /** @type {string} */
     const capo = song.getMetadata('capo');
     if (capo && parseInt(capo)) {
         song = song

@@ -151,8 +151,7 @@ function gridHTMLFromGridContent(gridContent) {
 
         // Extract any lead or trailing text
         const leadingText = /^(.*?)\|/g
-            .exec(trimmedLine)
-            .at(1)?.trim();
+            .exec(trimmedLine)?.at(1)?.trim();
         if (leadingText) {
             gridLinesWithLeadingText.add(lineNumber);
 
@@ -164,8 +163,7 @@ function gridHTMLFromGridContent(gridContent) {
         }
 
         const trailingText = /(?:.+)\|(.*?)$/g
-            .exec(trimmedLine)
-            .at(1)?.trim();
+            .exec(trimmedLine)?.at(1)?.trim();
         if (trailingText) {
             trimmedLine = trimmedLine
                 .replace(trailingText, '')

@@ -13,7 +13,14 @@ function insertSong(songContent) {
 
     const parser = new ChordSheetJS.ChordProParser();
     const cleanedChordSheet = cleanUpChordSheetString(songContent);
-    let song = parser.parse(cleanedChordSheet);
+    let song;
+    try {
+        song = parser.parse(cleanedChordSheet);
+    } catch (error) {
+        console.error("Error parsing:", error);
+        songBody.insertAdjacentHTML('beforeend', '<br><div style="text-align: center; font-family: \'Roboto Serif\', serif;">Error displaying song. It can still be downloaded.</div>');
+        return;
+    }
 
     // If there is a capo, all non-delegate sections will be transposed down (which it shouldn't do)
     // If this is the case, transpose back up.

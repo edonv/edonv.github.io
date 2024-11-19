@@ -251,8 +251,8 @@ function createGridMarginElement(text) {
  */
 function lilypondDelegate(input) {
     return `<object
-        data="/files/song_ly/${input}"
         class="ly-svg"
+        data="/files/song_ly/${input}"
         type="image/svg+xml"
     ></object>`
 }

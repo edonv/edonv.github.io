@@ -17,7 +17,10 @@ function insertSong(songContent) {
     try {
         song = parser.parse(cleanedChordSheet);
     } catch (error) {
-        console.error("Error parsing:", error);
+        console.error("Error parsing song.", {
+            error,
+            songContent,
+        });
         songBody.insertAdjacentHTML('beforeend', '<br><div style="text-align: center; font-family: \'Roboto Serif\', serif;">Error displaying song. It can still be downloaded.</div>');
         return;
     }

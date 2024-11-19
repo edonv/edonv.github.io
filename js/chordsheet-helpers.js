@@ -30,10 +30,9 @@ function insertSong(songContent) {
     /** @type {string} */
     const capo = song.getMetadata('capo');
     if (capo && parseInt(capo)) {
-        song = song
-            .transpose(12)
-            // This seems to fix problem with Perfect, which otherwise shows a B# instead of C
-            .transpose(-(12 - parseInt(capo)));
+        // If there's a capo, it's stored, but remove it from Song metadata
+        // This is to workaround ChordProJS's formatter that outputs capoed songs in concert key.
+        song = song.setCapo(null);
     }
 
     // const formatter = new ChordSheetJS.HtmlTableFormatter({
@@ -65,7 +64,7 @@ function insertSong(songContent) {
     formatGrids();
 
     // Add other metadata like capo and artist(s)
-    addSongMetadataHeader(song);
+    addSongMetadataHeader(song, capo);
 
     // Add additional styling to misc sections
     addMiscStyling();
@@ -296,8 +295,11 @@ function lilypondDelegate(input) {
 
 /**
  * Add other metadata like capo and artist(s).
+ * @param {string|null} capo Capo value (as a string) from `song.getMetadata('capo')`.
+ * It's plugged in separately from `song` because if it's non-`null`, it will have been removed from
+ * `song`'s metadata before this method is called.
  */
-function addSongMetadataHeader(song) {
+function addSongMetadataHeader(song, capo) {
     const songBody = document.getElementById('song-body');
     const songTitleH1 = document.querySelector('#song-body h1');
     if (!songBody || !songTitleH1) {
@@ -310,8 +312,7 @@ function addSongMetadataHeader(song) {
     /** @type {Element} */
     const songTitleCopy = songTitleH1.cloneNode(true);
     songTitleCopy.classList.add('song-title');
-    const capo = song.getMetadata('capo');
-    if (parseInt(capo) && parseInt(capo) > 0) {
+    if (capo && parseInt(capo) && parseInt(capo) > 0) {
         songTitleCopy.textContent = `${songTitleCopy.textContent} (Capo: ${capo})`;
     }
 

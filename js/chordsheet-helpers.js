@@ -29,7 +29,10 @@ function insertSong(songContent) {
     // If this is the case, transpose back up.
     const capo = song.getMetadata('capo');
     if (capo && parseInt(capo)) {
-        song = song.transpose(parseInt(capo));
+        song = song
+            .transpose(12)
+            // This seems to fix problem with Perfect, which otherwise shows a B# instead of C
+            .transpose(-(12 - parseInt(capo)));
     }
 
     // const formatter = new ChordSheetJS.HtmlTableFormatter({

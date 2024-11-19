@@ -1,0 +1,15 @@
+:root {
+    --timeline-stroke: 8px;
+    --timedot-stroke: 1.5px;
+    --color-black: #42463f;
+    --color-white: #e0e3e1;
+    --color-tranwhite: rgba(224, 227, 225, 0.6);
+    --color-red: #a93230;
+    --color-tranred: rgba(169, 50, 48, 0.9);
+    --color-darkred: #661e1e;
+    --color-orange: #d27a1f;
+    --color-yellow: #e3bc72;
+    --color-brown: #8a7b74;
+    --color-gray: #656b61;
+    --color-green: #9bbe86;
+}

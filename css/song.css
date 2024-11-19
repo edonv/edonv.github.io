@@ -29,7 +29,7 @@ div#body-wrap {
 }
 
 .chord,
-.column:has(.chord) ~ .column .annotation {
+.paragraph .row .column .annotation:has(+ .lyrics) {
     /* font-weight: 600; */
     font-weight: bold;
     font-style: italic;

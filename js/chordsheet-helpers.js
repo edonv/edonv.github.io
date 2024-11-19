@@ -7,9 +7,8 @@
  */
 function insertSong(songContent) {
     const parser = new ChordSheetJS.ChordProParser();
-    let song = parser.parse(
-        cleanUpChordSheetString(songContent)
-    );
+    const cleanedChordSheet = cleanUpChordSheetString(songContent);
+    let song = parser.parse(cleanedChordSheet);
 
     // If there is a capo, all non-delegate sections will be transposed down (which it shouldn't do)
     // If this is the case, transpose back up.

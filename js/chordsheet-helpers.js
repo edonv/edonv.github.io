@@ -70,7 +70,14 @@ function cleanUpChordSheetString(song) {
         // Replace section directive that aren't officially recognized be changed to `verse`
         .replace(/\{(start|end)_of_(?!bridge|chorus|grid|indeterminate|none|tab|verse|ly|abc)(?:[a-z_]+)(.*\})/g, "{$1_of_verse$2")
         // Reformat section labels
-        .replace(/: label="(.+)"/g, ": $1")
+        .replace(/: label="(.*)"/g, (match, labelContent) => {
+            if (labelContent.length > 0) {
+                return `: ${labelContent}`;
+            } else {
+                // Don't include the colon if there is no label.
+                return '';
+            }
+        })
         // Replace all \n characters in section labels
         .replaceAll(/{start.+: (.*\n+.*)\}/g, (match, label) => {
             return match

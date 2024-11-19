@@ -20,6 +20,7 @@ function insertSong(songContent) {
     // const formatter = new ChordSheetJS.HtmlTableFormatter({
     const formatter = new ChordSheetJS.HtmlDivFormatter({
         normalizeChords: false,
+        expandChorusDirective: true,
         /** @type {Partial<Record<ContentType, Delegate>>} */
         delegates: {
             grid(input) {
@@ -69,6 +70,8 @@ function cleanUpChordSheetString(song) {
         .replace(/\bcomment_italic|ci\b/g, "c")
         // Replace section directive that aren't officially recognized be changed to `verse`
         .replace(/\{(start|end)_of_(?!bridge|chorus|grid|indeterminate|none|tab|verse|ly|abc)(?:[a-z_]+)(.*\})/g, "{$1_of_verse$2")
+        // Catch {chorus: label=""} recalls, add "Chorus" into label
+        .replaceAll('{chorus: label=""}', '{chorus: label="Chorus"}')
         // Reformat section labels
         .replace(/: label="(.*)"/g, (match, labelContent) => {
             if (labelContent.length > 0) {

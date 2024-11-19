@@ -61,11 +61,15 @@ function insertSong(songContent) {
  */
 function cleanUpChordSheetString(song) {
     return song
+        // Trim off any newlines/whitespace
         .trim()
+        // Remove all line-leading whitespace
         .replace(/^ +/gm, "")
+        // Replace all `comment_italic` directives with normal `comment`
         .replace(/\bcomment_italic|ci\b/g, "c")
         // Replace section directive that aren't officially recognized be changed to `verse`
         .replace(/\{(start|end)_of_(?!bridge|chorus|grid|indeterminate|none|tab|verse|ly|abc)(?:[a-z_]+)(.*\})/g, "{$1_of_verse$2")
+        // Reformat section labels
         .replace(/: label="(.+)"/g, ": $1")
         // Replace all \n characters in section labels
         .replaceAll(/{start.+: (.*\n+.*)\}/g, (match, label) => {

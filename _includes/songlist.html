@@ -2,6 +2,6 @@
 {%- assign songs = include.songs | sort: "name" %}
 <ul class="bordered songlist">
 {%-for song in songs %}
-<li><a href="{{ site.url }}/music/song?filename={{ song.fileName | url_encode }}">{{ song.name }} &ndash; {{ song.artist }}</a></li>
+<li><a href="{{ site.url }}/music/songs/{{ song.fileName | slugify }}">{{ song.name }} &ndash; {{ song.artist }}</a></li>
 {%- endfor %}
 </ul>

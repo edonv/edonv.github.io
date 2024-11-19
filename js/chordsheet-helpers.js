@@ -67,6 +67,11 @@ function cleanUpChordSheetString(song) {
         // Replace section directive that aren't officially recognized be changed to `verse`
         .replace(/\{(start|end)_of_(?!bridge|chorus|grid|indeterminate|none|tab|verse|ly|abc)(?:[a-z_]+)(.*\})/g, "{$1_of_verse$2")
         .replace(/: label="(.+)"/g, ": $1")
+        // Replace all \n characters in section labels
+        .replaceAll(/{start.+: (.*\n+.*)\}/g, (match, label) => {
+            return match
+                .replace(label, label.replace('\n', ' '));
+        })
 }
 
 function removeTrailingCommas() {

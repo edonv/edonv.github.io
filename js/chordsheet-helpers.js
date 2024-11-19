@@ -6,6 +6,11 @@
  * @param {string} songContent 
  */
 function insertSong(songContent) {
+    const songBody = document.getElementById('song-body');
+    if (!songBody) {
+        return;
+    }
+
     const parser = new ChordSheetJS.ChordProParser();
     const cleanedChordSheet = cleanUpChordSheetString(songContent);
     let song = parser.parse(cleanedChordSheet);
@@ -31,10 +36,6 @@ function insertSong(songContent) {
     });
     /** @type {string} */
     let disp = formatter.format(song);
-    const songBody = document.getElementById('song-body');
-    if (!songBody) {
-        return;
-    }
 
     // Due to weird rendering issue, must manually change grid wrapper from <div> to <table> before inserting HTML
     // Otherwise, grid sections in HTML string will not be added correctly

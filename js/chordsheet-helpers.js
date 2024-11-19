@@ -250,7 +250,10 @@ function createGridMarginElement(text) {
  * @returns {string}
  */
 function lilypondDelegate(input) {
-    return `<object data="/files/song_ly/${input}" type="image/svg+xml"></object>`
+    return `<object
+        data="/files/song_ly/${input}"
+        type="image/svg+xml"
+    ></object>`
 }
 
 // MARK: Misc Content/Styling

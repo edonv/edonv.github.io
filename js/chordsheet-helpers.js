@@ -20,7 +20,7 @@ function insertSong(songContent) {
     // const formatter = new ChordSheetJS.HtmlTableFormatter({
     const formatter = new ChordSheetJS.HtmlDivFormatter({
         normalizeChords: false,
-        expandChorusDirective: true,
+        // expandChorusDirective: true,
         /** @type {Partial<Record<ContentType, Delegate>>} */
         delegates: {
             grid(input) {

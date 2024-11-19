@@ -315,8 +315,8 @@ function addSongMetadataHeader(song) {
 
 function addMiscStyling() {
     // Added `bordered` class to `.chord-sheet`
-    const chordSheet = document.querySelector('#song-body .chord-sheet');
-    if (chordSheet) {
-        chordSheet.classList.add('bordered');
+    const chordSheetDiv = document.querySelector('#song-body .chord-sheet');
+    if (chordSheetDiv) {
+        chordSheetDiv.classList.add('bordered');
     }
 }

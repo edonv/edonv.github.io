@@ -252,7 +252,7 @@ function createGridMarginElement(text) {
 function lilypondDelegate(input) {
     return `<object
         class="ly-svg"
-        data="../files/song_ly/${input}"
+        data="/files/song_ly/${input}"
         type="image/svg+xml"></object>`
         .replace(/\s+/g, ' ');
 }

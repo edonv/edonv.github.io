@@ -15,6 +15,11 @@
     "fileName": "flying"
   },
   {
+    "name": "Girl I've Always Been",
+    "artist": "Olivia Rodrigo",
+    "fileName": "girl ive always been"
+  },
+  {
     "name": "I Don't Want To Be A Billionaire",
     "artist": "Theo Katzman",
     "fileName": "i dont want to be a billionaire"
@@ -35,9 +40,19 @@
     "fileName": "perfect"
   },
   {
+    "name": "Picture To Burn",
+    "artist": "Taylor Swift",
+    "fileName": "picture to burn"
+  },
+  {
     "name": "Stargazing",
     "artist": "Myles Smith",
     "fileName": "stargazing"
+  },
+  {
+    "name": "Sugar",
+    "artist": "Maroon 5",
+    "fileName": "sugar"
   },
   {
     "name": "Treehouse",

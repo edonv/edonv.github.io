@@ -82,7 +82,7 @@ function cleanUpChordSheetString(song) {
                 const label = labelContent
                     .replace(/^\(/g, '')
                     .replace(/\)$/g, '');
-                return `{chorus: label="Chorus (${label})"}`;
+                return `{chorus: label="[Chorus] (${label})"}`;
             } else {
                 // Don't include the colon if there is no label.
                 return `{chorus: label="[Chorus]"}`;

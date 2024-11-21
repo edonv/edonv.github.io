@@ -181,5 +181,6 @@ div#body-wrap {
 
 .ly-svg {
     /* 70px, this should cause chord names over tab to be same size as chord sheet */
-    height: 4.375em;
+    /* EDIT: no longer true. Need to figure out what to do for this */
+    /* height: 4.375em; */
 }

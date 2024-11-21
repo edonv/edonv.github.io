@@ -28,6 +28,10 @@ div#body-wrap {
     }
 }
 
+#song-body .comment {
+    font-style: italic;
+}
+
 .chord,
 .paragraph .row .column .annotation:has(+ .lyrics) {
     /* font-weight: 600; */

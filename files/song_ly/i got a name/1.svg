@@ -1,0 +1,599 @@
+<?xml-stylesheet type="text/css" href="/css/ly-svg.css" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="170.21mm" height="28.34mm" viewBox="-0.0600 -9.3892 96.8600 16.1284">
+<style type="text/css">
+<![CDATA[
+tspan { white-space: pre; }
+]]>
+</style>
+<g transform="translate(0.9000, 2.1892)">
+<rect x="0.0000" y="-3.7500" width="0.1900" height="7.5000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(0.0000, 2.1892)">
+<rect x="0.0000" y="-3.7500" width="0.6000" height="7.5000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(0.0000, 5.9392)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="96.7500" y2="0"/>
+</g>
+<g transform="translate(0.0000, 4.4392)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="96.7500" y2="0"/>
+</g>
+<g transform="translate(0.0000, 2.9392)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="96.7500" y2="0"/>
+</g>
+<g transform="translate(0.0000, 1.4392)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="96.7500" y2="0"/>
+</g>
+<g transform="translate(0.0000, -0.0608)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="96.7500" y2="0"/>
+</g>
+<g transform="translate(0.0000, -1.5608)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="96.7500" y2="0"/>
+</g>
+<g transform="translate(96.6100, 2.1892)">
+<rect x="0.0000" y="-3.7500" width="0.1900" height="7.5000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(69.2867, 2.1892)">
+<rect x="0.0000" y="-3.7500" width="0.1900" height="7.5000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(41.6425, 2.1892)">
+<rect x="0.0000" y="-3.7500" width="0.1900" height="7.5000" ry="0.0000" fill="currentColor"/>
+</g>
+<g id="diagram-label">
+<g transform="translate(2.1400, -7.2000)">
+<text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
+<tspan>D</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(2.3900, 2.1892)">
+<path transform="scale(0.0040, -0.0040)" d="M70 205c79 0 46 -98 91 -98c16 0 54 48 61 63c6 12 23 12 28 0l-123 -420c-8 -7 -17 -10 -27 -10s-20 3 -28 10l117 326c-34 -12 -69 -22 -105 -22c-47 0 -87 34 -87 79c0 40 33 72 73 72z" fill="currentColor"/>
+</g>
+<g transform="translate(86.8552, -1.7991)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" fill="currentColor" stroke="currentColor" points="-0.3175 0 0.3175 0 0 0.9921"/>
+</g>
+<g transform="translate(84.1378, 2.1892)">
+<path stroke-width="0.1000" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="none" d="M0.4712 -5.9327L1.2574 -5.9327C1.2574 -5.9327 2.7174 -5.9327 2.7174 -3.9883"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(6.1557, -1.5608)">
+<rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(6.2547, -0.9907)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>2</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(6.7498, 2.1892)">
+<rect x="-0.0650" y="-2.9804" width="0.1300" height="4.2904" ry="0.0400" fill="currentColor"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(8.6277, -1.5608)">
+<rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(8.7267, -0.9907)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>2</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(9.2218, 2.1892)">
+<rect x="-0.0650" y="-2.9804" width="0.1300" height="4.2904" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(81.1529, -4.0610)">
+<text font-family="Roboto Serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>1</tspan>
+</text>
+</g>
+<g transform="translate(81.6480, -2.7514)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" fill="currentColor" stroke="currentColor" points="-0.3175 0 0.3175 0 0 -0.9921"/>
+</g>
+<g transform="translate(81.0539, 2.1892)">
+<path stroke-width="0.1000" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="none" d="M0.5941 -3.0751L0.5941 -5.9327"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(11.0997, -1.5608)">
+<rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(11.1987, -0.9907)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>2</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(11.6938, 2.1892)">
+<rect x="-0.0650" y="-2.9804" width="0.1300" height="4.2904" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(14.1658, -2.6955)">
+<path transform="scale(0.0040, -0.0040)" d="M-50 0c0 28 22 50 50 50s50 -22 50 -50s-22 -50 -50 -50s-50 22 -50 50z" fill="currentColor"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(13.5717, -1.5608)">
+<rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(13.6707, -1.0553)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>3</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(14.1658, 2.1892)">
+<rect x="-0.0650" y="-2.8932" width="0.1300" height="4.2032" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(60.1727, 5.7782)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="7.5060 -0.2000 7.5060 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g transform="translate(60.1727, 6.4992)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="7.5060 -0.2000 7.5060 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(17.4265, -1.5608)">
+<rect x="0.0990" y="-0.6251" width="0.9902" height="1.2502" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(17.5255, -1.0649)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>5</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(18.0206, 2.1892)">
+<rect x="-0.0650" y="-2.9061" width="0.1300" height="4.2161" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(67.0596, 2.1892)">
+<path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M1.2892 -2.7413C1.8161 -3.3484 2.9802 -3.3484 3.5071 -2.7413L3.5071 -2.7413C2.9802 -3.2284 1.8161 -3.2284 1.2892 -2.7413z"/>
+</g>
+<g id="diagram-label">
+<g transform="translate(19.6485, -7.2000)">
+<text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
+<tspan>A</tspan>
+</text>
+</g>
+<g transform="translate(21.3557, -7.2000)">
+<text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
+<tspan>/</tspan>
+</text>
+</g>
+<g transform="translate(22.3117, -7.2000)">
+<text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
+<tspan>C</tspan>
+</text>
+</g>
+<g transform="translate(23.9847, -7.8000)">
+<path transform="scale(0.0042, -0.0042)" d="M0 119c0 8 5 15 13 18l46 17v158c0 10 8 19 18 19s19 -9 19 -19v-145l83 31v158c0 10 9 19 19 19s18 -9 18 -19v-145l32 12c2 1 5 1 7 1c11 0 20 -9 20 -20v-60c0 -8 -5 -16 -13 -19l-46 -16v-160l32 11c2 1 5 1 7 1c11 0 20 -9 20 -20v-60c0 -8 -5 -15 -13 -18l-46 -17
+v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-18 9 -18 19v145l-32 -12c-2 -1 -5 -1 -7 -1c-11 0 -20 9 -20 20v60c0 8 5 16 13 19l46 16v160l-32 -11c-2 -1 -5 -1 -7 -1c-11 0 -20 9 -20 20v60zM179 95l-83 -30v-160l83 30v160z" fill="currentColor"/>
+</g>
+</g>
+<g class="tab-note">
+</g>
+<g transform="translate(20.4926, 2.1892)">
+<rect x="-0.0650" y="-2.9061" width="0.1300" height="4.2161" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(61.8656, 2.1892)">
+<path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.5587 -2.0701C1.1911 -2.8032 2.2563 -2.9182 3.0307 -2.3370L3.0307 -2.3370C2.2692 -2.7989 1.2040 -2.6838 0.5587 -2.0701z"/>
+</g>
+<g class="tab-note">
+</g>
+<g transform="translate(22.9646, 2.1892)">
+<rect x="-0.0650" y="-2.9061" width="0.1300" height="4.2161" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(52.7621, 4.2782)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.1250 -0.2000 1.1250 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g transform="translate(52.7621, 4.9992)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5620 -0.2000 2.5620 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g class="tab-note">
+</g>
+<g class="tab-note">
+</g>
+<g transform="translate(27.1680, 2.1892)">
+<rect x="-0.0650" y="-2.8386" width="0.1300" height="4.1486" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(57.7650, -4.0610)">
+<text font-family="Roboto Serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>1</tspan>
+</text>
+</g>
+<g transform="translate(58.2600, -2.7514)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" fill="currentColor" stroke="currentColor" points="-0.3175 0 0.3175 0 0 -0.9921"/>
+</g>
+<g transform="translate(54.7050, 2.1892)">
+<path stroke-width="0.1000" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="none" d="M1.1892 -2.5500L2.0172 -2.5500C2.0172 -2.5500 3.5550 -2.5500 3.5550 -4.9406"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(29.4959, -1.5608)">
+<rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(29.5949, -1.0553)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>3</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(30.0900, 2.1892)">
+<rect x="-0.0650" y="-2.8932" width="0.1300" height="4.2032" ry="0.0400" fill="currentColor"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(31.9679, -1.5608)">
+<rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(32.0669, -1.0553)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>3</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(32.5620, 2.1892)">
+<rect x="-0.0650" y="-2.8932" width="0.1300" height="4.2032" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(52.2330, 2.1892)">
+<path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M1.2892 -2.7822C1.5863 -3.1700 2.0739 -3.1700 2.3710 -2.7822L2.3710 -2.7822C2.0739 -3.0500 1.5863 -3.0500 1.2892 -2.7822z"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(34.4399, -1.5608)">
+<rect x="0.0990" y="-0.6251" width="0.9902" height="1.2502" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(34.5389, -1.0649)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>5</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(35.0340, 2.1892)">
+<rect x="-0.0650" y="-2.9061" width="0.1300" height="4.2161" ry="0.0400" fill="currentColor"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(36.9119, -1.5608)">
+<rect x="0.0990" y="-0.6251" width="0.9902" height="1.2502" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(37.0109, -1.0649)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>5</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(37.5060, 2.1892)">
+<rect x="-0.0650" y="-2.9061" width="0.1300" height="4.2161" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(32.4970, 2.7782)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="7.5060 -0.2000 7.5060 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g transform="translate(32.4970, 3.4992)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="7.5060 -0.2000 7.5060 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(39.3839, -1.5608)">
+<rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(39.4829, -0.9907)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>2</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(39.9780, 2.1892)">
+<rect x="-0.0650" y="-2.9804" width="0.1300" height="4.2904" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(39.3839, 2.1892)">
+<path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.7941 -4.7500C1.4813 -5.4711 3.3526 -5.4711 4.0399 -4.7500L4.0399 -4.7500C3.3526 -5.3511 1.4813 -5.3511 0.7941 -4.7500z"/>
+</g>
+<g id="diagram-label">
+<g transform="translate(42.7797, -7.2000)">
+<text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
+<tspan>B</tspan>
+</text>
+</g>
+<g transform="translate(44.4185, -7.2000)">
+<text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
+<tspan>m</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(43.0297, -1.5608)">
+<rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(43.1287, -0.9907)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>2</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(43.3738, 2.1892)">
+<rect x="-0.0650" y="-2.9804" width="0.1300" height="4.4804" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(43.8738, 2.1892)">
+<rect x="-0.0650" y="-2.9804" width="0.1300" height="4.4804" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(42.9287, -1.5608)">
+<path transform="scale(0.0016, -0.0016)" d="M-31 -250c0 -10 -9 -19 -19 -19c-5 0 -12 2 -16 8c-54 77 -90 167 -90 261s36 184 90 261c4 6 11 8 16 8c10 0 19 -9 19 -19c0 -21 -63 -57 -63 -250s63 -229 63 -250z" fill="currentColor"/>
+</g>
+<g transform="translate(44.3188, -1.5608)">
+<path transform="scale(0.0016, -0.0016)" d="M31 -250c0 21 63 57 63 250s-63 229 -63 250c0 10 9 19 19 19c5 0 12 -2 16 -8c54 -77 90 -167 90 -261s-36 -184 -90 -261c-4 -6 -11 -8 -16 -8c-10 0 -19 9 -19 19z" fill="currentColor"/>
+</g>
+<g transform="translate(34.4399, 2.1892)">
+<path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.7941 -4.7500C1.2951 -5.3356 2.3651 -5.3356 2.8661 -4.7500L2.8661 -4.7500C2.3651 -5.2156 1.2951 -5.2156 0.7941 -4.7500z"/>
+</g>
+<g transform="translate(49.6502, 2.1892)">
+<path transform="scale(0.0040, -0.0040)" d="M125 205c79 0 45 -98 90 -98c15 0 50 49 57 63c6 12 23 12 28 0l-179 -670c-8 -7 -17 -10 -27 -10s-20 3 -28 10l101 327c-34 -12 -70 -23 -106 -23c-47 0 -87 34 -87 79c0 40 32 72 72 72c79 0 46 -98 91 -98c16 0 55 51 60 68l46 151c-34 -12 -68 -22 -104 -22
+c-47 0 -87 34 -87 79c0 40 33 72 73 72z" fill="currentColor"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(52.2330, -0.0608)">
+<rect x="0.0990" y="-0.6251" width="0.9902" height="1.2502" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(52.3320, 0.4351)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>5</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(52.8271, 2.1892)">
+<rect x="-0.0650" y="-1.4061" width="0.1300" height="4.2161" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(93.8097, 5.0418)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.1250 -0.0236 1.1250 0.3764 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g transform="translate(88.7679, 4.2782)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.1250 -0.0236 1.1250 0.3764 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g transform="translate(88.7679, 4.9992)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.1668 0.7400 6.1668 1.1400 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g class="tab-note">
+</g>
+<g transform="translate(20.4276, 2.7782)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="9.6874 -0.2000 9.6874 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g transform="translate(20.4276, 3.4992)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="9.6874 -0.2000 9.6874 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g transform="translate(29.4959, 2.1892)">
+<path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.7941 -4.7500C1.2951 -5.3356 2.3651 -5.3356 2.8661 -4.7500L2.8661 -4.7500C2.3651 -5.2156 1.2951 -5.2156 0.7941 -4.7500z"/>
+</g>
+<g class="tab-note">
+</g>
+<g transform="translate(27.1680, -3.4280)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" fill="currentColor" stroke="currentColor" points="-0.3175 0 0.3175 0 0 0.9921"/>
+</g>
+<g transform="translate(24.3481, 2.1892)">
+<path stroke-width="0.1000" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="none" d="M0.4712 -5.9327L1.2932 -5.9327C1.2932 -5.9327 2.8198 -5.9327 2.8198 -5.6172"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(59.6436, -0.0608)">
+<rect x="0.0990" y="-0.6251" width="0.9902" height="1.2502" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(59.7426, 0.4351)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>5</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(60.2377, 2.1892)">
+<rect x="-0.0650" y="-1.4061" width="0.1300" height="5.7161" ry="0.0400" fill="currentColor"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(61.8656, 1.4392)">
+<rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(61.9647, 2.0093)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>2</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(62.4597, 2.1892)">
+<rect x="-0.0650" y="0.0196" width="0.1300" height="4.2904" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(24.3242, -4.0610)">
+<text font-family="Roboto Serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>1</tspan>
+</text>
+</g>
+<g transform="translate(24.8193, -2.7514)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" fill="currentColor" stroke="currentColor" points="-0.3175 0 0.3175 0 0 -0.9921"/>
+</g>
+<g transform="translate(22.3705, 2.1892)">
+<path stroke-width="0.1000" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="none" d="M1.1892 -4.0500L1.6300 -4.0500C1.6300 -4.0500 2.4488 -4.0500 2.4488 -4.9406"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(64.3376, 1.4392)">
+<rect x="0.0990" y="-0.6120" width="0.9902" height="1.2240" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(64.4367, 1.9412)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>4</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(64.9317, 2.1892)">
+<rect x="-0.0650" y="0.0762" width="0.1300" height="4.2338" ry="0.0400" fill="currentColor"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(67.0596, -0.0608)">
+<rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(67.1587, 0.4447)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>3</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(67.6537, 2.1892)">
+<rect x="-0.0650" y="-1.3932" width="0.1300" height="5.7032" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(19.8985, 2.1892)">
+<path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.7941 -4.7500C1.2951 -5.3356 2.3651 -5.3356 2.8661 -4.7500L2.8661 -4.7500C2.3651 -5.2156 1.2951 -5.2156 0.7941 -4.7500z"/>
+</g>
+<g id="diagram-label">
+<g transform="translate(70.4178, -7.2000)">
+<text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
+<tspan>G</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(71.2619, -2.4108)">
+<path transform="scale(0.0040, -0.0040)" d="M215 46c4 6 9 9 16 9c11 0 20 -9 20 -20c0 -4 -1 -8 -3 -11l-23 -35l-33 22zM25 1l-8 -12l-34 22l70 105c4 6 10 9 17 9c6 0 11 -2 15 -7l99 -119l8 12l33 -22l-70 -105c-4 -6 -10 -9 -17 -9c-6 0 -11 2 -15 7zM-231 -55c-11 0 -20 9 -20 20c0 6 0 6 96 151
+c4 6 10 9 17 9c6 0 11 -2 15 -7l98 -119l8 12l34 -22l-70 -105c-4 -6 -10 -9 -17 -9c-6 0 -11 2 -15 7l-99 119c-37 -56 -36 -56 -47 -56z" fill="currentColor"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(70.6678, -0.0608)">
+<rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(70.7668, 0.4447)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>3</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(-0.0600, 2.1892)">
+<rect x="0.0000" y="-3.8000" width="0.1600" height="7.6000" ry="0.0500" fill="currentColor"/>
+</g>
+<g transform="translate(71.0119, 2.1892)">
+<rect x="-0.0650" y="-1.3932" width="0.1300" height="4.3932" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(71.5119, 2.1892)">
+<rect x="-0.0650" y="-1.3932" width="0.1300" height="4.3932" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(70.5668, -0.0608)">
+<path transform="scale(0.0016, -0.0016)" d="M-31 -250c0 -10 -9 -19 -19 -19c-5 0 -12 2 -16 8c-54 77 -90 167 -90 261s36 184 90 261c4 6 11 8 16 8c10 0 19 -9 19 -19c0 -21 -63 -57 -63 -250s63 -229 63 -250z" fill="currentColor"/>
+</g>
+<g transform="translate(71.9569, -0.0608)">
+<path transform="scale(0.0016, -0.0016)" d="M31 -250c0 21 63 57 63 250s-63 229 -63 250c0 10 9 19 19 19c5 0 12 -2 16 -8c54 -77 90 -167 90 -261s-36 -184 -90 -261c-4 -6 -11 -8 -16 -8c-10 0 -19 9 -19 19z" fill="currentColor"/>
+</g>
+<g transform="translate(16.9206, 2.7782)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.1250 -0.2000 1.1250 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g transform="translate(11.6288, 2.7782)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.1250 -0.2000 1.1250 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g transform="translate(11.6288, 3.4992)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.4168 -0.2000 6.4168 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g id="diagram-label">
+<g transform="translate(77.0383, -7.2000)">
+<text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
+<tspan>A</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(77.2883, 2.1892)">
+<path transform="scale(0.0040, -0.0040)" d="M70 205c79 0 46 -98 91 -98c16 0 54 48 61 63c6 12 23 12 28 0l-123 -420c-8 -7 -17 -10 -27 -10s-20 3 -28 10l117 326c-34 -12 -69 -22 -105 -22c-47 0 -87 34 -87 79c0 40 33 72 73 72z" fill="currentColor"/>
+</g>
+<g transform="translate(17.4265, 2.1892)">
+<path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.7941 -4.7500C1.2951 -5.3356 2.3651 -5.3356 2.8661 -4.7500L2.8661 -4.7500C2.3651 -5.2156 1.2951 -5.2156 0.7941 -4.7500z"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(81.0539, -0.0608)">
+<rect x="0.0990" y="-0.6251" width="0.9902" height="1.2502" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(81.1529, 0.4351)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>5</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(81.6480, 2.1892)">
+<rect x="-0.0650" y="-1.4061" width="0.1300" height="4.4061" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(81.7130, 5.1492)">
+<path transform="scale(0.0040, -0.0040)" d="M0 0h-16v250h16v-250zM0 0v250c97 59 224 148 224 259c0 57 -15 112 -40 163c-3 16 10 27 23 27c7 0 15 -3 20 -11c25 -56 40 -117 40 -179c0 -203 -267 -306 -267 -509z" fill="currentColor"/>
+</g>
+<g transform="translate(6.6848, 2.7782)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5620 -0.2000 2.5620 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g transform="translate(6.6848, 3.4992)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5620 -0.2000 2.5620 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g class="tab-note">
+</g>
+<g class="tab-note">
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(88.2388, -0.0608)">
+<rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(88.3378, 0.4447)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>3</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(88.8329, 2.1892)">
+<rect x="-0.0650" y="-1.3932" width="0.1300" height="4.2130" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(91.3049, -2.3108)">
+<path transform="scale(0.0040, -0.0040)" d="M-50 0c0 28 22 50 50 50s50 -22 50 -50s-22 -50 -50 -50s-50 22 -50 50z" fill="currentColor"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(90.7108, -0.0608)">
+<rect x="0.0990" y="-0.6251" width="0.9902" height="1.2502" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(90.8098, 0.4351)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>5</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(91.3049, 2.1892)">
+<rect x="-0.0650" y="-1.4061" width="0.1300" height="4.6004" ry="0.0400" fill="currentColor"/>
+</g>
+<g class="tab-note">
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(94.3156, 1.4392)">
+<rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(94.4147, 2.0093)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>2</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(94.9097, 2.1892)">
+<rect x="-0.0650" y="0.0196" width="0.1300" height="3.7205" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(55.2991, 2.1892)">
+<rect x="-0.0650" y="-1.4061" width="0.1300" height="4.2161" ry="0.0400" fill="currentColor"/>
+</g>
+</svg>

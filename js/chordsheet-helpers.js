@@ -113,6 +113,13 @@ function cleanUpChordSheetString(song) {
                 return '';
             }
         })
+    
+        // Smart Quotes
+        // NOTE: These assume that section labels' formatting has already been cleaned up by other replacemeng
+        // Replace dumb apostrophes with smart ones
+        .replace(/\b'(\b| )/g, '\u2019$1')
+        // Replace dumb opening/closing double-quotes with smart ones
+        .replace(/\B"\b([^"\u201C\u201D\u201E\u201F\u2033\u2036\r\n]+)\b"\B/g, '\u201c$1\u201d')
 }
 
 function removeTrailingCommas() {

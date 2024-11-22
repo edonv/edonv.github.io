@@ -78,6 +78,8 @@ function cleanUpChordSheetString(song) {
     return song
         // Trim off any newlines/whitespace
         .trim()
+        // Remove any leading asterisks from chords in grid sections
+        .replace(/\*(.+\*)(?=.*\|$)/gm, '$1')
         // Remove all line-leading whitespace
         .replace(/^ +/gm, "")
         // Replace all `comment_italic` directives with normal `comment`

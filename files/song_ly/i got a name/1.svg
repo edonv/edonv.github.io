@@ -38,7 +38,7 @@ tspan { white-space: pre; }
 <g transform="translate(41.6425, 2.1892)">
 <rect x="0.0000" y="-3.7500" width="0.1900" height="7.5000" ry="0.0000" fill="currentColor"/>
 </g>
-<g id="diagram-label">
+<g id="chord-label">
 <g transform="translate(2.1400, -7.2000)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>
@@ -152,7 +152,7 @@ tspan { white-space: pre; }
 <g transform="translate(67.0596, 2.1892)">
 <path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M1.2892 -2.7413C1.8161 -3.3484 2.9802 -3.3484 3.5071 -2.7413L3.5071 -2.7413C2.9802 -3.2284 1.8161 -3.2284 1.2892 -2.7413z"/>
 </g>
-<g id="diagram-label">
+<g id="chord-label">
 <g transform="translate(19.6485, -7.2000)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>A</tspan>
@@ -297,7 +297,7 @@ v-158c0 -10 -8 -19 -18 -19s-19 9 -19 19v145l-83 -31v-158c0 -10 -9 -19 -19 -19s-1
 <g transform="translate(39.3839, 2.1892)">
 <path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.7941 -4.7500C1.4813 -5.4711 3.3526 -5.4711 4.0399 -4.7500L4.0399 -4.7500C3.3526 -5.3511 1.4813 -5.3511 0.7941 -4.7500z"/>
 </g>
-<g id="diagram-label">
+<g id="chord-label">
 <g transform="translate(42.7797, -7.2000)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>B</tspan>
@@ -457,7 +457,7 @@ c-47 0 -87 34 -87 79c0 40 33 72 73 72z" fill="currentColor"/>
 <g transform="translate(19.8985, 2.1892)">
 <path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.7941 -4.7500C1.2951 -5.3356 2.3651 -5.3356 2.8661 -4.7500L2.8661 -4.7500C2.3651 -5.2156 1.2951 -5.2156 0.7941 -4.7500z"/>
 </g>
-<g id="diagram-label">
+<g id="chord-label">
 <g transform="translate(70.4178, -7.2000)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>G</tspan>
@@ -504,7 +504,7 @@ c4 6 10 9 17 9c6 0 11 -2 15 -7l98 -119l8 12l34 -22l-70 -105c-4 -6 -10 -9 -17 -9c
 <g transform="translate(11.6288, 3.4992)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.4168 -0.2000 6.4168 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g id="diagram-label">
+<g id="chord-label">
 <g transform="translate(77.0383, -7.2000)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>A</tspan>

@@ -78,6 +78,8 @@ function cleanUpChordSheetString(song) {
     return song
         // Trim off any newlines/whitespace
         .trim()
+        // Remove all page/column break directives
+        .replace(/^\{(?:np|new_page|column_break|cb)\}\n+/gm, '\n')
         // Remove any leading asterisks from chords in grid sections
         .replace(/\*(.+\*)(?=.*\|$)/gm, '$1')
         // Remove all line-leading whitespace

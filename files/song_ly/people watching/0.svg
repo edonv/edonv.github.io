@@ -68,7 +68,7 @@ tspan { white-space: pre; }
 </text>
 </g>
 </g>
-<g id="diagram-label">
+<g id="chord-label">
 <g transform="translate(2.9340, -2.6887)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>G</tspan>
@@ -134,7 +134,7 @@ tspan { white-space: pre; }
 <g transform="translate(30.9294, 1.8907)">
 <path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.5926 -1.5707C1.2473 -2.2924 2.2214 -2.2969 2.8818 -1.5812L2.8818 -1.5812C2.2220 -2.1769 1.2478 -2.1724 0.5926 -1.5707z"/>
 </g>
-<g id="diagram-label">
+<g id="chord-label">
 <g transform="translate(23.6562, -2.6887)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>E</tspan>
@@ -161,7 +161,7 @@ tspan { white-space: pre; }
 <g transform="translate(0.0000, 1.8907)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.2000" stroke="currentColor" x1="15.5225" y1="-1.9428" x2="18.1732" y2="-2.5572"/>
 </g>
-<g id="diagram-label">
+<g id="chord-label">
 <g transform="translate(30.6794, -2.6887)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>C</tspan>
@@ -212,7 +212,7 @@ tspan { white-space: pre; }
 </text>
 </g>
 </g>
-<g id="diagram-label">
+<g id="chord-label">
 <g transform="translate(48.0753, -2.6887)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>

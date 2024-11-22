@@ -1,0 +1,117 @@
+---
+---
+{% raw %}
+{title: Crave}
+{artist: Paramore}
+{capo: 4}
+
+{diagrams: off}
+
+# {start_of_grid: label="Intro"}
+# |: Cmaj7 . . | Cmaj7 . . | Gmaj7 . . | Gmaj7 . . |
+# |  Cmaj7 . . | Cmaj7 . . | Gmaj7 . . | Bm . . :|
+# {end_of_grid}
+
+{start_of_ly: label="Intro" scale=0.95}
+\score {
+  <<
+    \transpose b g {
+      \chords {
+        \key b \major
+        e\breve:maj7
+        b:maj7
+        dis1:m
+      }
+    }
+    
+    \transpose b g {
+      \new TabStaff \relative {
+        \key b \major
+        \bar ".|"
+
+        \repeat volta 4 {
+          % mm1
+          b8\4 fis'\3 dis'4\1 
+          \repeat unfold 3 {
+            e,,8\5 b'\4 gis'4\2 
+          }
+
+          % mm3
+          fis,8\5 cis'\4 ais'4\2 
+          b,,8\6 fis'\5 dis'4\3
+
+          \alternative {
+            \volta 1,3 {
+              \repeat unfold 2 {
+                b,8\6 fis'\5 dis'4\3
+              }
+            }
+
+            \volta 2,4 {
+              \repeat unfold 2 {
+                cis8\4 fis\3 dis'4\1
+              }
+            }
+          }
+        }
+      }
+    }
+  >>
+}
+{end_of_ly}
+
+{start_of_verse: label="Verse 1"}
+[Cmaj7]I can't wait to memo[Gmaj7]rize this day
+Oh, a [Cmaj7]picture could not contain the way it [Gmaj7]feels  [Bm]
+{end_of_verse}
+
+{start_of_verse: label="Verse 2"}
+You[Cmaj7] say, "Live in the present" 
+I'm already [Gmaj7]dreaming of how it begins
+And [Cmaj7]trying to savor the moment
+But I know the [Gmaj7]feelin' will come to an [Bm]end
+{end_of_verse}
+
+{start_of_chorus: label="Chorus"}
+So I[Cmaj7]  crave, cra-[Gmaj7]ave to do it again, all again
+[Cmaj7]  Crave, cra-[Gmaj7]ave to do it a[Bm]gain, ah
+Ju[Cmaj7]st for a second, it all felt simple, I'm a[Gmaj7]lready missing it
+So I [Cmaj7]crave, cra-[Gmaj7]ave to do it a[Bm]gain, all again
+{end_of_chorus}
+
+{start_of_grid: label="Interlude"}
+| Cmaj7 . . | Gmaj7 . . |
+{end_of_grid}
+
+{start_of_verse: label="Verse 3"}
+I[Cmaj7] romanticize even the [Gmaj7]worst of times
+When [Cmaj7]all it took to make me cry was being a[Gmaj7]live  [Bm]
+{end_of_verse}
+
+{start_of_verse: label="Verse 4"}
+[Cmaj7]Look up and see a reflection
+Of someone who [Gmaj7]never gave way to the pain
+What if I [Cmaj7]told 'em that now that I'm older
+There isn't a [Gmaj7]moment that I'd wanna [Bm]change
+{end_of_verse}
+
+{chorus: label=""}
+{np}
+{start_of_grid: label="Bridge P1"}
+| Em . . | Em . . | D . | D . |
+| Cmaj7 . . | Cmaj7 . . | D . | D . |
+# | Em | Cmaj7 | D | D |
+{end_of_grid}
+
+{start_of_bridge: label="Bridge P2\n(2x)"}
+[Em]Any second, feel the present
+[D]Future and the past connecti[Cmaj7]ng [D]
+{end_of_bridge}
+
+{start_of_chorus: label="Last\nChorus"}
+[Cmaj7]Crave, cra-[Gmaj7]ave to do it again, all again
+[Cmaj7]  Crave, cra-[Gmaj7]ave to do it a[Bm]gain, ah
+Ju[Cmaj7]st for a second, it all felt simple, I'm a[Gmaj7]lready missing it
+So I [Cmaj7]crave, cra-[Gmaj7]ave to do it a[Bm]gain, all again
+{end_of_chorus}
+{% endraw %}

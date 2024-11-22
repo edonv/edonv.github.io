@@ -115,6 +115,7 @@ function cleanUpChordSheetString(song) {
         })
     
         // Smart Quotes
+        // Used this for reference (with some changes): https://gist.github.com/zerolab/1633661
         // NOTE: These assume that section labels' formatting has already been cleaned up by other replacemeng
         // Replace dumb apostrophes with smart ones
         .replace(/\b'(\b| )/g, '\u2019$1')

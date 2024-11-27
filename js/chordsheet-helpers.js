@@ -1,4 +1,4 @@
-/** @typedef {'tab'|'abc'|'ly'|'grid'} ContentType */
+/** @typedef {'tab'|'abc'|'ly'|'grid'} ChordProSectionContentType */
 /** @typedef {(_string: string) => string} Delegate */
 
 /**
@@ -39,7 +39,7 @@ function insertSong(songContent) {
     const formatter = new ChordSheetJS.HtmlDivFormatter({
         normalizeChords: false,
         // expandChorusDirective: true,
-        /** @type {Partial<Record<ContentType, Delegate>>} */
+        /** @type {Partial<Record<ChordProSectionContentType, Delegate>>} */
         delegates: {
             grid(input) {
                 return gridHTMLFromGridContent(input).outerHTML;

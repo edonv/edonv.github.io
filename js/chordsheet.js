@@ -326,6 +326,7 @@ var ChordSheetJS = (() => {
       $parcel$defineInteropFlag(module.exports);
       $parcel$export(module.exports, "default", () => $892913528e7f60f9$export$2e2bcd8739ae039);
       $parcel$export(module.exports, "Chord", () => $177a605b8569b31c$export$2e2bcd8739ae039);
+      $parcel$export(module.exports, "ChordDefinition", () => $36ec5eba476f1300$export$2e2bcd8739ae039);
       $parcel$export(module.exports, "ChordLyricsPair", () => $551a223fc13b5c10$export$2e2bcd8739ae039);
       $parcel$export(module.exports, "ChordProFormatter", () => $244a67400187e14e$export$2e2bcd8739ae039);
       $parcel$export(module.exports, "ChordProParser", () => $957f29f677b8d58d$export$2e2bcd8739ae039);
@@ -13883,6 +13884,18 @@ to a key`);
         }
       };
       var $177a605b8569b31c$export$2e2bcd8739ae039 = $177a605b8569b31c$var$Chord;
+      var $36ec5eba476f1300$var$ChordDefinition = class _$36ec5eba476f1300$var$ChordDefinition {
+        constructor(name, baseFret, frets, fingers) {
+          this.name = name;
+          this.baseFret = baseFret;
+          this.frets = frets;
+          this.fingers = fingers || [];
+        }
+        clone() {
+          return new _$36ec5eba476f1300$var$ChordDefinition(this.name, this.baseFret, this.frets, this.fingers);
+        }
+      };
+      var $36ec5eba476f1300$export$2e2bcd8739ae039 = $36ec5eba476f1300$var$ChordDefinition;
       var $f1e1976743ced067$export$a014e67b549cbef4 = {
         separator: ","
       };
@@ -14121,11 +14134,7 @@ to a key`);
       };
       var $7251dad5f4a4c35f$var$Tag = class _$7251dad5f4a4c35f$var$Tag extends (0, $c5ce4fc4f57fe810$export$2e2bcd8739ae039) {
         constructor(name, value = null, traceInfo = null) {
-          super(traceInfo);
-          this._isMetaTag = false;
-          this._originalName = "";
-          this._name = "";
-          this._value = "";
+          super(traceInfo), this._isMetaTag = false, this._originalName = "", this._name = "", this._value = "";
           this.parseNameValue(name, value);
         }
         parseNameValue(name, value) {
@@ -14246,10 +14255,7 @@ to a key`);
       var $7251dad5f4a4c35f$export$2e2bcd8739ae039 = $7251dad5f4a4c35f$var$Tag;
       var $d36359d624582d41$var$EvaluationError = class extends Error {
         constructor(message, line = null, column = null, offset = null) {
-          super(`${message} on line ${line} column ${column}`);
-          this.line = null;
-          this.column = null;
-          this.offset = null;
+          super(`${message} on line ${line} column ${column}`), this.line = null, this.column = null, this.offset = null;
           this.name = "ExpressionError";
           this.line = line;
           this.column = column;
@@ -14262,8 +14268,7 @@ to a key`);
       var $8e2590a06c021dbf$export$2e2bcd8739ae039 = $8e2590a06c021dbf$var$Evaluatable;
       var $bdb7dff1d7547d2e$var$Composite = class _$bdb7dff1d7547d2e$var$Composite extends (0, $8e2590a06c021dbf$export$2e2bcd8739ae039) {
         constructor(expressions, variable = null) {
-          super();
-          this.expressions = [];
+          super(), this.expressions = [];
           this.expressions = expressions;
           this.variable = variable;
         }
@@ -14284,9 +14289,7 @@ to a key`);
             line,
             column,
             offset
-          });
-          this.trueExpression = [];
-          this.falseExpression = [];
+          }), this.trueExpression = [], this.falseExpression = [];
           this.variable = variable || null;
           this.valueTest = valueTest || null;
           this.trueExpression = trueExpression;
@@ -18044,8 +18047,7 @@ to a key`);
       }
       var $5c7afec93ec943b9$var$Metadata = class _$5c7afec93ec943b9$var$Metadata extends (0, $9047ab737bb447ce$export$2e2bcd8739ae039) {
         constructor(metadata = {}) {
-          super();
-          this.metadata = {};
+          super(), this.metadata = {};
           if (metadata) this.assign(metadata);
         }
         merge(metadata) {
@@ -18424,11 +18426,11 @@ to a key`);
         * @param metadata {Object|Metadata} predefined metadata
         */
         constructor(metadata = {}) {
-          super();
-          this.lines = [];
-          this._bodyLines = null;
-          this._bodyParagraphs = null;
-          this.warnings = [];
+          super(), /**
+          * The {@link Line} items of which the song consists
+          * @member {Line[]}
+          */
+          this.lines = [], this._bodyLines = null, this._bodyParagraphs = null, this.warnings = [];
           this.metadata = new (0, $5c7afec93ec943b9$export$2e2bcd8739ae039)(metadata);
         }
         /**
@@ -18730,6 +18732,23 @@ Or set the song key before changing key:
           return Array.from(chords);
         }
         /**
+        * Returns all chord definitions from the song.
+        * Definitions are made using the `{chord}` or `{define}` directive.
+        * A chord definitions overrides a previous chord definition for the exact same chord.
+        * @returns {Record<string, ChordDefinition>} the chord definitions
+        * @see https://chordpro.org/chordpro/directives-define/
+        * @see https://chordpro.org/chordpro/directives-chord/
+        */
+        getChordDefinitions() {
+          const chordDefinitions = {};
+          this.foreachItem((item) => {
+            if (!(item instanceof (0, $7251dad5f4a4c35f$export$2e2bcd8739ae039))) return;
+            const { chordDefinition } = item;
+            if (chordDefinition) chordDefinitions[chordDefinition.name] = chordDefinition.clone();
+          });
+          return chordDefinitions;
+        }
+        /**
         * Change the song contents inline. Return a new {@link Line} to replace it. Return `null` to remove it.
         * @example
         * // remove lines with only Tags:
@@ -18783,15 +18802,6 @@ Or set the song key before changing key:
         }
       };
       var $c53141c05fae8382$export$2e2bcd8739ae039 = $c53141c05fae8382$var$Song;
-      var $36ec5eba476f1300$var$ChordDefinition = class {
-        constructor(name, baseFret, frets, fingers) {
-          this.name = name;
-          this.baseFret = baseFret;
-          this.frets = frets;
-          this.fingers = fingers || [];
-        }
-      };
-      var $36ec5eba476f1300$export$2e2bcd8739ae039 = $36ec5eba476f1300$var$ChordDefinition;
       var $8b93ef43471b6ed2$var$CHORD_LYRICS_PAIR = "chordLyricsPair";
       var $8b93ef43471b6ed2$var$CHORD_SHEET = "chordSheet";
       var $8b93ef43471b6ed2$var$COMMENT = "comment";
@@ -19336,8 +19346,7 @@ Or set the song key before changing key:
           return (0, $28a2fcb6fb95a147$export$bc3bea8325045070)(item.lyrics || "", this.chordLyricsPairLength(item, line));
         }
         constructor(...args) {
-          super(...args);
-          this.song = new (0, $c53141c05fae8382$export$2e2bcd8739ae039)();
+          super(...args), this.song = new (0, $c53141c05fae8382$export$2e2bcd8739ae039)();
         }
       };
       var $2d92af868d7c705a$export$2e2bcd8739ae039 = $2d92af868d7c705a$var$ChordsOverWordsFormatter;
@@ -31740,8 +31749,7 @@ Or set the song key before changing key:
           return "";
         }
         constructor(...args) {
-          super(...args);
-          this.song = new (0, $c53141c05fae8382$export$2e2bcd8739ae039)();
+          super(...args), this.song = new (0, $c53141c05fae8382$export$2e2bcd8739ae039)();
         }
       };
       var $992b73e4d56a0aef$export$2e2bcd8739ae039 = $992b73e4d56a0aef$var$TextFormatter;
@@ -31765,8 +31773,7 @@ Or set the song key before changing key:
         constructor({ preserveWhitespace = true } = {}) {
           super({
             preserveWhitespace
-          }, false);
-          this.currentSectionType = null;
+          }, false), this.currentSectionType = null;
         }
         parseLine(line) {
           if (this.isSectionEnd()) this.endSection();
@@ -31820,6 +31827,7 @@ Or set the song key before changing key:
       var $892913528e7f60f9$export$2e2bcd8739ae039 = {
         CHORUS: $dce48cb70c4120bb$export$8db6c706fc9142b2,
         Chord: $177a605b8569b31c$export$2e2bcd8739ae039,
+        ChordDefinition: $36ec5eba476f1300$export$2e2bcd8739ae039,
         ChordLyricsPair: $551a223fc13b5c10$export$2e2bcd8739ae039,
         ChordProFormatter: $244a67400187e14e$export$2e2bcd8739ae039,
         ChordProParser: $957f29f677b8d58d$export$2e2bcd8739ae039,

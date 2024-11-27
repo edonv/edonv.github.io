@@ -1,5 +1,5 @@
 /** @typedef {'tab'|'abc'|'ly'|'grid'} ChordProSectionContentType */
-/** @typedef {(_string: string) => string} Delegate */
+/** @typedef {(_string: string) => string} ChordProSectionDelegate */
 
 /**
  * Adds song to page, specifically to `div#song-body` element.
@@ -39,7 +39,7 @@ function insertSong(songContent) {
     const formatter = new ChordSheetJS.HtmlDivFormatter({
         normalizeChords: false,
         // expandChorusDirective: true,
-        /** @type {Partial<Record<ChordProSectionContentType, Delegate>>} */
+        /** @type {Partial<Record<ChordProSectionContentType, ChordProSectionDelegate>>} */
         delegates: {
             grid(input) {
                 return gridHTMLFromGridContent(input).outerHTML;

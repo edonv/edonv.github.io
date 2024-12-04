@@ -107,15 +107,6 @@ function cleanUpChordSheetString(song) {
                 return `{chorus: label="[Chorus]"}`;
             }
         })
-        // Reformat section labels
-        .replace(/: label="(.*)"/g, (match, labelContent) => {
-            if (labelContent.length > 0) {
-                return `: ${labelContent}`;
-            } else {
-                // Don't include the colon if there is no label.
-                return '';
-            }
-        })
     
         // Smart Quotes
         // Used this for reference (with some changes): https://gist.github.com/zerolab/1633661

@@ -19837,7 +19837,10 @@ Or set the song key before changing key:
           this.foreachItem((item) => {
             if (!(item instanceof (0, $551a223fc13b5c10$export$2e2bcd8739ae039))) return;
             const itemChords = item.chords;
-            if (itemChords && itemChords.length > 0) chords.add(itemChords);
+            if (itemChords && itemChords.length > 0) {
+              const parsedChord = (0, $177a605b8569b31c$export$2e2bcd8739ae039).parse(itemChords);
+              if (parsedChord) chords.add(parsedChord.toString());
+            }
           });
           return Array.from(chords);
         }

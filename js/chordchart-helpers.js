@@ -139,6 +139,7 @@ async function renderChordsFromSong(song) {
         .forEach(ch => otherChords.delete(ch));
     const otherChordDefs = await getChordsFromConfig(...otherChords)
         .then(chords => cleanChordProChords(...chords));
+
     renderChords([
         ...Object.values(chordDefs),
         ...otherChordDefs,

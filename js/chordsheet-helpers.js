@@ -44,6 +44,7 @@
 
 /**
  * @typedef {Object} ChordProSong
+ * @prop {Object[]} lines
  * @prop {()=>Record<string, ChordProJSChordDef>} getChordDefinitions
  * @prop {()=>string[]} getChords
  */

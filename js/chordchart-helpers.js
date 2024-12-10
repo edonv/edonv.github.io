@@ -275,8 +275,6 @@ function chordProChordToSVGuitarChord(chord) {
             } else if (f == 0) {
                 fretNum = 0;
             } else {
-                // ChordPro treats fret number as relative to `baseFret`
-                // With base-fret 3, fret position 1 indicates the 3rd position.
                 fretNum = f;
 
                 // Skip if already included in the `barre`

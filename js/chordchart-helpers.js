@@ -270,7 +270,7 @@ function chordProChordToSVGuitarChord(chord) {
             let fretNum;
             /** @type {Finger[2]} */
             let fingerLabel = undefined;
-            if (f < 0 || f == 'N' || f == 'x') {
+            if (f == 'N' || f == 'x' || f < 0) {
                 fretNum = 'x';
             } else if (f == 0) {
                 fretNum = 0;

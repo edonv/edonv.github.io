@@ -30,7 +30,7 @@
 /**
  * @typedef {Object} Chord
  * @prop {Barre[]} barres The barre chords
- * @prop {Finger[]} fingers The fingers
+ * @prop {Finger[]} fingers The fingers. Its fret numbers are relative to `position`.
  * @prop {number} [position] Position (defaults to 1). Can also be provided via ChordSettings.
  * @prop {string} [title] Title of the chart. Can also be provided via ChordSettings.
  */

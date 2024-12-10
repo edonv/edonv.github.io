@@ -49,7 +49,13 @@ function insertSong(songContent) {
             error,
             songContent,
         });
-        songBody.insertAdjacentHTML('beforeend', '<br><div style="text-align: center; font-family: \'Roboto Serif\', serif;">Error displaying song. It can still be downloaded.</div>');
+        songBody.insertAdjacentHTML(
+            'beforeend',
+            `<br>
+            <div style="text-align: center; font-family: \'Roboto Serif\', serif;">
+                Error displaying song. It can still be downloaded.
+            </div>`
+        );
         return;
     }
 

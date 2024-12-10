@@ -15,11 +15,29 @@
  */
 
 /**
+ * A description of a chord, in `ChordProJS`-related contexts.
  * @typedef {Object} ChordProJSChordDef
  * @prop {string} name
  * @prop {number} [baseFret]
  * @prop {ChordProFret[]} frets
  * @prop {ChordProFinger[]} fingers
+ */
+
+/**
+ * A full description of a chord, in contexts relating to `ChordPro` config files.
+ * @typedef {Object} ChordProChordDefFull
+ * @prop {string} name
+ * @prop {number} [base]
+ * @prop {ChordProFret[]} frets
+ * @prop {ChordProFinger[]} [fingers]
+ */
+/**
+ * A description of a chord in contexts relating to `ChordPro` config files, that have a `copy` property, indicating its remaining properties are to be copied from another definition with a `name` that matches `copy`.
+ * @typedef {Omit<ChordProChordDefFull, 'frets'> & {copy: string, frets?: ChordProFret[]}} ChordProChordDefCopying
+ */
+/** 
+ * A description of a chord, in contexts relating to `ChordPro` config files.
+ * @typedef {ChordProChordDefFull | ChordProChordDefCopying} ChordProChordDef 
  */
 
 /**

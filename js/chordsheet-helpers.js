@@ -2,6 +2,32 @@
 /** @typedef {(_string: string) => string} ChordProSectionDelegate */
 
 /**
+ * @typedef {number|'N'|'x'} ChordProFret 
+ * Fret positions are relative to the offset minus one, so with base-fret 1 (the default),
+ * the topmost fret position is 1. With base-fret 3, fret position 1 indicates the 3rd position.
+ * `0` (zero) denotes an open string. Use `-1`, `N` or `x` to denote a non-sounding string.
+ */
+
+/**
+ * @typedef {number|'-'|'x'|'X'|'N'|string} ChordProFinger
+ * Finger settings may be numeric (0 .. 9) or uppercase letters (A .. Z).
+ * Note that the values -, x, X, and N are used to designate a string without finger setting.
+ */
+
+/**
+ * @typedef {Object} ChordProChordDefinition
+ * @prop {string} name
+ * @prop {number} [baseFret]
+ * @prop {ChordProFret[]} frets
+ * @prop {ChordProFinger[]} fingers
+ */
+
+/**
+ * @typedef {Object} ChordProSong
+ * @prop {()=>Record<string, ChordProChordDefinition>} getChordDefinitions
+ */
+
+/**
  * Adds song to page, specifically to `div#song-body` element.
  * @param {string} songContent 
  */

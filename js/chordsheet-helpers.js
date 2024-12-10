@@ -30,6 +30,7 @@
 /**
  * Adds song to page, specifically to `div#song-body` element.
  * @param {string} songContent 
+ * @returns {ChordProSong}
  */
 function insertSong(songContent) {
     const songBody = document.getElementById('song-body');
@@ -56,7 +57,7 @@ function insertSong(songContent) {
     /** @type {string} */
     const capo = song.getMetadata('capo');
     if (capo && parseInt(capo)) {
-        // If there's a capo, it's stored, but remove it from Song metadata
+        // If there's a capo, it's stored, but remove it from ChordProSong metadata
         // This is to workaround ChordProJS's formatter that outputs capoed songs in concert key.
         song = song.setCapo(null);
     }
@@ -94,6 +95,8 @@ function insertSong(songContent) {
 
     // Add additional styling to misc sections
     addMiscStyling();
+
+    return song;
 }
 
 /**

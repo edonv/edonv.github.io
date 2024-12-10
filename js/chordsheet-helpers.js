@@ -15,7 +15,7 @@
  */
 
 /**
- * @typedef {Object} ChordProChordDefinition
+ * @typedef {Object} ChordProJSChordDef
  * @prop {string} name
  * @prop {number} [baseFret]
  * @prop {ChordProFret[]} frets
@@ -24,7 +24,7 @@
 
 /**
  * @typedef {Object} ChordProSong
- * @prop {()=>Record<string, ChordProChordDefinition>} getChordDefinitions
+ * @prop {()=>Record<string, ChordProJSChordDef>} getChordDefinitions
  * @prop {()=>string[]} getChords
  */
 

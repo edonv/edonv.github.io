@@ -35,7 +35,7 @@
  * @prop {string} [title] Title of the chart. Can also be provided via ChordSettings.
  */
 
-/** @typedef {Chord} SVGuitarChordDefinition */
+/** @typedef {Chord} SVGuitarChordDef */
 
 /**
  * @typedef {Object} SVGuitarChord

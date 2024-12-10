@@ -104,6 +104,8 @@ async function cleanChordProChords(...chords) {
 
 /**
  * Searches for chord definitions in `guitar.json` from the provided chord names.
+ * 
+ * Note: If a chord is not found, its position in the input will be `undefined` in the returned array.
  * @param  {...string} chordNames
  * @returns {Promise<ChordProChordDef[]>} 
  */

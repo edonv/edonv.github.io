@@ -52,6 +52,42 @@
 // MARK: Public Functions
 
 /**
+ * Returns the value of the first directive with the given name, if there is one.
+ * @param {ChordProSong} song 
+ * @param {string} directive 
+ * @returns {string|undefined}
+ */
+function getFirstDirective(song, directive) {
+    return song.lines
+        .flatMap(l => {
+            const item = l.items.find(i => i.originalName == directive);
+            if (item) {
+                return [item.value];
+            } else {
+                return [];
+            }
+        })?.[0];
+}
+
+/**
+ * Returns all values of directives with the given name, if there are any.
+ * @param {ChordProSong} song 
+ * @param {string} directive 
+ * @returns {string[]}
+ */
+function getDirective(song, directive) {
+    return song.lines
+        .flatMap(l => {
+            const item = l.items.find(i => i.originalName == directive);
+            if (item) {
+                return [item.value];
+            } else {
+                return [];
+            }
+        });
+}
+
+/**
  * Adds song to page, specifically to `div#song-body` element.
  * @param {string} songContent 
  * @returns {ChordProSong}

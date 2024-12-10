@@ -57,7 +57,8 @@ div#body-wrap {
 
 #song-body {
     position: relative;
-    width: fit-content;
+    /* width: fit-content; */
+    width: inherit;
     min-width: 75%;
     margin: 0 auto;
 

@@ -25,6 +25,7 @@
 /**
  * @typedef {Object} ChordProSong
  * @prop {()=>Record<string, ChordProChordDefinition>} getChordDefinitions
+ * @prop {()=>string[]} getChords
  */
 
 /**

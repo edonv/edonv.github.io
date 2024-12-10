@@ -8,9 +8,19 @@ layout: default
 
 <script src="/js/chordsheet.js"></script>
 <script src="/js/chordsheet-helpers.js"></script>
+<script src="../js/chordchart-helpers.js"></script>
+<script src="https://omnibrain.github.io/svguitar/js/svguitar.umd.js"></script>
+
 <script>
     const chordPro = `
     {{ content }}
      `;
-    insertSong(chordPro);
+    const song = insertSong(chordPro);
+    renderChordsFromSong(song)
+        .catch(error => {
+            console.error('Error rendering chords.', {
+                song: song,
+                error,
+            });
+        });
 </script>

@@ -1,3 +1,5 @@
+// MARK: Typings
+
 /** @typedef {'tab'|'abc'|'ly'|'grid'} ChordProSectionContentType */
 /** @typedef {(_string: string) => string} ChordProSectionDelegate */
 
@@ -45,6 +47,8 @@
  * @prop {()=>Record<string, ChordProJSChordDef>} getChordDefinitions
  * @prop {()=>string[]} getChords
  */
+
+// MARK: Public Functions
 
 /**
  * Adds song to page, specifically to `div#song-body` element.
@@ -123,6 +127,8 @@ function insertSong(songContent) {
 
     return song;
 }
+
+// MARK: Internal Functions
 
 /**
  * @param {string} song 

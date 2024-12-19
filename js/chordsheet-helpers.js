@@ -407,6 +407,10 @@ function addSongMetadataHeader(song, capo) {
     metadataHeaderDiv.classList.add('song-metadata');
 
     const title = song.getMetadata('title');
+    if (title) {
+        document.title = document.title
+            .replace(/(.+)? ?\| (?<sitetitle>.+)/, `${title} | $<sitetitle>`);
+    }
 
     /** @type {Element} */
     const songTitleCopy = songTitleH1.cloneNode(true);

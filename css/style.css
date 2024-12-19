@@ -98,10 +98,13 @@ ul.songlist {
 
     margin: 0;
     padding-inline-start: 20px;
+
+    column-count: 2;
     list-style-type: '\2192';
 
     li {
         padding-left: 4px;
+        break-before: avoid-column;
 
         &:has(+li) {
             padding-bottom: 2px;

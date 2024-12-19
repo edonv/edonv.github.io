@@ -179,8 +179,11 @@ function renderChords(chords) {
             .chord(convertedChord)
             .configure({
                 ...svguitarConfigFromChord(convertedChord),
-                titleFontSize: 72,
+                titleFontSize: 78,
                 fretLabelFontSize: 60,
+                fingerTextSize: 32, // 24
+                strokeWidth: 3,
+                nutWidth: 15,
             })
             .draw();
 

@@ -103,8 +103,11 @@ ul.songlist {
     column-count: 2;
     list-style-type: '\2192';
 
-    li {
+    h3, li {
         padding-left: 4px;
+    }
+
+    li {
         break-before: avoid-column;
 
         &:has(+li) {

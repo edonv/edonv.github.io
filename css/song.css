@@ -179,8 +179,9 @@ div#body-wrap {
             /* min-width: 1em; */
         }
 
-        &.grid-cell {
-            /* Add horizontal padding to all grid cells (both chord and empty spacing cells) */
+        /* Add horizontal padding to all chord grid cells (ignore empty spacing cells) */
+        /* Empty grid cells will be stretched to the appropriate width automatically */
+        &.grid-cell.chord {
             padding: 0 0.5em;
         }
 

@@ -102,5 +102,9 @@ ul.songlist {
 
     li {
         padding-left: 4px;
+
+        &:has(+li) {
+            padding-bottom: 2px;
+        }
     }
 }

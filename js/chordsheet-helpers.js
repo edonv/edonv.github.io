@@ -188,7 +188,6 @@ function cleanUpChordSheetString(song) {
             return match
                 .replace(label, label.replace('\n', ' '));
         })
-        // Replace section directive that aren't officially recognized be changed to `verse`
         // Catch `{chorus: label=""}` recalls, add "Chorus" into label
         .replaceAll(/\{chorus: label="(.*)"\}/g, (match, labelContent) => {
             // '{chorus: label="Chorus ($1)"}'

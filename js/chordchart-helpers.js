@@ -53,7 +53,7 @@ const getChordProGuitarChords = (() => {
     let chordsProm = null;
     return () => {
         if (!chordsProm) {
-            chordsProm = fetch('./json/guitar.json')
+            chordsProm = fetch('/js/json/guitar.json')
                 .then(response => response.json());
         }
         return chordsProm;

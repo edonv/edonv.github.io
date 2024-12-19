@@ -32,8 +32,8 @@ div#body-wrap {
     font-style: italic;
 }
 
-.chord,
-.paragraph .row .column .annotation:has(+ .lyrics) {
+:is(#song-diagrams, .chord-sheet) .chord,
+.chord-sheet .paragraph .row .column .annotation:has(+ .lyrics) {
     font-weight: bold;
     font-style: italic;
 }

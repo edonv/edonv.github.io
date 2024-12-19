@@ -34,7 +34,6 @@ div#body-wrap {
 
 .chord,
 .paragraph .row .column .annotation:has(+ .lyrics) {
-    /* font-weight: 600; */
     font-weight: bold;
     font-style: italic;
 }

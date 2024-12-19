@@ -173,10 +173,10 @@ div#body-wrap {
         /* This will be overridden further for chord/empty cells */
         padding: 0;
 
-        /* All empty cells (ChordPro `.`) */
+        /* All empty cells (ChordPro `.`) should take up at least *this* much space */
         &.grid-cell:empty {
-            /* Should take up at least *this* much space */
-            min-width: 1em;
+            /* Update: this isn't actually necessary. By ommitting this, it automatically abbreviates unnecessary `.` spacers */
+            /* min-width: 1em; */
         }
 
         &.grid-cell {

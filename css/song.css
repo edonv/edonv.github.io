@@ -120,7 +120,7 @@ div#body-wrap {
 #song-body .paragraph:has(.column .chord) .column:not(:last-child):has(+ .column :is(.chord, .annotation):not(:empty)) :is(.chord, .annotation):not(:empty) {
     /* Should not actually need this, as where it's actually needed, there should already have a space to separate words */
     /* Re-enabling for now, because there are some places (like mid-word) where it's still needed */
-    padding-right: 0.25ch;
+    padding-right: 0.5ch;
 }
 
 /* For all chunks with a chord that is followed by a no-chord chunk, ensure that the chord itself is allowed to hang over the end of its chunk if it's longer than the lyrics below it. */

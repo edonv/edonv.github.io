@@ -223,42 +223,82 @@ function chordProChordToSVGuitarChord(chord) {
 
     /** @type {Barre|undefined} */
     let barre = undefined;
-    chord.frets.forEach((f, i) => {
-        // Start from index 2, because it'd be too early to 2 strings before anyway
-        if (i < 2) {
-            return;
-        }
 
-        // If the fret value is a number and not open...
-        if (typeof f == 'number' && f > 0) {
-            const matchingStringIndex = chord.frets
-                // `i - 1` because it would be `- 2` but it's an exclusive index
-                .slice(0, i - 1)
-                // Get index of string with same fret
-                .findIndex((fret, strIndex, arr) => {
-                    const fretBetween = arr.at(strIndex + 1);
-                    return fret == f
-                        // Only count as barre if fret in-between strings are lower than current fret
-                        && fretBetween && typeof fretBetween == 'number'
-                        && fretBetween > fret;
-                });
-            
-            if (matchingStringIndex > -1) {
-                const matchingStringNum = convertChordProStringIndexToSVGuitarChord(chord.frets.length, matchingStringIndex);
-                const stringNum = convertChordProStringIndexToSVGuitarChord(chord.frets.length, i);
-                if (typeof barre == 'undefined') {
-                    barre = {
-                        fret: f,
-                        text: chord.fingers?.[i]?.toString(),
-                        fromString: Math.max(matchingStringNum, stringNum), // high number
-                        toString: Math.min(matchingStringNum, stringNum), // low number
-                    };
+    // Get counts of each finger number (if they're present)
+    // For every finger that occurs more than once, it's a barre
+    // If no fingers, use old algorithm
+    if (chord.fingers) {
+        /** @type {Record<number, number>} */
+        const fingerOccurCounts = chord.fingers.reduce((counts, finger) => {
+            if (typeof finger == 'number') {
+                if (counts[finger]) {
+                    counts[finger] += 1;
                 } else {
-                    barre.toString = Math.min(barre.toString, stringNum);
+                    counts[finger] = 1;
+                }
+            }
+            return counts;
+        }, {});
+
+        if (Object.keys(fingerOccurCounts).length > 1) {
+            for (const fingerStr in fingerOccurCounts) {
+                const finger = parseInt(fingerStr);
+                const count = fingerOccurCounts[finger];
+
+                if (count <= 1) { continue; }
+
+                const firstStrIndex = chord.fingers.findIndex(f => f == finger);
+                const lastStrIndex = chord.fingers.length - [...chord.fingers].reverse()
+                    .findIndex(f => f == finger) - 1;
+                if (firstStrIndex > -1 && lastStrIndex > -1) {
+                    const fretNum = chord.frets[firstStrIndex];
+                    barre = {
+                        fret: fretNum,
+                        text: finger.toString(),
+                        fromString: convertChordProStringIndexToSVGuitarChord(chord.frets.length, firstStrIndex), // high number
+                        toString: convertChordProStringIndexToSVGuitarChord(chord.frets.length, lastStrIndex), // low number
+                    };
                 }
             }
         }
-    });
+    } else {
+        chord.frets.forEach((f, i) => {
+            // Start from index 2, because it'd be too early to 2 strings before anyway
+            if (i < 2) {
+                return;
+            }
+
+            // If the fret value is a number and not open...
+            if (typeof f == 'number' && f > 0) {
+                const matchingStringIndex = chord.frets
+                    // `i - 1` because it would be `- 2` but it's an exclusive index
+                    .slice(0, i - 1)
+                    // Get index of string with same fret
+                    .findIndex((fret, strIndex, arr) => {
+                        const fretBetween = arr.at(strIndex + 1);
+                        return fret == f
+                            // Only count as barre if fret in-between strings are lower than current fret
+                            && fretBetween && typeof fretBetween == 'number'
+                            && fretBetween > fret;
+                    });
+            
+                if (matchingStringIndex > -1) {
+                    const matchingStringNum = convertChordProStringIndexToSVGuitarChord(chord.frets.length, matchingStringIndex);
+                    const stringNum = convertChordProStringIndexToSVGuitarChord(chord.frets.length, i);
+                    if (typeof barre == 'undefined') {
+                        barre = {
+                            fret: f,
+                            text: chord.fingers?.[i]?.toString(),
+                            fromString: Math.max(matchingStringNum, stringNum), // high number
+                            toString: Math.min(matchingStringNum, stringNum), // low number
+                        };
+                    } else {
+                        barre.toString = Math.min(barre.toString, stringNum);
+                    }
+                }
+            }
+        });
+    }
 
     return {
         barres: [barre].filter(b => b),

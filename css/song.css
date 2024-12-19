@@ -71,7 +71,7 @@ div#body-wrap {
         display: flex;
         flex-wrap: wrap;
         align-items: start;
-        row-gap: 8px;
+        row-gap: 4px;
 
         margin-block-end: 0.5rem;
 

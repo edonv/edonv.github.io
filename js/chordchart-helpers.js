@@ -383,7 +383,7 @@ function cleanUpSVGDiagram(svg) {
         const titleText = svg.querySelector('text.title');
         const yAttr = titleText?.getAttribute('y')
         if (titleText && yAttr && parseFloat(yAttr)) {
-            titleText.setAttribute('y', (parseFloat(yAttr) - 38.4).toString());
+            titleText.setAttribute('y', (parseFloat(yAttr) - 36).toString());
         }
     }
 

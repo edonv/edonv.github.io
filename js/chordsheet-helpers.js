@@ -22,7 +22,7 @@
  * @prop {string} name
  * @prop {number} [baseFret]
  * @prop {ChordProFret[]} frets
- * @prop {ChordProFinger[]} fingers
+ * @prop {ChordProFinger[]} [fingers]
  */
 
 /**

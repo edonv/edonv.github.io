@@ -6,7 +6,8 @@
     {%- assign artists = songs | map: "artist" | sort %}
     {%-for artist in artists %}
         <h3>{{ artist }}</h3>
-        {%-for song in songs | where: "artist", artist %}
+        {%- assign artist_songs = songs | where: "artist", artist %}
+        {%-for song in artist_songs %}
         <li><a href="{{ site.url }}/music/songs/{{ song.fileName | slugify }}">{{ song.name }}</a></li>
         {%- endfor %}
     {%- endfor %}

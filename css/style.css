@@ -99,7 +99,8 @@ ul.songlist {
     margin: 0;
     padding-inline-start: 20px;
     list-style-type: '\2192';
-}
-ul.songlist li {
-    padding-left: 4px;
+
+    li {
+        padding-left: 4px;
+    }
 }

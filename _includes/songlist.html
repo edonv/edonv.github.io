@@ -1,7 +1,18 @@
 <!-- Input parameter `songs` is array in the format of `_data/songs.json` -->
 {%- assign songs = include.songs | sort: "name" %}
+
 <ul class="bordered songlist">
-{%-for song in songs %}
-<li><a href="{{ site.url }}/music/songs/{{ song.fileName | slugify }}">{{ song.name }} &ndash; {{ song.artist }}</a></li>
-{%- endfor %}
+{%- if songs.size > 5 %}
+    {%- assign artists = songs | map: "artist" | sort %}
+    {%-for artist in artists %}
+        <h3>{{ artist }}</h3>
+        {%-for song in songs | where: "artist", artist %}
+        <li><a href="{{ site.url }}/music/songs/{{ song.fileName | slugify }}">{{ song.name }}</a></li>
+        {%- endfor %}
+    {%- endfor %}
+{%- else %}
+    {%-for song in songs %}
+    <li><a href="{{ site.url }}/music/songs/{{ song.fileName | slugify }}">{{ song.name }} &ndash; {{ song.artist }}</a></li>
+    {%- endfor %}
+{%- endif %}
 </ul>

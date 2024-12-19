@@ -3,7 +3,7 @@
 
 <ul class="bordered songlist">
 {%- if songs.size > 5 %}
-    {%- assign artists = songs | map: "artist" | sort %}
+    {%- assign artists = songs | map: "artist" | uniq | sort %}
     {%-for artist in artists %}
         <h3>{{ artist }}</h3>
         {%- assign artist_songs = songs | where: "artist", artist %}

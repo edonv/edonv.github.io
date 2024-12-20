@@ -113,5 +113,9 @@ ul.songlist {
         &:has(+li) {
             padding-bottom: 4px;
         }
+
+        &:has(+h3) {
+            margin-bottom: 8px;
+        }
     }
 }

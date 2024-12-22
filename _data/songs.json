@@ -50,6 +50,16 @@
     "fileName": "i got a name"
   },
   {
+    "name": "Love Like You",
+    "artist": "Rebecca Sugar",
+    "fileName": "love like you"
+  },
+  {
+    "name": "Ma Sh'chashuv",
+    "artist": "Jane Bordeaux",
+    "fileName": "ma shchashuv"
+  },
+  {
     "name": "Mitachat Lashamayim",
     "artist": "David Broza",
     "fileName": "mitachat lashamayim"
@@ -70,6 +80,11 @@
     "fileName": "picture to burn"
   },
   {
+    "name": "Somebody More Like You",
+    "artist": "Nickel Creek",
+    "fileName": "somebody more like you"
+  },
+  {
     "name": "Stargazing",
     "artist": "Myles Smith",
     "fileName": "stargazing"
@@ -80,8 +95,23 @@
     "fileName": "sugar"
   },
   {
+    "name": "Kol Sasson",
+    "artist": "The Very First Time",
+    "fileName": "the very first time"
+  },
+  {
+    "name": "This Side",
+    "artist": "Nickel Creek",
+    "fileName": "this side"
+  },
+  {
     "name": "Treehouse",
     "artist": "Cory Wong",
     "fileName": "treehouse"
+  },
+  {
+    "name": "Yah Anah",
+    "artist": "So Is Life",
+    "fileName": "yah anah"
   }
 ]

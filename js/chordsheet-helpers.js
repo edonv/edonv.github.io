@@ -183,6 +183,12 @@ function cleanUpChordSheetString(song) {
         .replace(/^ +/gm, "")
         // Replace all `comment_italic` directives with normal `comment`
         .replace(/\bcomment_italic|ci\b/g, "c")
+        // Replace any instances of `comment` directives that use brackets with an asterisk without the asterisk
+        // Standard ChordPro expects this: `{c: [*[Comment]]}` for output `[Comment]`
+        .replace(
+            /^\{(?<directive>c(?:omment)?): (?<pre>.*)\[\*(?<content>\[.+?\])\](?<post>.*)\}$/gm,
+            '{$<directive>: $<pre>$<content>$<post>}'
+        )
         // Replace all \n characters in section labels
         .replaceAll(/\{.+?: ([^{}]*\n+[^{}]*)\}/g, (match, label) => {
             return match

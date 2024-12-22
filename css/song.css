@@ -197,6 +197,13 @@ div#body-wrap {
     }
 }
 
+/* MARK: Tabs */
+
+#song-body .chord-sheet .literal {
+    font-family: monospace;
+    white-space: pre;
+}
+
 /* MARK: Lilypond */
 
 .ly-svg {

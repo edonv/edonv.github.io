@@ -207,6 +207,8 @@ div#body-wrap {
 /* MARK: Lilypond */
 
 .ly-svg {
+    /* Cap the width at the container's width */
+    max-width: 100%;
     /* 70px, this should cause chord names over tab to be same size as chord sheet */
     /* EDIT: no longer true. Need to figure out what to do for this */
     /* height: 4.375em; */

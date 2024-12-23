@@ -62,7 +62,7 @@ tspan { white-space: pre; }
 <g transform="translate(21.8162, 1.8907)">
 <rect x="0.0000" y="-3.7500" width="0.1900" height="7.5000" ry="0.0000" fill="currentColor"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(48.0753, -2.6887)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>
@@ -128,7 +128,7 @@ tspan { white-space: pre; }
 <g transform="translate(0.0000, 1.8907)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.2000" stroke="currentColor" x1="42.2791" y1="-0.4475" x2="44.7067" y2="-1.0525"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(23.6562, -2.6887)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>E</tspan>
@@ -158,7 +158,7 @@ tspan { white-space: pre; }
 <g transform="translate(0.0000, 1.8907)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.2000" stroke="currentColor" x1="15.5225" y1="-1.9428" x2="18.1732" y2="-2.5572"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(30.6794, -2.6887)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>C</tspan>
@@ -223,7 +223,7 @@ tspan { white-space: pre; }
 </g>
 <g class="tab-note">
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(2.9340, -2.6887)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>G</tspan>
@@ -317,7 +317,7 @@ tspan { white-space: pre; }
 </text>
 </g>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(69.1286, -2.6887)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>G</tspan>

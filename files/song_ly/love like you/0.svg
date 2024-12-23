@@ -44,7 +44,7 @@ tspan { white-space: pre; }
 <g transform="translate(17.1998, 2.9129)">
 <path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M1.2892 1.2447C1.7950 1.8344 2.8823 1.8344 3.3882 1.2447L3.3882 1.2447C2.8823 1.7144 1.7950 1.7144 1.2892 1.2447z"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(5.6082, -6.5179)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>F</tspan>
@@ -218,7 +218,7 @@ tspan { white-space: pre; }
 <g transform="translate(29.9474, 2.9129)">
 <path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M1.2892 -1.1250C2.0884 -0.3412 4.6169 -0.3412 5.4162 -1.1250L5.4162 -1.1250C4.6169 -0.4612 2.0884 -0.4612 1.2892 -1.1250z"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(16.9498, -6.5179)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>B</tspan>
@@ -272,7 +272,7 @@ c-13 0 -23 11 -23 25z" fill="currentColor"/>
 <g transform="translate(29.9474, 2.9129)">
 <path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M1.2892 1.2258C2.0562 1.9928 4.3791 1.9928 5.1461 1.2258L5.1461 1.2258C4.3791 1.8728 2.0562 1.8728 1.2892 1.2258z"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(22.7291, -6.5179)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>A</tspan>
@@ -409,7 +409,7 @@ c-13 0 -23 11 -23 25z" fill="currentColor"/>
 <g transform="translate(22.9791, 2.9129)">
 <path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M1.2892 1.2447C1.7950 1.8344 2.8823 1.8344 3.3882 1.2447L3.3882 1.2447C2.8823 1.7144 1.7950 1.7144 1.2892 1.2447z"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(39.9654, -6.5179)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>A</tspan>
@@ -513,7 +513,7 @@ c-13 0 -23 11 -23 25z" fill="currentColor"/>
 <g transform="translate(5.8582, 2.9129)">
 <path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.6600 -8.1347C2.4514 -9.1911 5.7296 -8.5155 6.9574 -6.8370L6.9574 -6.8370C5.7054 -8.3980 2.4272 -9.0735 0.6600 -8.1347z"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(29.6974, -6.5179)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>A</tspan>

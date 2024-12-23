@@ -143,29 +143,31 @@ async function renderChordsFromSong(song) {
     renderChords([
         ...Object.values(chordDefs),
         ...otherChordDefs,
-    ]);
+    ], '#song-body .song-metadata', 'song-diagrams');
 }
 
 /**
  * Creates and inserts SVG chord diagrams for the chord definitions provided.
  * @param {(ChordProJSChordDef|SVGuitarChordDef)[]} chords 
+ * @param {string} selector CSS selector string, in which to add the diagrams.
+ * @param {string} containerID If provided, custom HTML ID for the generated container element of all diagrams.
  */
-function renderChords(chords) {
+function renderChords(chords, selector, containerID) {
     // If there are no chords to render, skip.
     if (chords.length == 0) {
         return;
     }
 
-    const songMetadataWrapper = document.querySelector('#song-body .song-metadata');
+    const diagramsContainerWrapper = document.querySelector(selector);
 
-    if (!songMetadataWrapper) {
-        console.error("Could not find element by selector: `#song-body .song-metadata`, after which chord diagrams should be displayed.");
+    if (!diagramsContainerWrapper) {
+        console.error(`Could not find element by selector: \`${selector}\`, after which chord diagrams should be displayed.`);
         return;
     }
 
-    const songDiagramsWrapper = document.createElement('div');
-    songDiagramsWrapper.id = 'song-diagrams';
-    songMetadataWrapper.insertAdjacentElement('afterend', songDiagramsWrapper);
+    const diagramContainer = document.createElement('div');
+    diagramContainer.id = containerID;
+    diagramsContainerWrapper.insertAdjacentElement('afterend', diagramContainer);
 
     const chordElements = chords.map(chord => {
         const chordWrapper = document.createElement('div');
@@ -190,11 +192,11 @@ function renderChords(chords) {
         return chordWrapper;
     });
 
-    songDiagramsWrapper.append(...chordElements);
-    songMetadataWrapper.insertAdjacentElement('afterend', songDiagramsWrapper);
+    diagramContainer.append(...chordElements);
+    diagramsContainerWrapper.insertAdjacentElement('afterend', diagramContainer);
 
     // Manually touch-up all diagram SVGs to have appropriate `viewBox` attributes, and other things
-    document.querySelectorAll('#song-body #song-diagrams svg')
+    document.querySelectorAll(`${selector} #${containerID} svg`)
         .forEach(cleanUpSVGDiagram);
 }
 

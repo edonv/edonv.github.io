@@ -16,7 +16,7 @@ layout: default
     {{ content }}
      `;
     const song = insertSong(chordPro);
-    renderChordsFromSong(song)
+    renderChordsForSong(song)
         .catch(error => {
             console.error('Error rendering chords.', {
                 song: song,

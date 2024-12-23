@@ -122,7 +122,7 @@ async function getChordsFromConfig(...chordNames) {
  * Calls {@link renderChords} with chords from `song`.
  * @param {ChordProSong} song Song, whose chords should be rendered.
  */
-async function renderChordsFromSong(song) {
+async function renderChordsForSong(song) {
     // If the song sets the `diagrams` directive to `off`, don't render diagrams.
     const diagramsDirective = getFirstDirective(song, 'diagrams');
     if (diagramsDirective == 'off') {

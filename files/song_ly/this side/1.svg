@@ -197,7 +197,7 @@ tspan { white-space: pre; }
 <g transform="translate(25.5417, 1.1100)">
 <path transform="scale(0.0016, -0.0016)" d="M31 -250c0 21 63 57 63 250s-63 229 -63 250c0 10 9 19 19 19c5 0 12 -2 16 -8c54 -77 90 -167 90 -261s-36 -184 -90 -261c-4 -6 -11 -8 -16 -8c-10 0 -19 9 -19 19z" fill="currentColor"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(29.1805, -2.6900)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>E</tspan>
@@ -435,7 +435,7 @@ tspan { white-space: pre; }
 <g transform="translate(4.8833, 14.9549)">
 <rect x="-0.0650" y="-2.9662" width="0.1300" height="5.1686" ry="0.0400" fill="currentColor"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(6.0783, 9.8743)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>A</tspan>

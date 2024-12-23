@@ -59,7 +59,7 @@ tspan { white-space: pre; }
 </text>
 </g>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(2.2809, -3.4052)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>E</tspan>
@@ -288,7 +288,7 @@ tspan { white-space: pre; }
 <g transform="translate(33.9776, 2.5243)">
 <rect x="-0.0650" y="-2.9662" width="0.1300" height="4.2762" ry="0.0400" fill="currentColor"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(36.5484, -3.4052)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>A</tspan>

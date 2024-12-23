@@ -65,7 +65,7 @@ tspan { white-space: pre; }
 <g transform="translate(21.9825, 10.7544)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.9575 0.5500 6.9575 0.9500 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(2.8900, -3.8563)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>C</tspan>
@@ -279,7 +279,7 @@ tspan { white-space: pre; }
 <g transform="translate(8.3124, 2.5044)">
 <rect x="-0.0650" y="3.0338" width="0.1300" height="4.2762" ry="0.0400" fill="currentColor"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(9.7575, -3.8563)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>C</tspan>
@@ -500,7 +500,7 @@ l-106 88c-4 3 -6 9 -6 14s2 10 6 13l23 19c3 3 7 4 11 4s9 -1 12 -4z" fill="current
 <g transform="translate(15.1799, 2.5044)">
 <rect x="-0.0650" y="3.0338" width="0.1300" height="4.2762" ry="0.0400" fill="currentColor"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(16.6250, -3.8563)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>A</tspan>
@@ -700,7 +700,7 @@ l-106 88c-4 3 -6 9 -6 14s2 10 6 13l23 19c3 3 7 4 11 4s9 -1 12 -4z" fill="current
 <g transform="translate(22.0475, 2.5044)">
 <rect x="-0.0650" y="3.0338" width="0.1300" height="5.2232" ry="0.0400" fill="currentColor"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(23.4925, -3.8563)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>A</tspan>

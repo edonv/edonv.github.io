@@ -68,7 +68,7 @@ tspan { white-space: pre; }
 <g transform="translate(-0.0600, 2.5243)">
 <rect x="0.0000" y="-3.8000" width="0.1600" height="7.6000" ry="0.0500" fill="currentColor"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(2.1890, -3.2758)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>
@@ -132,7 +132,7 @@ tspan { white-space: pre; }
 <g transform="translate(27.7307, 2.5243)">
 <path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.5926 -4.5451C1.2473 -5.1641 2.2214 -5.1686 2.8818 -4.5556L2.8818 -4.5556C2.2220 -5.0486 1.2478 -5.0441 0.5926 -4.5451z"/>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(10.2565, -3.2758)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>
@@ -188,7 +188,7 @@ tspan { white-space: pre; }
 </text>
 </g>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(18.3240, -3.2758)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>
@@ -243,7 +243,7 @@ tspan { white-space: pre; }
 </text>
 </g>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(27.4807, -3.2758)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>
@@ -308,7 +308,7 @@ tspan { white-space: pre; }
 </text>
 </g>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(37.7721, -3.2758)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>
@@ -381,7 +381,7 @@ tspan { white-space: pre; }
 </text>
 </g>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(46.9288, -3.2758)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>
@@ -434,7 +434,7 @@ tspan { white-space: pre; }
 </text>
 </g>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(54.9963, -3.2758)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>
@@ -489,7 +489,7 @@ tspan { white-space: pre; }
 </text>
 </g>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(64.1530, -3.2758)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>
@@ -554,7 +554,7 @@ tspan { white-space: pre; }
 </text>
 </g>
 </g>
-<g id="chord-label">
+<g class="chord-label">
 <g transform="translate(74.4445, -3.2758)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>

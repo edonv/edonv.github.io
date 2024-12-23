@@ -1,0 +1,85 @@
+# yaml-language-server: $schema=http://json-schema.org/draft-07/schema#
+type: object
+additionalProperties:
+  type: object
+  description: Chord descriptors in the syntax of `svguitar`.
+  required:
+    - barres
+    - fingers
+  properties: 
+    # barres: Barre[];
+    barres:
+      type: array
+      items: 
+        type: object
+        required:
+          - fret
+        properties: 
+          color:
+            $ref: "#/$defs/color"
+          fret:
+            type: number
+          strokeColor:
+            $ref: "#/$defs/color"
+          strokeWidth:
+            type: number
+          text:
+            type: string
+          textColor:
+            $ref: "#/$defs/color"
+      default: []
+    
+    # fingers: Finger[];
+    fingers:
+      type: array
+      items:
+        type: array
+        minItems: 2
+        maxItems: 3
+        prefixItems:
+          - title: String
+            type: number
+          - title: Fret
+            oneOf:
+            - type: number
+            - const: 0
+              title: OpenString
+            - const: x
+              title: SilentString
+          - title: Text
+            oneOf:
+              - type: string
+              - type: object
+                properties: 
+                  color:
+                    $ref: "#/$defs/color"
+                  shape:
+                    type: string
+                    enum:
+                      - circle
+                      - pentagon
+                      - square
+                      - triangle
+                  strokeColor:
+                    $ref: "#/$defs/color"
+                  strokeWidth:
+                    type: number
+                  text:
+                    type: string
+                  textColor:
+                    $ref: "#/$defs/color"
+    
+    # position?: number;
+    position:
+      type: number
+      default: 1
+      
+    # title?: string;
+    title:
+      type: string
+
+$defs:
+  color:
+    type: string
+    description: Hex color.
+    pattern: '^#(?:[0-9a-fA-F]{3}){1,2}$'

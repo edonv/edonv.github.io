@@ -149,7 +149,7 @@ async function renderChordsFromSong(song) {
 /**
  * Creates and inserts SVG chord diagrams for the chord definitions provided.
  * @param {(ChordProJSChordDef|SVGuitarChordDef)[]} chords 
- * @param {string} selector CSS selector string, in which to add the diagrams.
+ * @param {string} selector CSS selector string, after which to add the diagrams.
  * @param {string} containerID If provided, custom HTML ID for the generated container element of all diagrams.
  */
 function renderChords(chords, selector, containerID) {

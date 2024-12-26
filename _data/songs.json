@@ -2,121 +2,139 @@
   {
     "name": "American Pie",
     "artist": "Don McLean",
-    "fileName": "american pie"
+    "fileName": "american pie",
+    "tags": []
   },
   {
     "name": "Crave",
     "artist": "Paramore",
-    "fileName": "crave"
+    "fileName": "crave",
+    "tags": []
   },
   {
     "name": "Dancing With Nobody",
     "artist": "Surfaces",
-    "fileName": "dancing with nobody"
+    "fileName": "dancing with nobody",
+    "tags": []
   },
   {
     "name": "Every Time I Look At You",
     "artist": "Cory Wong",
-    "fileName": "every time i look at you"
+    "fileName": "every time i look at you",
+    "tags": []
   },
   {
     "name": "Flying",
     "artist": "Cody Fry",
-    "fileName": "flying"
+    "fileName": "flying",
+    "tags": []
   },
   {
     "name": "Girl I've Always Been",
     "artist": "Olivia Rodrigo",
-    "fileName": "girl ive always been"
+    "fileName": "girl ive always been",
+    "tags": []
   },
   {
     "name": "Golden",
     "artist": "Cory Wong",
-    "fileName": "golden"
+    "fileName": "golden",
+    "tags": []
   },
   {
     "name": "Heaven Falls / Fall On Me",
     "artist": "Surfaces",
-    "fileName": "heaven falls"
-  },
-  {
-    "name": "I Don't Want To Be A Billionaire",
-    "artist": "Theo Katzman",
-    "fileName": "i dont want to be a billionaire"
+    "fileName": "heaven falls",
+    "tags": []
   },
   {
     "name": "I Got A Name",
     "artist": "Jim Croce",
-    "fileName": "i got a name"
+    "fileName": "i got a name",
+    "tags": []
+  },
+  {
+    "name": "Love Is A Beautiful Thing",
+    "artist": "Theo Katzman",
+    "fileName": "love is a beautiful thing",
+    "tags": []
   },
   {
     "name": "Love Like You",
     "artist": "Rebecca Sugar",
-    "fileName": "love like you"
-  },
-  {
-    "name": "Ma Sh'chashuv",
-    "artist": "Jane Bordeaux",
-    "fileName": "ma shchashuv"
-  },
-  {
-    "name": "Mitachat Lashamayim",
-    "artist": "David Broza",
-    "fileName": "mitachat lashamayim"
+    "fileName": "love like you",
+    "tags": []
   },
   {
     "name": "People Watching",
     "artist": "Jack Johnson",
-    "fileName": "people watching"
+    "fileName": "people watching",
+    "tags": []
   },
   {
     "name": "Perfect",
     "artist": "Ed Sheeran",
-    "fileName": "perfect"
+    "fileName": "perfect",
+    "tags": []
   },
   {
     "name": "Picture To Burn",
     "artist": "Taylor Swift",
-    "fileName": "picture to burn"
+    "fileName": "picture to burn",
+    "tags": []
   },
   {
     "name": "Somebody More Like You",
     "artist": "Nickel Creek",
-    "fileName": "somebody more like you"
+    "fileName": "somebody more like you",
+    "tags": []
   },
   {
     "name": "Stargazing",
     "artist": "Myles Smith",
-    "fileName": "stargazing"
+    "fileName": "stargazing",
+    "tags": []
+  },
+  {
+    "name": "Stories Don't End",
+    "artist": "Dawes",
+    "fileName": "stories dont end",
+    "tags": []
   },
   {
     "name": "Sugar",
     "artist": "Maroon 5",
-    "fileName": "sugar"
+    "fileName": "sugar",
+    "tags": []
   },
   {
-    "name": "Kol Sasson",
-    "artist": "The Very First Time",
-    "fileName": "the very first time"
+    "name": "The Story",
+    "artist": "Brandi Carlile",
+    "fileName": "the story",
+    "tags": []
   },
   {
     "name": "This Side",
     "artist": "Nickel Creek",
-    "fileName": "this side"
+    "fileName": "this side",
+    "tags": []
   },
   {
     "name": "Treehouse",
     "artist": "Cory Wong",
-    "fileName": "treehouse"
+    "fileName": "treehouse",
+    "tags": []
+  },
+  {
+    "name": "What I'm Doing Here",
+    "artist": "Lake Street Dive",
+    "fileName": "what im doing here",
+    "tags": []
   },
   {
     "name": "Where You're At",
     "artist": "Allen Stone",
-    "fileName": "where youre at"
-  },
-  {
-    "name": "Yah Anah",
-    "artist": "So Is Life",
-    "fileName": "yah anah"
+    "fileName": "where youre at",
+    "tags": []
   }
 ]

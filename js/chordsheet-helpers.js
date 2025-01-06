@@ -118,16 +118,6 @@ function insertSong(songContent) {
         return;
     }
 
-    // If there is a capo, all non-delegate sections will be transposed down (which it shouldn't do)
-    // If this is the case, transpose back up.
-    /** @type {string} */
-    const capo = song.getMetadata('capo');
-    if (capo && parseInt(capo)) {
-        // If there's a capo, it's stored, but remove it from ChordProSong metadata
-        // This is to workaround ChordProJS's formatter that outputs capoed songs in concert key.
-        song = song.setCapo(null);
-    }
-
     // const formatter = new ChordSheetJS.HtmlTableFormatter({
     const formatter = new ChordSheetJS.HtmlDivFormatter({
         normalizeChords: false,
@@ -157,6 +147,8 @@ function insertSong(songContent) {
     formatGrids();
 
     // Add other metadata like capo and artist(s)
+    /** @type {string} */
+    const capo = song.getMetadata('capo');
     addSongMetadataHeader(song, capo);
 
     // Add additional styling to misc sections

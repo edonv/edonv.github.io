@@ -61,10 +61,15 @@ div#body-wrap {
     min-width: 75%;
     margin: 0 auto;
 
-    .download {
+    #link-list {
         position: absolute;
         inset-block-start: 4px;
         inset-inline-end: 4px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        align-items: end;
     }
 
     #song-diagrams {

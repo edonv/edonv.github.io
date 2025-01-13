@@ -3,7 +3,9 @@ layout: default
 ---
 
 <div id="song-body">
-    <a class="download" href="/files/song_pdfs/{{ page.slug | replace: '-', '%20' }}.pdf" download>Download</a>
+    <div id="link-list">
+        <a class="download" href="/files/song_pdfs/{{ page.slug | replace: '-', '%20' }}.pdf" download>Download</a>
+    </div>
 </div>
 
 <script src="/js/chordsheet.js"></script>

@@ -151,6 +151,10 @@ function insertSong(songContent) {
     const capo = song.getMetadata('capo');
     addSongMetadataHeader(song, capo);
 
+    // Update YouTube link (if applicable)
+    const listenURL = song.getMetadata('x_listenlink');
+    updateListenLink(listenURL);
+
     // Add additional styling to misc sections
     addMiscStyling();
 
@@ -431,6 +435,19 @@ function addSongMetadataHeader(song, capo) {
     metadataHeaderDiv.append(songTitleCopy, artistsSubtitle);
     songBody.insertBefore(metadataHeaderDiv, songTitleH1);
     songBody.removeChild(songTitleH1);
+}
+
+/**
+ * @param {string|undefined} url URL to video, if there is one.
+ */
+function updateListenLink(url) {
+    /** @type {HTMLElement} */
+    const listenLinkEl = document.querySelector('#song-body #link-list .listen');
+    if (listenLinkEl && url) {
+        listenLinkEl.setAttribute('href', url);
+    } else {
+        listenLinkEl.style.display = 'none';
+    }
 }
 
 function addMiscStyling() {

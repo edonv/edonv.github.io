@@ -6,7 +6,7 @@ songs:
   - stargazing
   - flying
   - i dont care
-  - heaven falls
+  - heaven falls.capo
 chords:
   - C
   - Am

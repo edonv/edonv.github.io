@@ -7,6 +7,7 @@ songs:
   - flying
   - i dont care
   - heaven falls.capo
+  - banana pancakes
 chords:
   - C
   - Am

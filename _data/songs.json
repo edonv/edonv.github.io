@@ -114,6 +114,12 @@
     "tags": []
   },
   {
+    "name": "Someday",
+    "artist": "Zombies (film)",
+    "fileName": "someday",
+    "tags": []
+  },
+  {
     "name": "Stargazing",
     "artist": "Myles Smith",
     "fileName": "stargazing",
@@ -159,6 +165,12 @@
     "name": "Where You're At",
     "artist": "Allen Stone",
     "fileName": "where youre at",
+    "tags": []
+  },
+  {
+    "name": "Wide Open",
+    "artist": "Chemical Brothers",
+    "fileName": "wide open",
     "tags": []
   }
 ]

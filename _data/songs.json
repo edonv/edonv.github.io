@@ -72,6 +72,12 @@
     "tags": []
   },
   {
+    "name": "Island in the Sun",
+    "artist": "Weezer",
+    "fileName": "island in the sun",
+    "tags": []
+  },
+  {
     "name": "Love Is A Beautiful Thing",
     "artist": "Theo Katzman",
     "fileName": "love is a beautiful thing",
@@ -81,6 +87,12 @@
     "name": "Love Like You",
     "artist": "Rebecca Sugar",
     "fileName": "love like you",
+    "tags": []
+  },
+  {
+    "name": "Man in the Mirror",
+    "artist": "Michael Jackson",
+    "fileName": "man in the mirror",
     "tags": []
   },
   {

@@ -66,6 +66,12 @@
     "tags": []
   },
   {
+    "name": "I Always Wanted A Brother",
+    "artist": "Mufasa",
+    "fileName": "i always wanted a brother",
+    "tags": []
+  },
+  {
     "name": "I Don't Care",
     "artist": "Ed Sheeran",
     "fileName": "i dont care",
@@ -213,6 +219,12 @@
     "name": "Wide Open",
     "artist": "Chemical Brothers",
     "fileName": "wide open",
+    "tags": []
+  },
+  {
+    "name": "Wonderwall",
+    "artist": "Oasis",
+    "fileName": "wonderwall",
     "tags": []
   }
 ]

@@ -9,6 +9,7 @@ songs:
   - heaven falls.capo
   - banana pancakes
   - what makes you beautiful
+  - wonderwall
 chords:
   - C
   - Am

@@ -6,6 +6,12 @@
     "tags": []
   },
   {
+    "name": "Anything Could Happen",
+    "artist": "Ellie Goulding",
+    "fileName": "anything could happen",
+    "tags": []
+  },
+  {
     "name": "Banana Pancakes",
     "artist": "Jack Johnson",
     "fileName": "banana pancakes",
@@ -39,6 +45,12 @@
     "name": "Girl I've Always Been",
     "artist": "Olivia Rodrigo",
     "fileName": "girl ive always been",
+    "tags": []
+  },
+  {
+    "name": "God Only Knows",
+    "artist": "Beach Boys",
+    "fileName": "god only knows",
     "tags": []
   },
   {
@@ -243,6 +255,12 @@
     "name": "Wonderwall",
     "artist": "Oasis",
     "fileName": "wonderwall",
+    "tags": []
+  },
+  {
+    "name": "You've Got A Friend",
+    "artist": "Carole King",
+    "fileName": "youve got a friend",
     "tags": []
   }
 ]

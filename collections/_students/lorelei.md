@@ -1,5 +1,6 @@
 ---
 name: Lorelei
-songs: []
+songs:
+  - anything could happen
 chords: []
 ---

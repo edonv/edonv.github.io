@@ -18,6 +18,12 @@
     "tags": []
   },
   {
+    "name": "Cold is the Night",
+    "artist": "The Oh Hellos",
+    "fileName": "cold is the night",
+    "tags": []
+  },
+  {
     "name": "Crave",
     "artist": "Paramore",
     "fileName": "crave",
@@ -108,6 +114,12 @@
     "tags": []
   },
   {
+    "name": "I'm Nice to You",
+    "artist": "Vulfmon",
+    "fileName": "im nice to you",
+    "tags": []
+  },
+  {
     "name": "Island in the Sun",
     "artist": "Weezer",
     "fileName": "island in the sun",
@@ -129,6 +141,12 @@
     "name": "Man in the Mirror",
     "artist": "Michael Jackson",
     "fileName": "man in the mirror",
+    "tags": []
+  },
+  {
+    "name": "Mr. Blue Sky",
+    "artist": "Electric Light Orchestra",
+    "fileName": "mr blue sky",
     "tags": []
   },
   {
@@ -228,6 +246,12 @@
     "tags": []
   },
   {
+    "name": "What If",
+    "artist": "Cody Fry",
+    "fileName": "what if",
+    "tags": []
+  },
+  {
     "name": "What I'm Doing Here",
     "artist": "Lake Street Dive",
     "fileName": "what im doing here",
@@ -255,6 +279,12 @@
     "name": "Wonderwall",
     "artist": "Oasis",
     "fileName": "wonderwall",
+    "tags": []
+  },
+  {
+    "name": "You're Still the One",
+    "artist": "Lake Street Dive",
+    "fileName": "youre still the one",
     "tags": []
   },
   {

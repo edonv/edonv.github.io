@@ -1,0 +1,11 @@
+div#body-wrap {
+    margin: 0 auto;
+    width: 20%;
+
+    /* display: grid;
+    grid-template-areas: ". header ." ". songs-head ." ". songs .";
+    grid-template-columns: auto repeat(1, 28%) auto; */
+
+    grid-column-gap: 4px;
+    justify-items: center;
+}

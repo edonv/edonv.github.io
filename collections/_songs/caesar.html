@@ -1,0 +1,86 @@
+---
+---
+{% raw %}
+{title: Caesar}
+{artist: The Oh Hellos}
+{sortartist: Oh Hellos, The}
+{capo: 3}
+{meta: lily false}
+
+{diagrams-lily!: right}
+{diagrams-lily: top}
+{define: Dadd9 frets N 0 4 2 3 0 fingers N N 3 1 2 N}
+{define: Dm(add9) frets N 0 3 2 3 0 fingers N N 2 1 3 N}
+{define: Gadd9 frets 3 2 0 2 3 N fingers 3 1 N 2 4 N}
+
+{ci: Some bass notes don't match the chord shape, but are intended}
+{ci: for accuracy re: bass or tab.}
+
+{start_of_grid-lily!: label="Intro"}
+{ci: 9/8}
+| Am       . . C . Dadd9 . . | C     . . / . / . |
+| Dm(add9) . . C . Em    . . | Dadd9 . . / . / . |
+{end_of_grid}
+{start_of_ly}
+caesar/0.svg
+{end_of_ly}
+
+{start_of_verse-lily!: label="Verse 1"}
+[Am]Hear on the w[C]ind how the p[Dadd9]endulum [C]swings [* /  /]
+[Dm(add9)]Feel how the wi[C]nter succ[Em]umbs to the [Dadd9]spring [* /  /]
+[Am]Over the p[C]alisade [Dadd9]morning will [C]break [* /  /]
+[Dm(add9)]Rise up to m[C]eet it, oh [Em]sleeper a[Dadd9]wake [* /  /]
+{end_of_verse}
+{start_of_verse-lily: label="Verse 1"}
+[Am]Hear on the w[C]ind how the p[Dadd9]endulum [C]swings [* /  /]
+[*Dm(add9)/F]Feel how the wi[C]nter succ[Em]umbs to the [Dadd9]spring [* /  /]
+[Am]Over the p[C]alisade [Dadd9]morning will [C]break [* /  /]
+[*Dm(add9)/F]Rise up [* ]to m[C]eet it, oh [Em]sleeper a[Dadd9]wake [* /  /]
+{end_of_verse}
+
+{start_of_grid-lily!: label="Interlude 1"}
+{ci: (finger pick G, B, e strings of Dadd9 in triplet pattern)}
+|: Am       . . C . Dadd9 . . | C     . . / . / .  |
+|  Dm(add9) . . C . Em    . . | Dadd9 . . / . / . :| x2
+{end_of_grid}
+{start_of_ly}
+caesar/1.svg
+{end_of_ly}
+
+{start_of_verse-lily!: label="Verse 2"}
+[Am]Gather the so[C]ldiers, the h[Dadd9]eir [* ]to enf[C]old [* /  /]
+[Dm(add9)]Crown him and g[C]ive him a [Em]scepter to [Dadd9]hold [* /  /]
+[Am]Sound every h[C]orn as the c[Dadd9]olumns [* ]ex[C]tend [* /  /]
+[Dm(add9)]Up to the h[C]ill where the k[Em]ing will a[Dadd9]scend [* /  /]
+{end_of_verse}
+{start_of_verse-lily: label="Verse 2"}
+[Am]Gather the so[C]ldiers, the h[Dadd9]eir [* ]to enf[C]old [* /  /]
+[*Dm(add9)/F]Crown him and g[C]ive him a [Em]scepter to [Dadd9]hold [* /  /]
+[Am]Sound every h[C]orn as the c[Dadd9]olumns [* ]ex[C]tend [* /  /]
+[*Dm(add9)/F]Up to the [* C]hill where the k[Em]ing will a[Dadd9]scend [* /  /]
+{end_of_verse}
+
+{start_of_grid-lily!: label="Interlude 2"}
+{ci: 12/8 (finger pick again)}
+| Dm(add9) . . Am . / / | Dadd9 . Am . Gadd9 . D . |
+{end_of_grid}
+{start_of_ly}
+caesar/2.svg
+{end_of_ly}
+
+{start_of_bridge: label="Bridge"}
+{ci: 15/8}
+[C]Look to the [*/]sky where the [G]sign will be [Dadd9]shown [* /]
+[C]Heaven and [*/]earth and the [G]king on his [Dadd9]throne [* /]
+[C]Look to the [*/]sky where the [G]sign will be [*A5*]shown [* /  /  /  /]
+{end_of_bridge}
+
+{start_of_grid: label="Outro\n(“ooh's”)"}
+{ci: 12/8}
+|: Dm(add9) . . Am . /     . / .  |
+|  Dadd9    . . Am . Gadd9 . D . :| x4
+{ci: 9/8 + 12/8}
+|: Dadd9 . . Am . /     . |
+|  Dadd9 . . Am . Gadd9 . D . :| x4
+{end_of_grid}
+{% endraw %}

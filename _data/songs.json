@@ -18,6 +18,12 @@
     "tags": []
   },
   {
+    "name": "Caesar",
+    "artist": "The Oh Hellos",
+    "fileName": "caesar",
+    "tags": []
+  },
+  {
     "name": "Cold is the Night",
     "artist": "The Oh Hellos",
     "fileName": "cold is the night",
@@ -153,6 +159,12 @@
     "name": "Never Grow Up",
     "artist": "Taylor Swift",
     "fileName": "never grow up",
+    "tags": []
+  },
+  {
+    "name": "Nice to Meet You",
+    "artist": "Myles Smith",
+    "fileName": "nice to meet you",
     "tags": []
   },
   {

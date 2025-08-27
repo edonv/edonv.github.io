@@ -10,6 +10,7 @@ songs:
   - banana pancakes
   - what makes you beautiful
   - wonderwall
+  - nice to meet you
 chords:
   - C
   - Am

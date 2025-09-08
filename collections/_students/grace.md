@@ -5,5 +5,6 @@ songs:
   - sugar
   - someday
   - wide open
+  - free (kpdh)
 chords: []
 ---

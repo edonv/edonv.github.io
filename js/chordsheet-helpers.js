@@ -128,6 +128,7 @@ function insertSong(songContent) {
                 return gridHTMLFromGridContent(input).outerHTML;
             },
             ly: lilypondDelegate,
+            strumming: strummingDelegate,
         }
     });
     /** @type {string} */
@@ -386,6 +387,19 @@ function lilypondDelegate(input) {
     return `<object
         class="ly-svg"
         data="/files/song_ly/${input}"
+        type="image/svg+xml"></object>`
+        .replace(/\s+/g, ' ');
+}
+
+/**
+ * Converts incoming Strumming section content to HTML embedding an SVG file.
+ * @param {string} input The Strumming section content. It *should* be a partial relative path to the intended SVG file.
+ * @returns {string}
+ */
+function strummingDelegate(input) {
+    return `<object
+        class="strum-svg"
+        data="/files/song_strum/${input}"
         type="image/svg+xml"></object>`
         .replace(/\s+/g, ' ');
 }

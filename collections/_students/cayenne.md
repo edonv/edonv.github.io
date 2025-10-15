@@ -11,6 +11,7 @@ songs:
   - what makes you beautiful
   - wonderwall
   - nice to meet you
+  - camera
 chords:
   - C
   - Am

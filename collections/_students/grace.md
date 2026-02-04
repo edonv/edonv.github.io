@@ -6,5 +6,6 @@ songs:
   - someday
   - wide open
   - free (kpdh)
+  - silent treatment
 chords: []
 ---

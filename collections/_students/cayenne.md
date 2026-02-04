@@ -12,6 +12,7 @@ songs:
   - wonderwall
   - nice to meet you
   - camera
+  - story of my life
 chords:
   - C
   - Am

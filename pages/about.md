@@ -2,7 +2,6 @@
 layout: default
 title: About
 permalink: /about.html
-<!--body-classes: bordered-->
 ---
 <div id="hdsht-wrap">
     <img id="headshot" src="images/headshot.jpg">

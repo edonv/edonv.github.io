@@ -13,6 +13,8 @@ div#body-wrap {
     grid-template-areas: ". pic abt .";
     grid-template-columns: 22% 1fr 2fr 22%;
     grid-column-gap: 4px;
+
+    align-items: center;
 }
 #abt-wrap {
     grid-area: abt;

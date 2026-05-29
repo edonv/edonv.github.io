@@ -42,10 +42,6 @@ defaults:
       path: "music/**/*"
     values:
       sitemap: false
-  - scope:
-      path: "admin/**/*"
-    values:
-      sitemap: false
 
 # This should stop Jekyll from trying to generate excerpts from the first paragraph of each page.
 excerpt_separator: ""

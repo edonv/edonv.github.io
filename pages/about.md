@@ -8,7 +8,5 @@ permalink: /about.html
 </div>
 
 <div id="abt-wrap" class="bordered">
-    <p>As a recent graduate, I am now actively looking for a position that will allow me to use the programming skills I learned in school and have continued to develop since I graduated.</p>
-    <br>
-    <p>I have a knack for assessing and revealing business needs, as well as working as a full-stack iOS and web developer, audio engineer, and musician.</p>
+    <p>I’ve worked as a freelance audio engineer, musician, music teacher, app developer, and tech consultant since 2017. I’ve worked in a large variety of contexts across all of these areas, including performance spaces, theaters, houses of worship, nonprofits, and more!</p>
 </div>

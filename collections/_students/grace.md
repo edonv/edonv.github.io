@@ -9,5 +9,6 @@ songs:
   - silent treatment
   - whyd you have to call
   - if only
+  - rainbow connection
 chords: []
 ---

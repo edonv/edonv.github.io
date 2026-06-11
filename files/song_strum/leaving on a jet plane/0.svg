@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.0 0.0 370.0 176.0" overflow="visible">
+  <g key="heads" fill="black" font-size="28.8" font-family="sans-serif" font-weight="bold" font-style="italic" text-anchor="middle" stroke="none"></g>
+  <g key="strums" fill="#000000" stroke="#000000" font-size="40" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-style="normal" textLength="20" lengthAdjust="spacingAndGlyphs">
+    <g key="strum0" transform="translate(0.0,36.0)">
+      <g transform="rotate(180 0 0) translate(-20.0,-56.0)">
+        <line x1="10" y1="16" x2="10" y2="56" stroke-width="4"></line>
+        <polygon points="0,16.0 10.0,0 20.0,16.0" stroke="none"></polygon>
+      </g>
+    </g>
+    <g key="strum1" transform="translate(50.0,36.0)"></g>
+    <g key="strum2" transform="translate(100.0,36.0)">
+      <g transform="rotate(180 0 0) translate(-20.0,-56.0)">
+        <line x1="10" y1="16" x2="10" y2="56" stroke-width="4"></line>
+        <polygon points="0,16.0 10.0,0 20.0,16.0" stroke="none"></polygon>
+      </g>
+    </g>
+    <g key="strum3" transform="translate(150.0,36.0)">
+      <g>
+        <line x1="10" y1="16" x2="10" y2="56" stroke-width="4"></line>
+        <polygon points="0,16.0 10.0,0 20.0,16.0" stroke="none"></polygon>
+      </g>
+    </g>
+    <g key="strum4" transform="translate(200.0,36.0)"></g>
+    <g key="strum5" transform="translate(250.0,36.0)">
+      <g>
+        <line x1="10" y1="16" x2="10" y2="56" stroke-width="4"></line>
+        <polygon points="0,16.0 10.0,0 20.0,16.0" stroke="none"></polygon>
+      </g>
+    </g>
+    <g key="strum6" transform="translate(300.0,36.0)">
+      <g transform="rotate(180 0 0) translate(-20.0,-56.0)">
+        <line x1="10" y1="16" x2="10" y2="56" stroke-width="4"></line>
+        <polygon points="0,16.0 10.0,0 20.0,16.0" stroke="none"></polygon>
+      </g>
+    </g>
+    <g key="strum7" transform="translate(350.0,36.0)">
+      <g>
+        <line x1="10" y1="16" x2="10" y2="56" stroke-width="4"></line>
+        <polygon points="0,16.0 10.0,0 20.0,16.0" stroke="none"></polygon>
+      </g>
+    </g>
+  </g>
+  <g key="counts" fill="#555555" font-size="24" font-family="sans-serif" font-weight="bold" font-style="normal" text-anchor="middle" stroke="none">
+    <text key="count0" x="10" y="124" textLength="20">1</text>
+    <text key="count1" x="60" y="124" textLength="20">+</text>
+    <text key="count2" x="110" y="124" textLength="20">2</text>
+    <text key="count3" x="160" y="124" textLength="20">+</text>
+    <text key="count4" x="210" y="124" textLength="20">3</text>
+    <text key="count5" x="260" y="124" textLength="20">+</text>
+    <text key="count6" x="310" y="124" textLength="20">4</text>
+    <text key="count7" x="360" y="124" textLength="20">+</text>
+  </g>
+  <g key="rhythms" fill="#555555" stroke="#555555" stroke-width="2" font-size="14" text-anchor="middle" font-family="sans-serif" font-weight="normal" font-style="normal">
+    <g transform="translate(10,130)">
+      <g fill="none" stroke-linecap="square">
+        <path d="M0.0,0v8.0M50.0,0v8.0M0,8.0h50.0"></path>
+      </g>
+    </g>
+    <g transform="translate(110,130)">
+      <g fill="none" stroke-linecap="square">
+        <path d="M0.0,0v8.0M50.0,0v8.0M0,8.0h50.0"></path>
+      </g>
+    </g>
+    <g transform="translate(210,130)">
+      <g fill="none" stroke-linecap="square">
+        <path d="M0.0,0v8.0M50.0,0v8.0M0,8.0h50.0"></path>
+      </g>
+    </g>
+    <g transform="translate(310,130)">
+      <g fill="none" stroke-linecap="square">
+        <path d="M0.0,0v8.0M50.0,0v8.0M0,8.0h50.0"></path>
+      </g>
+    </g>
+  </g></svg>

@@ -2,14 +2,27 @@
 ---
 {% raw %}
 {title: Rainbow Connection}
+{subtitle-advanced: w/ Key Change}
 {artist: Jim Henson}
 {capo: 2}
 {time: 3/4}
-{meta key_change: true}
 {x_listenlink: https://www.youtube.com/watch?v=awhyiBv-oQc}
 
-{start_of_grid: label="Intro"}
+{diagrams-advanced: off}
+
+# Only show easy Bm7 if not advanced version
+{define-advanced!: Bm7 frets N 2 0 2 0 2 fingers N 2 N 3 N 4}
+{define: G6sus4 frets 3 N 2 0 1 3 fingers 3 N 2 N 1 4}
+
+{start_of_strum}
+rainbow connection/0.svg
+{end_of_strum}
+
+{start_of_grid-advanced: label="Intro"}
 |: G . . | G6sus4 . . :| x2
+{end_of_grid}
+{start_of_grid-advanced!: label="Intro"}
+|: G . . | C/G . . :| x2
 {end_of_grid}
 
 {start_of_verse: label="Verse 1"}
@@ -29,8 +42,11 @@ And [G]what's on the [Em]other [C]side? [*/]
 The [Am7]lovers, the [D]dreamers, and [G]me
 {end_of_chorus}
 
-{start_of_grid: label="Interlude"}
+{start_of_grid-advanced: label="Interlude"}
 |: (G) . . | G6sus4 . . :| x2
+{end_of_grid}
+{start_of_grid-advanced!: label="Interlude"}
+|: (G) . . | C/G . . :| x2
 {end_of_grid}
 
 {start_of_verse: label="Verse 2"}
@@ -49,12 +65,14 @@ And [Bm7]what do we [*/]think we might [*/]see? [*/]
 
 {start_of_bridge: label="Bridge"}
 [D/F#]All of us [Em]under its [G]spell
-We [C]know that it's [G/B]probably [D]ma[Eb]gic [*/]
+We [C]know that it's [G/B]probably [D]ma[Eb-advanced][*/-advanced!]gic [*/]
 {end_of_bridge}
 
 # Transpose to Key Change up 1 half-step (-11 instead of 1 so it's in flats)
-{transpose-key_change: -11}
-{start_of_verse: label="Verse 3\n(Key Change)"}
+{transpose-advanced: -11}
+{np-advanced}
+{ci-advanced: (Key Change)}
+{start_of_verse: label="Verse 3"}
 [G]Have you been [Em]half asleep? And [C]have you heard [D]voices?
 [G]I've heard them [Em]calling my [C]name [*/]
 [G]Is this the [Em]sweet sound that [C]calls the young [D]sailors?

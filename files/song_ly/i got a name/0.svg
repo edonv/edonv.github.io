@@ -1,5 +1,5 @@
 <?xml-stylesheet type="text/css" href="/css/ly-svg.css" ?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="139.75mm" height="21.31mm" viewBox="-0.0600 -5.8000 79.5229 12.1243">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="139.75mm" height="21.31mm" viewBox="-0.0600 -5.8001 79.5229 12.1244">
 <style type="text/css">
 <![CDATA[
 tspan { white-space: pre; }
@@ -59,7 +59,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(40.4103, -0.6557)">
+<g transform="translate(40.4103, -0.6556)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -81,7 +81,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5806" width="0.9902" height="1.1611" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(2.5380, 3.8356)">
+<g transform="translate(2.5380, 3.8357)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>0</tspan>
 </text>
@@ -93,13 +93,13 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(2.5380, 0.7797)">
+<g transform="translate(2.5380, 0.7798)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </g>
-<g transform="translate(55.2463, 2.5243)">
+<g transform="translate(55.2464, 2.5243)">
 <path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.5956 -4.5556C1.2559 -5.1686 2.2301 -5.1641 2.8848 -4.5451L2.8848 -4.5451C2.2295 -5.0441 1.2554 -5.0486 0.5956 -4.5556z"/>
 </g>
 <g class="tab-note">
@@ -108,13 +108,13 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(6.0271, 2.3443)">
+<g transform="translate(6.0271, 2.3444)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
 </g>
 </g>
-<g transform="translate(38.0221, 2.5243)">
+<g transform="translate(38.0222, 2.5243)">
 <path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.5956 -4.5556C1.2559 -5.1686 2.2301 -5.1641 2.8848 -4.5451L2.8848 -4.5451C2.2295 -5.0441 1.2554 -5.0486 0.5956 -4.5556z"/>
 </g>
 <g class="tab-note">
@@ -123,7 +123,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(8.3163, 0.7797)">
+<g transform="translate(8.3163, 0.7798)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
@@ -155,7 +155,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5806" width="0.9902" height="1.1611" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(10.6055, -0.6644)">
+<g transform="translate(10.6055, -0.6643)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>0</tspan>
 </text>
@@ -170,7 +170,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(14.0947, 2.3443)">
+<g transform="translate(14.0947, 2.3444)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -182,7 +182,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(16.3838, 0.7797)">
+<g transform="translate(16.3838, 0.7798)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
@@ -201,7 +201,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5806" width="0.9902" height="1.1611" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(18.6730, -0.6644)">
+<g transform="translate(18.6730, -0.6643)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>0</tspan>
 </text>
@@ -213,7 +213,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(20.9622, -0.6557)">
+<g transform="translate(20.9622, -0.6556)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -225,7 +225,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(23.2513, 2.3443)">
+<g transform="translate(23.2514, 2.3444)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -237,7 +237,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(25.5405, 0.7797)">
+<g transform="translate(25.5405, 0.7798)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
@@ -266,7 +266,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(27.8297, -0.6557)">
+<g transform="translate(27.8297, -0.6556)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -278,7 +278,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5806" width="0.9902" height="1.1611" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(30.1189, -0.6644)">
+<g transform="translate(30.1189, -0.6643)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>0</tspan>
 </text>
@@ -290,7 +290,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(32.4080, 2.3443)">
+<g transform="translate(32.4080, 2.3444)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -302,14 +302,14 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(34.6972, 0.7797)">
+<g transform="translate(34.6972, 0.7798)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </g>
 <g class="chord-label">
-<g transform="translate(37.7721, -3.2758)">
+<g transform="translate(37.7722, -3.2758)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>
 </text>
@@ -317,11 +317,11 @@ tspan { white-space: pre; }
 </g>
 <g class="tab-note">
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
-<g transform="translate(38.0221, 3.2743)">
+<g transform="translate(38.0222, 3.2743)">
 <rect x="0.0990" y="-0.5806" width="0.9902" height="1.1611" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(38.1212, 3.8356)">
+<g transform="translate(38.1212, 3.8357)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>0</tspan>
 </text>
@@ -329,11 +329,11 @@ tspan { white-space: pre; }
 </g>
 <g class="tab-note">
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
-<g transform="translate(38.0221, -1.2257)">
+<g transform="translate(38.0222, -1.2257)">
 <rect x="0.0990" y="-0.5806" width="0.9902" height="1.1611" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(38.1212, -0.6644)">
+<g transform="translate(38.1212, -0.6643)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>0</tspan>
 </text>
@@ -351,7 +351,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(42.6995, 2.3443)">
+<g transform="translate(42.6995, 2.3444)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -363,7 +363,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(77.0827, -0.6557)">
+<g transform="translate(77.0827, -0.6556)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -375,7 +375,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(44.9887, 0.7797)">
+<g transform="translate(44.9887, 0.7798)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
@@ -404,7 +404,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5806" width="0.9902" height="1.1611" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(47.2779, -0.6644)">
+<g transform="translate(47.2779, -0.6643)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>0</tspan>
 </text>
@@ -416,7 +416,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(50.7670, 2.3443)">
+<g transform="translate(50.7670, 2.3444)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -428,14 +428,14 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(53.0562, 0.7797)">
+<g transform="translate(53.0562, 0.7798)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </g>
 <g class="chord-label">
-<g transform="translate(54.9963, -3.2758)">
+<g transform="translate(54.9964, -3.2758)">
 <text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
 <tspan>D</tspan>
 </text>
@@ -443,11 +443,11 @@ tspan { white-space: pre; }
 </g>
 <g class="tab-note">
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
-<g transform="translate(55.2463, -1.2257)">
+<g transform="translate(55.2464, -1.2257)">
 <rect x="0.0990" y="-0.5806" width="0.9902" height="1.1611" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(55.3454, -0.6644)">
+<g transform="translate(55.3454, -0.6643)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>0</tspan>
 </text>
@@ -459,7 +459,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(57.6345, -0.6557)">
+<g transform="translate(57.6345, -0.6556)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -471,7 +471,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(59.9237, 2.3443)">
+<g transform="translate(59.9237, 2.3444)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -483,7 +483,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(62.2129, 0.7797)">
+<g transform="translate(62.2129, 0.7798)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
@@ -512,7 +512,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(64.5021, -0.6557)">
+<g transform="translate(64.5021, -0.6556)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -524,7 +524,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5806" width="0.9902" height="1.1611" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(66.7912, -0.6644)">
+<g transform="translate(66.7912, -0.6643)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>0</tspan>
 </text>
@@ -536,7 +536,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5701" width="0.9902" height="1.1402" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(69.0804, 2.3443)">
+<g transform="translate(69.0804, 2.3444)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -548,7 +548,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.6347" width="0.9902" height="1.2694" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(71.3696, 0.7797)">
+<g transform="translate(71.3696, 0.7798)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
@@ -567,7 +567,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5806" width="0.9902" height="1.1611" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(74.7935, 3.8356)">
+<g transform="translate(74.7935, 3.8357)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>0</tspan>
 </text>
@@ -579,7 +579,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5806" width="0.9902" height="1.1611" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(74.7935, -0.6644)">
+<g transform="translate(74.7935, -0.6643)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>0</tspan>
 </text>

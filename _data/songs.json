@@ -18,6 +18,12 @@
     "tags": []
   },
   {
+    "name": "Brain Stew",
+    "artist": "Green Day",
+    "fileName": "brain stew",
+    "tags": []
+  },
+  {
     "name": "Caesar",
     "artist": "The Oh Hellos",
     "fileName": "caesar",
@@ -171,6 +177,12 @@
     "name": "Man in the Mirror",
     "artist": "Michael Jackson",
     "fileName": "man in the mirror",
+    "tags": []
+  },
+  {
+    "name": "Million to One",
+    "artist": "Camila Cabello",
+    "fileName": "million to one",
     "tags": []
   },
   {

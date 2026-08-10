@@ -5,5 +5,8 @@ songs:
   - rainbow connection
   - shake it off
   - lava
+  - banana pancakes
+  - people watching
+  - upside down
 chords: []
 ---

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-1.0 -7.5 543.0 121.5" overflow="visible">
+  <g key="measures">
+    <line key="barline0" x1="0" y1="-7.5" x2="0" y2="67.5" stroke-width="2" stroke="#555555"></line>
+    <g key="measure0" transform="translate(15.0)">
+      <g key="heads" transform="translate(0 -36.0)" fill="black" font-size="28.8" font-family="sans-serif" font-weight="bold" font-style="italic" text-anchor="middle" stroke="none"></g>
+      <g key="strums" fill="#000000" stroke="#000000" font-size="30" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-style="normal">
+        <g key="strum0" transform="translate(0.0)">
+          <g transform="rotate(180 0 0) translate(-15.0 -60.0)">
+            <line x1="7.5" y1="12" x2="7.5" y2="60" stroke-width="4.5"></line>
+            <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
+          </g>
+        </g>
+        <g key="strum1" transform="translate(45.0)"></g>
+        <g key="strum2" transform="translate(90.0)"></g>
+        <g key="strum3" transform="translate(135.0)">
+          <g transform="rotate(180 0 0) translate(-15.0 -60.0)">
+            <line x1="7.5" y1="12" x2="7.5" y2="60" stroke-width="4.5"></line>
+            <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
+          </g>
+        </g>
+        <g key="strum4" transform="translate(180.0)"></g>
+        <g key="strum5" transform="translate(225.0)"></g>
+        <g key="strum6" transform="translate(270.0)">
+          <g transform="rotate(180 0 0) translate(-15.0 -60.0)">
+            <line x1="7.5" y1="12" x2="7.5" y2="60" stroke-width="4.5"></line>
+            <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
+          </g>
+        </g>
+        <g key="strum7" transform="translate(315.0)"></g>
+        <g key="strum8" transform="translate(360.0)">
+          <path d="M 15.0 0L 0 15.0M 15.0 15.0L 0 0M 7.5 60.0V 7.5" fill="none" stroke-width="4.5"></path>
+        </g>
+        <g key="strum9" transform="translate(405.0)">
+          <g transform="rotate(180 0 0) translate(-15.0 -60.0)">
+            <line x1="7.5" y1="12" x2="7.5" y2="60" stroke-width="4.5"></line>
+            <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
+          </g>
+        </g>
+        <g key="strum10" transform="translate(450.0)"></g>
+        <g key="strum11" transform="translate(495.0)">
+          <g>
+            <line x1="7.5" y1="12" x2="7.5" y2="60" stroke-width="4.5"></line>
+            <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
+          </g>
+        </g>
+      </g>
+      <g key="counts" transform="translate(0 60.0)" fill="#555555" font-size="24" font-family="sans-serif" font-weight="bold" font-style="normal" text-anchor="middle" stroke="none">
+        <text key="count0" x="7.5" y="27">1</text>
+        <text key="count1" x="52.5" y="27">+</text>
+        <text key="count2" x="97.5" y="27">a</text>
+        <text key="count3" x="142.5" y="27">2</text>
+        <text key="count4" x="187.5" y="27">+</text>
+        <text key="count5" x="232.5" y="27">a</text>
+        <text key="count6" x="277.5" y="27">3</text>
+        <text key="count7" x="322.5" y="27">+</text>
+        <text key="count8" x="367.5" y="27">a</text>
+        <text key="count9" x="412.5" y="27">4</text>
+        <text key="count10" x="457.5" y="27">+</text>
+        <text key="count11" x="502.5" y="27">a</text>
+      </g>
+      <g key="rhythmGroups" transform="translate(0 90.0)" fill="#555555" stroke="#555555" stroke-width="2" font-size="14" text-anchor="middle" font-family="sans-serif" font-weight="normal" font-style="normal">
+        <g key="group0" transform="translate(7.5)">
+          <g fill="none">
+            <path d="M0,0v8.0 h45.0 V0 v8.0 h45.0 V0"></path>
+          </g>
+          <text x="45" y="24" stroke="none">3</text>
+        </g>
+        <g key="group1" transform="translate(142.5)">
+          <g fill="none">
+            <path d="M0,0v8.0 h45.0 V0 v8.0 h45.0 V0"></path>
+          </g>
+          <text x="45" y="24" stroke="none">3</text>
+        </g>
+        <g key="group2" transform="translate(277.5)">
+          <g fill="none">
+            <path d="M0,0v8.0 h45.0 V0 v8.0 h45.0 V0"></path>
+          </g>
+          <text x="45" y="24" stroke="none">3</text>
+        </g>
+        <g key="group3" transform="translate(412.5)">
+          <g fill="none">
+            <path d="M0,0v8.0 h45.0 V0 v8.0 h45.0 V0"></path>
+          </g>
+          <text x="45" y="24" stroke="none">3</text>
+        </g>
+      </g>
+    </g>
+    <line key="barline1" x1="541" y1="-7.5" x2="541" y2="67.5" stroke-width="2" stroke="#555555"></line>
+  </g></svg>

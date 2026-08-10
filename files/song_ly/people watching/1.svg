@@ -104,7 +104,7 @@ tspan { white-space: pre; }
 <g class="tab-note">
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(14.3664, -0.3593)">
-<rect x="0.0785" y="-0.4962" width="0.7853" height="0.9923" ry="0.0000" fill="currentColor"/>
+<rect x="0.0785" y="-0.4962" width="0.7853" height="0.9924" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
 <g transform="translate(14.4450, 0.0343)">
@@ -116,7 +116,7 @@ tspan { white-space: pre; }
 <g class="tab-note">
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(18.3664, -0.3593)">
-<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2258" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
 <g transform="translate(18.4655, 0.1488)">
@@ -153,7 +153,7 @@ tspan { white-space: pre; }
 </g>
 </g>
 <g transform="translate(30.9294, 1.8907)">
-<path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.5926 -1.5707C1.2473 -2.2924 2.2214 -2.2969 2.8818 -1.5812L2.8818 -1.5812C2.2220 -2.1769 1.2478 -2.1724 0.5926 -1.5707z"/>
+<path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.5926 -1.5708C1.2473 -2.2924 2.2214 -2.2969 2.8818 -1.5812L2.8818 -1.5812C2.2220 -2.1769 1.2478 -2.1724 0.5926 -1.5708z"/>
 </g>
 <g transform="translate(0.0000, 1.8907)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.2000" stroke="currentColor" x1="15.5225" y1="-1.9428" x2="18.1732" y2="-2.5572"/>
@@ -183,7 +183,7 @@ tspan { white-space: pre; }
 <rect x="0.0990" y="-0.5806" width="0.9902" height="1.1611" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
-<g transform="translate(33.3175, 1.7020)">
+<g transform="translate(33.3175, 1.7021)">
 <text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>0</tspan>
 </text>
@@ -209,7 +209,7 @@ tspan { white-space: pre; }
 <g class="tab-note">
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(44.8988, 1.1407)">
-<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2258" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
 <g transform="translate(44.9978, 1.6488)">
@@ -236,7 +236,7 @@ tspan { white-space: pre; }
 <g class="tab-note">
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(50.6145, 1.1407)">
-<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2258" ry="0.0000" fill="currentColor"/>
 </g>
 </g>
 <g transform="translate(50.7135, 1.6488)">

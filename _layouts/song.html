@@ -4,7 +4,13 @@ layout: default
 
 <div id="song-body">
     <div id="link-list">
+        {% if page.decapo %}
+        <a class="download" href="/files/song_pdfs/{{ page.slug }}.capo.pdf" target="_blank">Download (w/ capo)</a>
+        <a class="download" href="/files/song_pdfs/{{ page.slug }}.pdf" target="_blank">Download (w/o capo)</a>
+        {% else %}
         <a class="download" href="/files/song_pdfs/{{ page.slug }}.pdf" target="_blank">Download</a>
+        {% endif %}
+
         <a class="listen" target="_blank">Listen</a>
     </div>
 </div>

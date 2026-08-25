@@ -6,7 +6,7 @@ songs:
   - stargazing
   - flying
   - i dont care
-  - heaven falls.capo
+  - heaven falls
   - banana pancakes
   - what makes you beautiful
   - wonderwall

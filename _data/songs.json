@@ -24,6 +24,12 @@
     "tags": []
   },
   {
+    "name": "Breakdown",
+    "artist": "Jack Johnson",
+    "fileName": "breakdown",
+    "tags": []
+  },
+  {
     "name": "Caesar",
     "artist": "The Oh Hellos",
     "fileName": "caesar",
@@ -87,12 +93,6 @@
     "name": "Golden",
     "artist": "Cory Wong",
     "fileName": "golden",
-    "tags": []
-  },
-  {
-    "name": "Heaven Falls / Fall On Me (Capo)",
-    "artist": "Surfaces",
-    "fileName": "heaven falls.capo",
     "tags": []
   },
   {
@@ -165,6 +165,12 @@
     "name": "Leaving on a Jet Plane",
     "artist": "John Denver",
     "fileName": "leaving on a jet plane",
+    "tags": []
+  },
+  {
+    "name": "Light of a Clear Blue Morning",
+    "artist": "Dolly Parton",
+    "fileName": "light of a clear blue morning",
     "tags": []
   },
   {

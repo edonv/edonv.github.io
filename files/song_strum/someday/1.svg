@@ -21,12 +21,7 @@
             <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
           </g>
         </g>
-        <g key="strum2" transform="translate(90.0)">
-          <g transform="rotate(180 0 0) translate(-15.0 -60.0)">
-            <line x1="7.5" y1="12" x2="7.5" y2="60" stroke-width="4.5"></line>
-            <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
-          </g>
-        </g>
+        <g key="strum2" transform="translate(90.0)"></g>
         <g key="strum3" transform="translate(135.0)"></g>
         <g key="strum4" transform="translate(180.0)">
           <g transform="rotate(180 0 0) translate(-15.0 -60.0)">
@@ -34,14 +29,14 @@
             <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
           </g>
         </g>
-        <g key="strum5" transform="translate(225.0)"></g>
-        <g key="strum6" transform="translate(270.0)"></g>
-        <g key="strum7" transform="translate(315.0)">
+        <g key="strum5" transform="translate(225.0)">
           <g>
             <line x1="7.5" y1="12" x2="7.5" y2="60" stroke-width="4.5"></line>
             <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
           </g>
         </g>
+        <g key="strum6" transform="translate(270.0)"></g>
+        <g key="strum7" transform="translate(315.0)"></g>
       </g>
       <g key="counts" transform="translate(0 60.0)" fill="#555555" font-size="24" font-family="sans-serif" font-weight="bold" font-style="normal" text-anchor="middle" stroke="none">
         <text key="count0" x="7.5" y="27">1</text>
@@ -56,25 +51,25 @@
       <g key="rhythmGroups" transform="translate(0 90.0)" fill="#555555" stroke="#555555" stroke-width="2" font-size="14" text-anchor="middle" font-family="sans-serif" font-weight="normal" font-style="normal">
         <g key="group0" transform="translate(7.5)">
           <g fill="none">
-            <path key="stems" d="M0,0 v12.0 m45.0,0 V0"></path>
+            <path key="stems" d="M0,0v12.0 m45.0,0 V0"></path>
             <path key="beams" d="M0,11.0 h45.0"></path>
           </g>
         </g>
         <g key="group1" transform="translate(97.5)">
           <g fill="none">
-            <path key="stems" d="M0,0 v12.0 m45.0,0 V0"></path>
+            <path key="stems" d="M0,0v12.0 m45.0,0 V0"></path>
             <path key="beams" d="M0,11.0 h45.0"></path>
           </g>
         </g>
         <g key="group2" transform="translate(187.5)">
           <g fill="none">
-            <path key="stems" d="M0,0 v12.0 m45.0,0 V0"></path>
+            <path key="stems" d="M0,0v12.0 m45.0,0 V0"></path>
             <path key="beams" d="M0,11.0 h45.0"></path>
           </g>
         </g>
         <g key="group3" transform="translate(277.5)">
           <g fill="none">
-            <path key="stems" d="M0,0 v12.0 m45.0,0 V0"></path>
+            <path key="stems" d="M0,0v12.0 m45.0,0 V0"></path>
             <path key="beams" d="M0,11.0 h45.0"></path>
           </g>
         </g>
@@ -94,17 +89,32 @@
             <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
           </g>
         </g>
-        <g key="strum1" transform="translate(45.0)"></g>
+        <g key="strum1" transform="translate(45.0)">
+          <g transform="rotate(180 0 0) translate(-15.0 -60.0)">
+            <line x1="7.5" y1="12" x2="7.5" y2="60" stroke-width="4.5"></line>
+            <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
+          </g>
+        </g>
         <g key="strum2" transform="translate(90.0)">
           <g transform="rotate(180 0 0) translate(-15.0 -60.0)">
             <line x1="7.5" y1="12" x2="7.5" y2="60" stroke-width="4.5"></line>
             <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
           </g>
         </g>
-        <g key="strum3" transform="translate(135.0)"></g>
-        <g key="strum4" transform="translate(180.0)"></g>
+        <g key="strum3" transform="translate(135.0)">
+          <g transform="rotate(180 0 0) translate(-15.0 -60.0)">
+            <line x1="7.5" y1="12" x2="7.5" y2="60" stroke-width="4.5"></line>
+            <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
+          </g>
+        </g>
+        <g key="strum4" transform="translate(180.0)">
+          <g transform="rotate(180 0 0) translate(-15.0 -60.0)">
+            <line x1="7.5" y1="12" x2="7.5" y2="60" stroke-width="4.5"></line>
+            <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
+          </g>
+        </g>
         <g key="strum5" transform="translate(225.0)">
-          <g>
+          <g transform="rotate(180 0 0) translate(-15.0 -60.0)">
             <line x1="7.5" y1="12" x2="7.5" y2="60" stroke-width="4.5"></line>
             <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
           </g>
@@ -116,7 +126,7 @@
           </g>
         </g>
         <g key="strum7" transform="translate(315.0)">
-          <g>
+          <g transform="rotate(180 0 0) translate(-15.0 -60.0)">
             <line x1="7.5" y1="12" x2="7.5" y2="60" stroke-width="4.5"></line>
             <polygon points="0,12.0 7.5,0 15.0,12.0" stroke="none"></polygon>
           </g>
@@ -135,25 +145,25 @@
       <g key="rhythmGroups" transform="translate(0 90.0)" fill="#555555" stroke="#555555" stroke-width="2" font-size="14" text-anchor="middle" font-family="sans-serif" font-weight="normal" font-style="normal">
         <g key="group0" transform="translate(7.5)">
           <g fill="none">
-            <path key="stems" d="M0,0 v12.0 m45.0,0 V0"></path>
+            <path key="stems" d="M0,0v12.0 m45.0,0 V0"></path>
             <path key="beams" d="M0,11.0 h45.0"></path>
           </g>
         </g>
         <g key="group1" transform="translate(97.5)">
           <g fill="none">
-            <path key="stems" d="M0,0 v12.0 m45.0,0 V0"></path>
+            <path key="stems" d="M0,0v12.0 m45.0,0 V0"></path>
             <path key="beams" d="M0,11.0 h45.0"></path>
           </g>
         </g>
         <g key="group2" transform="translate(187.5)">
           <g fill="none">
-            <path key="stems" d="M0,0 v12.0 m45.0,0 V0"></path>
+            <path key="stems" d="M0,0v12.0 m45.0,0 V0"></path>
             <path key="beams" d="M0,11.0 h45.0"></path>
           </g>
         </g>
         <g key="group3" transform="translate(277.5)">
           <g fill="none">
-            <path key="stems" d="M0,0 v12.0 m45.0,0 V0"></path>
+            <path key="stems" d="M0,0v12.0 m45.0,0 V0"></path>
             <path key="beams" d="M0,11.0 h45.0"></path>
           </g>
         </g>

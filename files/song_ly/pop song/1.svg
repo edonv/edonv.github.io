@@ -1,0 +1,729 @@
+<?xml-stylesheet type="text/css" href="/css/ly-svg.css" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="69.94mm" height="21.74mm" viewBox="-0.0600 -6.0167 39.8009 12.3717">
+<style type="text/css">
+<![CDATA[
+tspan { white-space: pre; }
+]]>
+</style>
+<g transform="translate(39.5509, 2.5550)">
+<rect x="0.0000" y="-3.7500" width="0.1900" height="7.5000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(0.0000, 6.3050)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="39.6909" y2="0"/>
+</g>
+<g transform="translate(0.0000, 4.8050)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="39.6909" y2="0"/>
+</g>
+<g transform="translate(0.0000, 3.3050)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="39.6909" y2="0"/>
+</g>
+<g transform="translate(0.0000, 1.8050)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="39.6909" y2="0"/>
+</g>
+<g transform="translate(0.0000, 0.3050)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="39.6909" y2="0"/>
+</g>
+<g transform="translate(0.0000, -1.1950)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="39.6909" y2="0"/>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(19.1710, -1.1950)">
+<rect x="0.0990" y="-0.6495" width="0.9902" height="1.2991" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(19.2701, -0.7026)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>9</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(2.0000, 2.5550)">
+<path stroke-width="0.0800" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.5888 -4.5879C1.2364 -5.2144 2.2106 -5.2300 2.8780 -4.6245L2.8780 -4.6245C2.2125 -5.1100 1.2384 -5.0944 0.5888 -4.5879z"/>
+</g>
+<g class="chord-label">
+<g transform="translate(1.7500, -3.4617)">
+<text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
+<tspan>D</tspan>
+</text>
+</g>
+<g transform="translate(3.4230, -4.6509)">
+<text font-family="Roboto" font-weight="bold" font-style="italic" font-size="1.8500" text-anchor="start" fill="currentColor">
+<tspan>maj7</tspan>
+</text>
+</g>
+<g transform="translate(7.4519, -3.4617)">
+<text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
+<tspan>/</tspan>
+</text>
+</g>
+<g transform="translate(8.4079, -3.4617)">
+<text font-family="Roboto" font-weight="bold" font-style="italic" font-size="2.6165" text-anchor="start" fill="currentColor">
+<tspan>A</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(2.0000, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(2.0990, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(2.0000, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(2.0990, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(2.0000, 0.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(2.0990, 0.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(2.0000, -1.1950)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(2.0990, -0.6869)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(4.2892, -1.1950)">
+<rect x="0.0990" y="-0.6495" width="0.9902" height="1.2991" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(4.3882, -0.7026)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>9</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(4.2892, 0.3050)">
+<rect x="-0.3961" y="-0.5806" width="1.9803" height="1.1611" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(3.8931, 0.8664)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>10</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(4.2892, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(4.3882, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(4.2892, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(4.3882, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(6.7695, -1.1950)">
+<rect x="0.0990" y="-0.6495" width="0.9902" height="1.2991" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(6.8685, -0.7026)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>9</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(6.7695, 0.3050)">
+<rect x="-0.3961" y="-0.5806" width="1.9803" height="1.1611" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(6.3734, 0.8664)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>10</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(6.7695, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(6.8685, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(6.7695, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(6.8685, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(9.2498, -1.1950)">
+<rect x="0.0990" y="-0.6495" width="0.9902" height="1.2991" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(9.3488, -0.7026)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>9</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(9.2498, 0.3050)">
+<rect x="-0.3961" y="-0.5806" width="1.9803" height="1.1611" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(8.8537, 0.8664)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>10</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(9.2498, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(9.3488, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(9.2498, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(9.3488, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(11.7301, -1.1950)">
+<rect x="0.0990" y="-0.6495" width="0.9902" height="1.2991" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(11.8291, -0.7026)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>9</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(11.7301, 0.3050)">
+<rect x="-0.3961" y="-0.5806" width="1.9803" height="1.1611" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(11.3340, 0.8664)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>10</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(11.7301, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(11.8291, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(11.7301, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(11.8291, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(14.2104, -1.1950)">
+<rect x="0.0990" y="-0.6495" width="0.9902" height="1.2991" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(14.3094, -0.7026)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>9</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(14.2104, 0.3050)">
+<rect x="-0.3961" y="-0.5806" width="1.9803" height="1.1611" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(13.8144, 0.8664)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>10</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(14.2104, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(14.3094, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(14.2104, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(14.3094, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(16.6907, -1.1950)">
+<rect x="0.0990" y="-0.6495" width="0.9902" height="1.2991" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(16.7897, -0.7026)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>9</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(16.6907, 0.3050)">
+<rect x="-0.3961" y="-0.5806" width="1.9803" height="1.1611" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(16.2947, 0.8664)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>10</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(16.6907, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(16.7897, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(16.6907, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(16.7897, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(19.1710, 0.3050)">
+<rect x="-0.3961" y="-0.5806" width="1.9803" height="1.1611" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(18.7750, 0.8664)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>10</tspan>
+</text>
+</g>
+</g>
+<g transform="translate(-0.0600, 2.5550)">
+<rect x="0.0000" y="-3.8000" width="0.1600" height="7.6000" ry="0.0500" fill="currentColor"/>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(19.1710, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(19.2701, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(21.6514, -1.1950)">
+<rect x="0.0990" y="-0.6495" width="0.9902" height="1.2991" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(21.7504, -0.7026)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>9</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(21.6514, 0.3050)">
+<rect x="-0.3961" y="-0.5806" width="1.9803" height="1.1611" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(21.2553, 0.8664)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>10</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(21.6514, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(21.7504, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(21.6514, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(21.7504, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(24.1317, -1.1950)">
+<rect x="0.0990" y="-0.6495" width="0.9902" height="1.2991" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(24.2307, -0.7026)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>9</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(24.1317, 0.3050)">
+<rect x="-0.3961" y="-0.5806" width="1.9803" height="1.1611" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(23.7356, 0.8664)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>10</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(24.1317, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(24.2307, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(24.1317, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(24.2307, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(26.6120, -1.1950)">
+<rect x="0.0990" y="-0.6495" width="0.9902" height="1.2991" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(26.7110, -0.7026)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>9</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(26.6120, 0.3050)">
+<rect x="-0.3961" y="-0.5806" width="1.9803" height="1.1611" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(26.2159, 0.8664)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>10</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(26.6120, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(26.7110, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(26.6120, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(26.7110, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(29.0923, -1.1950)">
+<rect x="0.0990" y="-0.6495" width="0.9902" height="1.2991" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(29.1913, -0.7026)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>9</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(29.0923, 0.3050)">
+<rect x="-0.3961" y="-0.5806" width="1.9803" height="1.1611" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(28.6962, 0.8664)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>10</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(29.0923, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(29.1913, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(29.0923, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(29.1913, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(31.5726, -1.1950)">
+<rect x="0.0990" y="-0.6495" width="0.9902" height="1.2991" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(31.6716, -0.7026)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>9</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(31.5726, 0.3050)">
+<rect x="-0.3961" y="-0.5806" width="1.9803" height="1.1611" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(31.1765, 0.8664)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>10</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(31.5726, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(31.6716, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(31.5726, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(31.6716, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(33.8618, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(33.9608, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(33.8618, 3.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(33.9608, 3.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(33.8618, 0.3050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(33.9608, 0.8131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(33.8618, -1.1950)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(33.9608, -0.6869)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+<g class="tab-note">
+<g color="rgba(100%, 100%, 100%, 100.0000%)">
+<g transform="translate(19.1710, 1.8050)">
+<rect x="0.0990" y="-0.6129" width="0.9902" height="1.2257" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="translate(19.2701, 2.3131)">
+<text font-family="Roboto Serif" font-weight="bold" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+</g>
+</svg>

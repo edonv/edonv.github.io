@@ -1,5 +1,17 @@
 [
   {
+    "name": "5-Watt Rock",
+    "artist": "Theo Katzman",
+    "fileName": "5-watt rock",
+    "tags": []
+  },
+  {
+    "name": "A Thousand Years",
+    "artist": "Christina Perri",
+    "fileName": "a thousand years",
+    "tags": []
+  },
+  {
     "name": "American Pie",
     "artist": "Don McLean",
     "fileName": "american pie",
@@ -57,6 +69,12 @@
     "name": "Dancing With Nobody",
     "artist": "Surfaces",
     "fileName": "dancing with nobody",
+    "tags": []
+  },
+  {
+    "name": "Every Few Days",
+    "artist": "Theo Katzman",
+    "fileName": "every few days",
     "tags": []
   },
   {
@@ -186,6 +204,12 @@
     "tags": []
   },
   {
+    "name": "Love Story",
+    "artist": "Taylor Swift",
+    "fileName": "love story",
+    "tags": []
+  },
+  {
     "name": "Man in the Mirror",
     "artist": "Michael Jackson",
     "fileName": "man in the mirror",
@@ -246,6 +270,12 @@
     "tags": []
   },
   {
+    "name": "Pop Song",
+    "artist": "Theo Katzman",
+    "fileName": "pop song",
+    "tags": []
+  },
+  {
     "name": "Rainbow Connection",
     "artist": "Jim Henson",
     "fileName": "rainbow connection",
@@ -261,6 +291,12 @@
     "name": "Shake It Off",
     "artist": "Taylor Swift",
     "fileName": "shake it off",
+    "tags": []
+  },
+  {
+    "name": "She's In My Shoe",
+    "artist": "Theo Katzman",
+    "fileName": "shes in my shoe",
     "tags": []
   },
   {
